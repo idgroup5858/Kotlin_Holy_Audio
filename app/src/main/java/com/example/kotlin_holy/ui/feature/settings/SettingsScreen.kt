@@ -13,9 +13,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Slider
 import androidx.compose.material3.SliderDefaults
 import androidx.compose.material3.Text
@@ -38,6 +35,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.example.kotlin_holy.data.audio.ReciterCatalog
 import com.example.kotlin_holy.domain.model.JuzCatalog
 import com.example.kotlin_holy.ui.components.HolyCard
+import com.example.kotlin_holy.ui.components.HolyTextField
 import com.example.kotlin_holy.ui.components.ScreenHeader
 import com.example.kotlin_holy.ui.components.SectionTitle
 import com.example.kotlin_holy.ui.components.SegmentedControl
@@ -342,24 +340,12 @@ private fun RangeMarkCard(onApply: (Int, Int, Boolean) -> Unit) {
 
 @Composable
 private fun NumberField(value: String, onChange: (String) -> Unit, placeholder: String) {
-    val colors = HolyTheme.colors
-    OutlinedTextField(
+    HolyTextField(
         value = value,
         onValueChange = { text -> onChange(text.filter { it.isDigit() }.take(3)) },
-        placeholder = { Text(placeholder, color = colors.inkFaint, fontSize = 13.sp) },
-        singleLine = true,
+        placeholder = placeholder,
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
-        shape = RoundedCornerShape(24.dp),
-        colors = OutlinedTextFieldDefaults.colors(
-            focusedBorderColor = colors.accent,
-            unfocusedBorderColor = colors.line,
-            focusedContainerColor = colors.surface,
-            unfocusedContainerColor = colors.surface,
-            focusedTextColor = colors.ink,
-            unfocusedTextColor = colors.ink,
-            cursorColor = colors.accent,
-        ),
-        modifier = Modifier.width(110.dp),
+        modifier = Modifier.width(90.dp),
     )
 }
 

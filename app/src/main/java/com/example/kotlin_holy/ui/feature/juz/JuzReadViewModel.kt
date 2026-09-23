@@ -78,8 +78,17 @@ class JuzReadViewModel @Inject constructor(
 
     init {
         load(pageNumber.value)
+        saveLastReadPage(pageNumber.value)
+    }
+
+    /**
+     * "Davom etish" jismoniy bet raqamiga ("page/{number}") ishora qiladi —
+     * shu marshrutgina qayta ochilganda aynan o'sha betni ko'rsatishini
+     * kafolatlaydi (juz/{number} esa har doim juzning boshidan boshlanadi).
+     */
+    private fun saveLastReadPage(page: Int) {
         viewModelScope.launch {
-            settingsRepository.setLastRead("juz/$juzNumber", "$juzNumber-juz")
+            settingsRepository.setLastRead("page/$page", "$page-sahifa")
         }
     }
 
@@ -98,6 +107,7 @@ class JuzReadViewModel @Inject constructor(
         if (next != pageNumber.value) {
             pageNumber.value = next
             load(next)
+            saveLastReadPage(next)
         }
     }
 

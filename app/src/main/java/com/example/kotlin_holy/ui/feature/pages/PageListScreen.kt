@@ -18,8 +18,6 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material3.Icon
-import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -42,6 +40,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.example.kotlin_holy.ui.components.HolyCard
 import com.example.kotlin_holy.ui.components.FilterChip
+import com.example.kotlin_holy.ui.components.HolyTextField
 import com.example.kotlin_holy.ui.components.LoadingRows
 import com.example.kotlin_holy.ui.components.OrderToggle
 import com.example.kotlin_holy.ui.components.ReadCheckCircle
@@ -222,23 +221,12 @@ private fun PageJumpField(onJump: (Int) -> Unit) {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-        OutlinedTextField(
+        HolyTextField(
             value = value,
             onValueChange = { text -> value = text.filter { it.isDigit() }.take(3) },
-            placeholder = { Text("Sahifa №", color = colors.inkFaint, fontSize = 13.sp) },
-            singleLine = true,
+            placeholder = "Sahifa №",
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
-            shape = RoundedCornerShape(24.dp),
-            colors = OutlinedTextFieldDefaults.colors(
-                focusedBorderColor = colors.accent,
-                unfocusedBorderColor = colors.line,
-                focusedContainerColor = colors.surface,
-                unfocusedContainerColor = colors.surface,
-                focusedTextColor = colors.ink,
-                unfocusedTextColor = colors.ink,
-                cursorColor = colors.accent,
-            ),
-            modifier = Modifier.width(150.dp),
+            modifier = Modifier.width(120.dp),
         )
         Row(
             modifier = Modifier

@@ -107,22 +107,41 @@ class SurahReadViewModel @Inject constructor(
         viewModelScope.launch {
             detail.value = runCatching { quranRepository.surah(surahNumber) }.getOrNull()
             loading.value = false
-            detail.value?.let { loaded ->
-                settingsRepository.setLastRead(
-                    "surah/$surahNumber",
-                    "${loaded.surah.nameUz} surasi",
-                )
-            }
-            loadGroup(0)
+            detail.value?.ayahs?.firstOrNull()?.let { saveLastReadAyah(it) }
+            loadGroup(0, trackLastRead = false)
+        }
+    }
+
+    /**
+     * "Davom etish" har doim jismoniy bet raqamiga ("page/{number}") ishora
+     * qiladi — chunki faqat sahifa marshruti har safar aniq o'sha betdan
+     * qayta ochilishini kafolatlaydi. Oyat bo'yicha o'qishda ham shu bet
+     * ochiladi, faqat yorliq oyat raqamini ko'rsatadi (masalan "Rum 30:6").
+     */
+    private fun saveLastReadAyah(ayah: Ayah) {
+        val pageNumber = ayah.pageNumber ?: return
+        val surahName = detail.value?.surah?.nameUz ?: return
+        viewModelScope.launch {
+            settingsRepository.setLastRead(
+                "page/$pageNumber",
+                "$surahName $surahNumber:${ayah.numberInSurah}",
+            )
+        }
+    }
+
+    private fun saveLastReadPage(pageNumber: Int) {
+        viewModelScope.launch {
+            settingsRepository.setLastRead("page/$pageNumber", "$pageNumber-sahifa")
         }
     }
 
     /** Sahifa bo'yicha ko'rinish uchun kerakli betni yuklaymiz */
-    private fun loadGroup(position: Int) {
+    private fun loadGroup(position: Int, trackLastRead: Boolean = true) {
         val pages = state.value.pageNumbers.ifEmpty {
             detail.value?.ayahs?.mapNotNull { it.pageNumber }?.distinct().orEmpty()
         }
         val pageNumber = pages.getOrNull(position) ?: return
+        if (trackLastRead) saveLastReadPage(pageNumber)
         viewModelScope.launch {
             val mushaf = runCatching { quranRepository.mushafPage(pageNumber) }.getOrNull()
             val content = runCatching { quranRepository.page(pageNumber) }.getOrNull()
@@ -138,14 +157,22 @@ class SurahReadViewModel @Inject constructor(
     fun move(delta: Int) {
         val next = (cursor.value + delta).coerceAtLeast(0)
         cursor.value = next
-        if (state.value.viewMode == "page") loadGroup(next)
+        if (state.value.viewMode == "page") {
+            loadGroup(next)
+        } else {
+            state.value.ayahChunks.getOrNull(next)?.firstOrNull()?.let { saveLastReadAyah(it) }
+        }
     }
 
     fun setViewMode(mode: String) {
         viewModelScope.launch {
             settingsRepository.setViewMode(mode)
             cursor.value = 0
-            if (mode == "page") loadGroup(0)
+            if (mode == "page") {
+                loadGroup(0)
+            } else {
+                detail.value?.ayahs?.firstOrNull()?.let { saveLastReadAyah(it) }
+            }
         }
     }
 

@@ -7,14 +7,12 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Icon
-import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -31,6 +29,7 @@ import com.example.kotlin_holy.domain.model.DifficultWord
 import com.example.kotlin_holy.ui.components.EmptyState
 import com.example.kotlin_holy.ui.components.HolyBadge
 import com.example.kotlin_holy.ui.components.HolyCard
+import com.example.kotlin_holy.ui.components.HolyTextField
 import com.example.kotlin_holy.ui.components.LoadingRows
 import com.example.kotlin_holy.ui.components.ScreenHeader
 import com.example.kotlin_holy.ui.theme.HolyFonts
@@ -59,24 +58,18 @@ fun WordsScreen(
         }
 
         item {
-            OutlinedTextField(
+            HolyTextField(
                 value = state.query,
                 onValueChange = viewModel::onQueryChange,
-                placeholder = { Text("Soʻz qidirish…", color = colors.inkFaint) },
+                placeholder = "Soʻz qidirish…",
                 leadingIcon = {
-                    Icon(Icons.Filled.Search, contentDescription = null, tint = colors.inkFaint)
+                    Icon(
+                        Icons.Filled.Search,
+                        contentDescription = null,
+                        tint = colors.inkFaint,
+                        modifier = Modifier.size(18.dp),
+                    )
                 },
-                singleLine = true,
-                shape = RoundedCornerShape(28.dp),
-                colors = OutlinedTextFieldDefaults.colors(
-                    focusedBorderColor = colors.accent,
-                    unfocusedBorderColor = colors.line,
-                    focusedContainerColor = colors.surface,
-                    unfocusedContainerColor = colors.surface,
-                    focusedTextColor = colors.ink,
-                    unfocusedTextColor = colors.ink,
-                    cursorColor = colors.accent,
-                ),
                 modifier = Modifier.fillMaxWidth().padding(bottom = 6.dp),
             )
         }

@@ -4,6 +4,7 @@ import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -14,16 +15,24 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.BasicTextField
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.LocalTextStyle
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -50,6 +59,75 @@ fun HolyCard(
             .then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier),
     ) {
         content()
+    }
+}
+
+/**
+ * Ixcham qidiruv/raqam maydoni: standart OutlinedTextField'dan farqli
+ * o'laroq, balandligi matn hajmiga qarab o'zi kichrayadi — 56dp'lik qattiq
+ * minimal balandlikka bog'lanib qolmaydi, shuning uchun kesilib qolmaydi.
+ * Burchak radiusi kartalar bilan bir xil (16dp).
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun HolyTextField(
+    value: String,
+    onValueChange: (String) -> Unit,
+    modifier: Modifier = Modifier,
+    placeholder: String? = null,
+    leadingIcon: (@Composable () -> Unit)? = null,
+    keyboardOptions: KeyboardOptions = KeyboardOptions.Default,
+    singleLine: Boolean = true,
+) {
+    val colors = HolyTheme.colors
+    val interactionSource = remember { MutableInteractionSource() }
+    val shape = RoundedCornerShape(16.dp)
+    val fieldColors = OutlinedTextFieldDefaults.colors(
+        focusedBorderColor = colors.accent,
+        unfocusedBorderColor = colors.line,
+        focusedContainerColor = colors.surface,
+        unfocusedContainerColor = colors.surface,
+        cursorColor = colors.accent,
+    )
+
+    BasicTextField(
+        value = value,
+        onValueChange = onValueChange,
+        modifier = modifier,
+        singleLine = singleLine,
+        keyboardOptions = keyboardOptions,
+        textStyle = LocalTextStyle.current.copy(color = colors.ink, fontSize = 14.sp),
+        cursorBrush = SolidColor(colors.accent),
+        interactionSource = interactionSource,
+    ) { innerTextField ->
+        OutlinedTextFieldDefaults.DecorationBox(
+            value = value,
+            innerTextField = innerTextField,
+            enabled = true,
+            singleLine = singleLine,
+            visualTransformation = VisualTransformation.None,
+            interactionSource = interactionSource,
+            placeholder = placeholder?.let { text ->
+                { Text(text, color = colors.inkFaint, fontSize = 14.sp) }
+            },
+            leadingIcon = leadingIcon,
+            colors = fieldColors,
+            contentPadding = OutlinedTextFieldDefaults.contentPadding(
+                start = 14.dp,
+                end = 14.dp,
+                top = 12.dp,
+                bottom = 12.dp,
+            ),
+            container = {
+                OutlinedTextFieldDefaults.Container(
+                    enabled = true,
+                    isError = false,
+                    interactionSource = interactionSource,
+                    colors = fieldColors,
+                    shape = shape,
+                )
+            },
+        )
     }
 }
 
@@ -155,7 +233,7 @@ fun LoadingRows(rows: Int = 4, modifier: Modifier = Modifier) {
                 Modifier
                     .fillMaxWidth()
                     .height(56.dp)
-                    .clip(RoundedCornerShape(14.dp))
+                    .clip(RoundedCornerShape(16.dp))
                     .background(HolyTheme.colors.surface2),
             )
         }

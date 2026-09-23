@@ -2,7 +2,9 @@ package com.example.kotlin_holy.ui.feature.surahs
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.kotlin_holy.domain.model.Ayah
 import com.example.kotlin_holy.domain.model.JuzCatalog
+import com.example.kotlin_holy.domain.model.MushafPage
 import com.example.kotlin_holy.domain.model.Surah
 import com.example.kotlin_holy.domain.repository.QuranRepository
 import com.example.kotlin_holy.domain.repository.SettingsRepository
@@ -15,6 +17,20 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import javax.inject.Inject
+
+/**
+ * Bosh sahifada ko'rsatiladigan tanlangan oyatlar to'plami. Oyat al-Kursiy va
+ * Amanar-Rasul uchun mushaf betlari ham saqlanadi — arabcha matn aynan
+ * bosma mushaf sahifasidagi shrift va joylashuv bilan chiziladi.
+ */
+data class HighlightAyahs(
+    val anbiyo: List<Ayah> = emptyList(),
+    val kursiy: List<Ayah> = emptyList(),
+    val kursiyPages: List<MushafPage> = emptyList(),
+    val amanarrasul: List<Ayah> = emptyList(),
+    val amanarrasulPages: List<MushafPage> = emptyList(),
+    val zuxruf: List<Ayah> = emptyList(),
+)
 
 /** Suraning xatm holati betlar belgisidan hisoblanadi — alohida saqlanmaydi */
 data class SurahXatm(val read: Int, val total: Int) {
@@ -54,6 +70,16 @@ class SurahListViewModel @Inject constructor(
     private val loading = MutableStateFlow(true)
     private val query = MutableStateFlow("")
 
+    private val _highlightAyahs = MutableStateFlow(HighlightAyahs())
+    val highlightAyahs: StateFlow<HighlightAyahs> = _highlightAyahs
+
+    private val _highlightTab = MutableStateFlow("anbiyo")
+    val highlightTab: StateFlow<String> = _highlightTab
+
+    fun selectHighlightTab(key: String) {
+        _highlightTab.value = key
+    }
+
     val state: StateFlow<SurahListState> = combine(
         surahs,
         loading,
@@ -75,6 +101,29 @@ class SurahListViewModel @Inject constructor(
             surahs.value = runCatching { quranRepository.surahs() }.getOrDefault(emptyList())
             loading.value = false
         }
+        viewModelScope.launch {
+            val baqara = runCatching { quranRepository.surah(2) }.getOrNull()?.ayahs.orEmpty()
+            val anbiyo = runCatching { quranRepository.surah(21) }.getOrNull()?.ayahs.orEmpty()
+            val zuxruf = runCatching { quranRepository.surah(43) }.getOrNull()?.ayahs.orEmpty()
+
+            val kursiyAyahs = baqara.filter { it.numberInSurah == 255 }
+            val amanarrasulAyahs = baqara.filter { it.numberInSurah in 285..286 }
+
+            _highlightAyahs.value = HighlightAyahs(
+                anbiyo = anbiyo.filter { it.numberInSurah in 1..2 },
+                kursiy = kursiyAyahs,
+                kursiyPages = kursiyAyahs.mushafPages(),
+                amanarrasul = amanarrasulAyahs,
+                amanarrasulPages = amanarrasulAyahs.mushafPages(),
+                zuxruf = zuxruf.filter { it.numberInSurah == 43 },
+            )
+        }
+    }
+
+    /** Berilgan oyatlar joylashgan mushaf betlarini (takrorsiz) yuklaydi */
+    private suspend fun List<Ayah>.mushafPages(): List<MushafPage> {
+        val pageNumbers = mapNotNull { it.pageNumber }.distinct()
+        return pageNumbers.mapNotNull { runCatching { quranRepository.mushafPage(it) }.getOrNull() }
     }
 
     fun onQueryChange(value: String) {

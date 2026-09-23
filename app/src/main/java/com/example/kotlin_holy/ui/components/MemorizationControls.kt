@@ -45,7 +45,7 @@ fun MemorizationPanel(
     Column(
         modifier = modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(14.dp))
+            .clip(RoundedCornerShape(16.dp))
             .background(colors.surface2)
             .padding(12.dp),
     ) {

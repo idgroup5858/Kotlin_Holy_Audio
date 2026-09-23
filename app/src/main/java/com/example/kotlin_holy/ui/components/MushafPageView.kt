@@ -376,9 +376,9 @@ private fun AyahInlineControls(
     CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Ltr) {
         Row(
             modifier = Modifier
-                .clip(RoundedCornerShape(22.dp))
+                .clip(RoundedCornerShape(16.dp))
                 .background(colors.surface)
-                .border(1.dp, colors.accent.copy(alpha = 0.45f), RoundedCornerShape(22.dp))
+                .border(1.dp, colors.accent.copy(alpha = 0.45f), RoundedCornerShape(16.dp))
                 .padding(horizontal = 6.dp, vertical = 5.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(4.dp),

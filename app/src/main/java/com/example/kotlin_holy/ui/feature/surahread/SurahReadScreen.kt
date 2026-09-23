@@ -383,7 +383,7 @@ private fun AyahCard(
                 Box(
                     modifier = Modifier
                         .size(28.dp)
-                        .clip(RoundedCornerShape(14.dp))
+                        .clip(RoundedCornerShape(16.dp))
                         .background(colors.surface2),
                     contentAlignment = Alignment.Center,
                 ) {
