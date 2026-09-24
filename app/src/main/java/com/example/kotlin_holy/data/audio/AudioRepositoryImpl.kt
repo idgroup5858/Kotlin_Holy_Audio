@@ -78,10 +78,15 @@ class AudioRepositoryImpl @Inject constructor(
             val stored = json.decodeFromString<StoredTimingsDto>(
                 store.timingsFile(id, surahNumber).readText(),
             )
+            /* Avval yuklangan jadvallarda eski, qattiqroq tekshiruv natijasi
+               saqlangan — shuning uchun ishonchlilik har safar qayta baholanadi */
+            val glyphCounts = glyphWordCounts(stored.surahNumber)
             SurahAudio(
                 surahNumber = stored.surahNumber,
                 reciterId = stored.reciterId,
-                timings = stored.ayahs.map { it.toDomain(stored.surahNumber) },
+                timings = stored.ayahs.map {
+                    it.toDomain(stored.surahNumber, glyphCounts[it.ayah])
+                },
             )
         }.getOrNull()
     }
@@ -216,9 +221,7 @@ class AudioRepositoryImpl @Inject constructor(
                 words += end
             }
 
-            val segmentWords = valid.map { it[0] }.distinct().size
-            val expected = glyphCounts[ayahNumber]
-            val reliable = expected != null && expected == segmentWords && segmentWords > 0
+            val reliable = wordsMatchMushaf(valid.map { it[0] }, glyphCounts[ayahNumber])
 
             StoredAyahDto(
                 ayah = ayahNumber,
@@ -232,7 +235,17 @@ class AudioRepositoryImpl @Inject constructor(
     }
 }
 
-private fun StoredAyahDto.toDomain(surahNumber: Int): AyahTiming {
+/**
+ * Audio jadvali so'zlarni mushaf bilan bir xil raqamlaganmi. Ba'zi oyatlarda
+ * jadvalda bitta so'zning vaqti tushib qolgan (masalan Baqara 212 da 18-so'z) —
+ * raqamlash baribir mos, faqat o'sha so'z yonmaydi. Raqam mushafdagi so'zlar
+ * sonidan oshsa esa (Kahf 60) raqamlash boshqacha: bunda noto'g'ri so'z
+ * yonmasligi uchun faqat oyat darajasida yonadi.
+ */
+private fun wordsMatchMushaf(positions: List<Long>, expected: Int?): Boolean =
+    expected != null && positions.isNotEmpty() && positions.all { it in 1..expected }
+
+private fun StoredAyahDto.toDomain(surahNumber: Int, expectedWords: Int?): AyahTiming {
     val segments = ArrayList<WordSegment>(words.size / 3)
     var index = 0
     while (index + 2 < words.size) {
@@ -249,6 +262,10 @@ private fun StoredAyahDto.toDomain(surahNumber: Int): AyahTiming {
         startMs = from,
         endMs = to,
         words = segments,
-        wordsReliable = reliable,
+        wordsReliable = if (expectedWords != null) {
+            wordsMatchMushaf(segments.map { it.position.toLong() }, expectedWords)
+        } else {
+            reliable
+        },
     )
 }

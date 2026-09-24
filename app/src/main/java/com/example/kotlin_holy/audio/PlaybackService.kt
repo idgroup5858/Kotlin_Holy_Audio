@@ -3,7 +3,6 @@ package com.example.kotlin_holy.audio
 import android.content.Intent
 import androidx.media3.common.AudioAttributes
 import androidx.media3.common.C
-import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.session.MediaSession
 import androidx.media3.session.MediaSessionService
@@ -34,7 +33,6 @@ class PlaybackService : MediaSessionService() {
             .build()
 
         session = MediaSession.Builder(this, player).build()
-        activePlayer = player
     }
 
     override fun onGetSession(controllerInfo: MediaSession.ControllerInfo): MediaSession? = session
@@ -48,23 +46,11 @@ class PlaybackService : MediaSessionService() {
     }
 
     override fun onDestroy() {
-        activePlayer = null
         session?.run {
             player.release()
             release()
         }
         session = null
         super.onDestroy()
-    }
-
-    companion object {
-        /**
-         * Xizmat ilova bilan bitta jarayonda ishlaydi, shuning uchun so'z
-         * kuzatuvi pozitsiyani shu pleyerning o'zidan aniq oladi.
-         * MediaController esa pozitsiyani faqat taxmin qiladi va uzoq
-         * ijroda ("Davomi") bu taxmin eskirib, so'zlar yonmay qoladi.
-         */
-        var activePlayer: Player? = null
-            private set
     }
 }

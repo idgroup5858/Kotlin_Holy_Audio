@@ -28,10 +28,9 @@ data class AyahTiming(
     val endMs: Long,
     val words: List<WordSegment>,
     /**
-     * Vaqt jadvalidagi so'zlar soni mushafdagi so'zlar soniga teng bo'lmasa,
-     * so'zma-so'z yonish noto'g'ri so'zni belgilaydi — shuning uchun bunday
-     * oyatlarda faqat oyat darajasida yonadi. Tekshiruvga ko'ra bu Baqarada
-     * 286 oyatdan 5 tasida uchraydi.
+     * Vaqt jadvali so'zlarni mushafdan boshqacha raqamlagan bo'lsa (so'z raqami
+     * mushafdagi so'zlar sonidan oshsa), so'zma-so'z yonish noto'g'ri so'zni
+     * belgilaydi — shuning uchun bunday oyatlarda faqat oyat darajasida yonadi.
      */
     val wordsReliable: Boolean,
 ) {

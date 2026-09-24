@@ -222,7 +222,7 @@ class QuranPlayer @Inject constructor(
         if (tick?.isActive == true) return
         tick = scope.launch {
             while (true) {
-                val player = PlaybackService.activePlayer ?: controller ?: break
+                val player = controller ?: break
                 val absolute = clipStartMs + player.currentPosition
                 val current = audio?.ayahAt(absolute)
 
