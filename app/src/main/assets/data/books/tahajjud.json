@@ -1,0 +1,941 @@
+{
+  "pages": [
+    {
+      "slug": "tarjimondan",
+      "title": "Tarjimondan",
+      "summaryUz": "Kitob va uning tarjimasi haqida",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tahajjud namozi moʻmin kishining sharafi boʻlib, har bir musulmon kishi bu amalda davomiy boʻlishga harakat qilmogʻi lozim. Bu ibodat insonning iymoni ziyoda boʻlishiga va ixlosi oshishiga sabab boʻladigan eng muhim va eng buyuk amallardandir. Shu sababli ham shayton insonni bu amaldan toʻsish uchun bor kuchi bilan harakat qiladi. Tahajjudda qoyim boʻlish uchun inson, avvalo shaytonning hiylalarini yengishi lozim. Tahajjudning fazli va unga beriladigan ajrlarni oʻqib-oʻrganish ham bu ibodatni ado qilishga yordam beradigan omillardandir. Shu maqsadda shayx Vahid ibn Abdussalom Baliy hafizahullohning «Tahajjud va uni osonlashtiruvchi sabablar» («Al-umurul muyassiro li-qiyamil-layl») kitobini tarjima qilib, oʻzbekzabon oʻquvchilarga ulashishni niyat qildik. Ushbu moʻjazgina kitobda tahajjudning fazilatlari va uni osonlashtiruvchi sabablar, salaflarimizning namozlaridan misollar va boshqa bir qancha foydali mavzular keltirilgan boʻlib, musulmon kishida tahajjud oʻqishga shavqni oshiradi va, Allohning izni bilan, uning mashaqqatlarini yengishda nafsga yordam beradi."
+        }
+      ]
+    },
+    {
+      "slug": "muqaddima",
+      "title": "Muqaddima",
+      "summaryUz": "Muallif soʻzboshisi: tungi namoz lazzati va risolaning yozilish sababi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Barcha hamd-u sanolar Allohnikidir. U Zotga hamd aytamiz, Oʻzidangina yordam soʻraymiz, Ungagina istigʻfor aytamiz. Allohdan nafslarimiz yomonligidan va amallarimizning yomonlaridan panoh soʻraymiz. Alloh hidoyat qilgan kishini adashtiruvchi, adashtirgan kishini esa hidoyat qiluvchi yoʻq. Va Allohning yolgʻiz Oʻzidan boshqa haq iloh yoʻq, U Zotning sherigi yoʻq, hamda Muhammad sollallohu alayhi va sallam Allohning bandasi va elchisi, deb guvohlik beraman. Va baʼd:"
+        },
+        {
+          "type": "p",
+          "text": "Tahajjud namozi buyuk toatlardan, Allohga yaqinlashtiruvchi ulugʻ ibodatlardandir. Solih salaflarimiz umrlari davomida tahajjud oʻqishda davomiy boʻlishgan. Hatto ular yashagan zamonda biror shaharga kiradigan boʻlsangiz, albatta kechasi ularning uylaridan arining gʻungillashidek ovoz eshitgan boʻlardingiz. Barchalari tahajjud oʻqir hamda ayol va farzandlarini ham bunga shijoatlantirardilar."
+        },
+        {
+          "type": "p",
+          "text": "Tungi namozning oʻz lazzati, oʻzgacha halovati va saodati bordir. Buni tun zulmatlarida Robbisiga ibodat qilgan, U zotga gunohlarini shikoyat qilgan, oʻz Mavlosiga munojot qilgan, Undan jannatini soʻragan, rahmatidan umidvor boʻlgan, azobidan qoʻrqqan va doʻzaxidan panoh soʻrab qadamlarini Alloh taolo huzurida safga tergan kishilargina his qiladilar."
+        },
+        {
+          "type": "p",
+          "text": "Men ushbu jumlalarni musulmon birodarlarimiz uchun, xossatan, ushbu dinga nusrat berish maqsadida amal qilayotgan, bu yoʻlda har qanday oʻzlarining qimmatli va qiymatli narsalarini sarflayotgan yoshlar uchun yozdim. Chunki tahajjud namozi maxfiy jihod boʻlib, Alloh taolo rozi boʻladigan va mukofoti aniq beriladigan amaldir."
+        },
+        {
+          "type": "p",
+          "text": "Ushbu risolani yozishimga yoshlarimizning tahajjudga beparvolik qilishayotgani toʻgʻrisidagi shikoyatlari sabab boʻldi. Ular tahajjud oʻqish yaxshi koʻrishadi, lekin amal qilishga kelganda qoqilishyapti, bir marta ado qilishsa, bir necha bor oʻtkazib yuborishyapti. Natijada shunday buyuk amal va ulkan ajrlarni qoʻldan chiqarib yuborishayotganiga achinib, nadomat chekishyapti ekanlar."
+        },
+        {
+          "type": "p",
+          "text": "Bu risolani faqatgina shu kabi yoshlar uchun yozdim. Mavloyimiz jalla va ʼalaadan bu kitobni oʻqigan va unga nazar solgan hammaga manfaatli qilishini, tahajjud lazzatini tottirishini va uning halovati bilan rizqlantirishini soʻrayman. Albatta, Rabbim duolarni eshituvchi, ijobat qiluvchi Zotdir."
+        },
+        {
+          "type": "p",
+          "text": "Paygʻambarimiz Muhammadga, ahli-oilasiga, sahobalariga va ularga ergashganlarga salovat boʻlsin."
+        },
+        {
+          "type": "p",
+          "text": "Vahid ibn Abdussalom Baliy"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "number": 1,
+      "title": "Tahajjudning fazilatlari",
+      "summaryUz": "Qurʼon oyatlari, hadislar va salaflar soʻzlarida tahajjudning fazli va ajri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Alloh taolo Oʻz kalomida taqvodor bandalarini sifatlab shunday deydi:"
+        },
+        {
+          "type": "arabic",
+          "text": "﴿إِنَّ ٱلْمُتَّقِينَ فِى جَنَّـٰتٍ وَعُيُونٍ ١٥ ءَاخِذِينَ مَآ ءَاتَىٰهُمْ رَبُّهُمْ ۚ إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُحْسِنِينَ ١٦﴾"
+        },
+        {
+          "type": "p",
+          "text": "«Albatta taqvodor zotlar jannatlar va buloqlar ustida boʻlurlar. (U Kunda) Parvardigor oʻzlariga ato etgan narsalarni (ajr-mukofotlarni) qabul qilgan hollarida (jannatlar va buloqlar ustida boʻlurlar). Zero, ular bundan ilgari (yaʼni, hayoti dunyodalik chogʻlarida) chiroyli amallar qilguvchi edilar» (Zoriyot, 15–16)."
+        },
+        {
+          "type": "p",
+          "text": "Yaʼni, dunyo hayotida ehson — chiroyli amallar qilardilar. Soʻng ularning qilgan oʻsha chiroyli amallarini bayon qilib aytadi:"
+        },
+        {
+          "type": "arabic",
+          "text": "﴿كَانُوا۟ قَلِيلًا مِّنَ ٱلَّيْلِ مَا يَهْجَعُونَ ١٧ وَبِٱلْأَسْحَارِ هُمْ يَسْتَغْفِرُونَ ١٨﴾"
+        },
+        {
+          "type": "p",
+          "text": "«Ular kechadan ozgina (fursatgina) koʻz yumar edilar. Va saharlarda ular (qilgan sahvu-xatolari uchun) Parvardigordan magʻfirat soʻrar edilar» (Zoriyot, 17–18)."
+        },
+        {
+          "type": "p",
+          "text": "Hasan Basriy rohimahulloh aytadilar: «Ular tahajjud mashaqqatlarini koʻtaradilar, tunda ozgina vaqt uxlaydilar. Sahar vaqtida istigʻfor aytish uchun tahajjud namozini (sahar vaqtigacha) uzoq oʻqishda gʻayrat qiladilar» («Tafsirul Qurʼanil-Azim», 4/250)."
+        },
+        {
+          "type": "p",
+          "text": "Alloh subhanahu moʻminlarni quyidagi sifatlar bilan maqtaydi:"
+        },
+        {
+          "type": "arabic",
+          "text": "﴿إِنَّمَا يُؤْمِنُ بِـَٔايَـٰتِنَا ٱلَّذِينَ إِذَا ذُكِّرُوا۟ بِهَا خَرُّوا۟ سُجَّدًا وَسَبَّحُوا۟ بِحَمْدِ رَبِّهِمْ وَهُمْ لَا يَسْتَكْبِرُونَ ۩ ١٥ تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ …﴾"
+        },
+        {
+          "type": "p",
+          "text": "«Bizning oyatlarimizga faqat qachon u (oyatlar) zikr qilinsa, sajda qilgan hollarida yiqiladigan va kibr-havo qilmagan hollarida hamdu sano aytish bilan Parvardigorlarini poklaydigan zotlargina iymon keltirurlar. Ularning yonboshlari oʻrin-joylaridan yiroq boʻlur…» (Sajda, 15–16)"
+        },
+        {
+          "type": "p",
+          "text": "Yaʼni, tahajjud oʻqish uchun uyqularini va orom olish uchun hozirlab qoʻyilgan toʻshaklarini tark qiladilar. Soʻng Alloh taolo yana aytadi:"
+        },
+        {
+          "type": "arabic",
+          "text": "﴿يَدْعُونَ رَبَّهُمْ خَوْفًا وَطَمَعًا …﴾"
+        },
+        {
+          "type": "p",
+          "text": "«Ular Parvardigorlariga qoʻrquv va umidvorlik bilan duo-iltijo qilurlar…» (Sajda, 16)"
+        },
+        {
+          "type": "p",
+          "text": "Yaʼni, Allohning azobi qattiqligidan qoʻrqib va U Zotning koʻp ajrlar berishini umid qilib."
+        },
+        {
+          "type": "p",
+          "text": "Ular qanday qilib tunni namoz oʻqib oʻtkazmasinlar, axir ularning sayyidlari, imomlari va faxr-iftixorlari boʻlmish Rasululloh sollallohu alayhi va sallam ikki oyoqlari shishib ketguncha tahajjud oʻqirdilarku?!"
+        },
+        {
+          "type": "p",
+          "text": "Abdulloh ibn Ravoha roziyallohu anhu Rasululloh sollallohu alayhi va sallamni sifatlab, quyidagi misralarni bitganlar:"
+        },
+        {
+          "type": "quote",
+          "text": "Ichimizda Rasululloh tong yorishgan payt\nAllohning kitobin qilar tilovat.\n\nBizga hidoyatni koʻrsatdi tamom,\nQalblarda shubha yoʻq aytsalar kalom.\n\nToʻshakdan uzoqda oʻtkazarlar tun\nMushriklarga uyqu kelganda ustun."
+        },
+        {
+          "type": "p",
+          "text": "Soʻng Alloh taolo ularning mukofotlarini zikr qilib shunday dedi:"
+        },
+        {
+          "type": "arabic",
+          "text": "﴿فَلَا تَعْلَمُ نَفْسٌ مَّآ أُخْفِىَ لَهُم مِّن قُرَّةِ أَعْيُنٍ جَزَآءًۢ بِمَا كَانُوا۟ يَعْمَلُونَ ١٧﴾"
+        },
+        {
+          "type": "p",
+          "text": "«Ularning qilib oʻtgan amallariga mukofot qilib ular uchun berkitib qoʻyilgan koʻzlar quvonchini (yaʼni, Oxirat neʼmatlarini) biron jon bilmas» (Sajda, 17)."
+        },
+        {
+          "type": "p",
+          "text": "Yaʼni, hech kim Alloh taolo jannatlarda yashirib qoʻygan, unga oʻxshashinining xabarini hali biror kimsa olib kelmagan doimiy neʼmatlar va lazzatlarning qay darajada katta ekanini bilmaydi. Ular amallarini boshqa kishilardan yashirib qilganlari sababli amallariga muvofiq mukofot boʻlishi uchun Alloh taolo ham ularga beradigan savoblarni yashirib qoʻydi. Chunki mukofot yoki jazo qilingan amalning jinsidan boʻladi."
+        },
+        {
+          "type": "p",
+          "text": "Hasan Basriy rohimahulloh aytadilar: «Bir kishilar qilgan amallarini boshqalardan yashirdilar, Alloh taolo ham jannatda ular uchun koʻz koʻrmagan va inson qalbiga kelmagan neʼmatlarni yashirib qoʻydi» («Tafsirul Qurʼanil-Azim», 3/469)."
+        },
+        {
+          "type": "p",
+          "text": "Alloh taolo Rahmonning bandalarini sifatlab aytadi:"
+        },
+        {
+          "type": "arabic",
+          "text": "﴿وَٱلَّذِينَ يَبِيتُونَ لِرَبِّهِمْ سُجَّدًا وَقِيَـٰمًا ٦٤﴾"
+        },
+        {
+          "type": "p",
+          "text": "«Ular kechalarni Robbilariga sajda qilib va (joynamoz ustida) tik turib — bedor oʻtkazadigan kishilardir» (Furqon, 64)."
+        },
+        {
+          "type": "p",
+          "text": "Yaʼni kechani ibodat bilan oʻtkazadilar. Odamlar uxlab yotganida ular bedor boʻladilar. Odamlarni gʻaflat bosganida ular ogoh turadilar. Chunki ular Alloh taoloni yaxshi koʻrish daʼvolarida sodiq va samimiy boʻlganlaridan, Unga munojot qilishda rohat-lazzat topadilar. Ular haqida shoirlardan biri chiroyli misralar bitgan:"
+        },
+        {
+          "type": "quote",
+          "text": "Koʻzingni uyquga ketishdan man qil,\nKoʻz yoshlaring yonogʻingdan oqsin shashqator.\n\nVafot etib hisob berishingni bil,\nAlloh gʻazabiga qolmagin zinhor.\n\nHoliqni sevishda samimiy boʻlgandi bir el,\nRozi boʻlib, alarni tanladi xizmatkor.\n\nKun ketib qorongʻulik tushganda bu el,\nSajda va qiyomlarda turdilar takror.\n\nQorni och, jismi oriq iffatli bu el,\nHaloldan boshqa taom yemaslar zinhor."
+        },
+        {
+          "type": "p",
+          "text": "Abdulloh ibn Salom roziyallohu anhudan rivoyat qilinadi: «Nabiy sollallohu alayhi va sallam shunday dedilar: «Ey insonlar, salomni yoyinglar, taom yediringlar va tunda odamlar uxlayotgan payt namoz oʻqinglar, jannatga salomat kirasizlar» (Sahih: Termiziy rivoyat qilgan (4/65) va «Hasan sahih hadis», degan)."
+        },
+        {
+          "type": "p",
+          "text": "Bu hadisda Nabiy sollallohu alayhi va sallam tahajjud oʻqish jannatga kirish sabablaridan ekanini bayon qildilar. Ey musulmon birodarim, tungi namozni mahkam ushlang. Albatta, u baxt-saodat diyori boʻlgan jannatning kalitidir."
+        },
+        {
+          "type": "p",
+          "text": "Tunda namoz oʻqish kunduzgi oʻqilgan nafl namozidan afzaldir. Chunki tungi namoz xushuʼ va ixlos bilan ado qilinishga yaqin boʻladi. Shu sababli Nabiy sollallohu alayhi va sallam aytardilar: «Ramazon oyidan keyin roʻza tutish eng fazilatli boʻlgan oy Allohning muharram oyidir. Farz namozlardan keyin eng fazilatli namoz esa tahajjud namozidir» (Muslim rivoyati (Navaviy, 8/54))."
+        },
+        {
+          "type": "p",
+          "text": "Tun rahmatlar yogʻiladigan, yer va osmon Robbisi dunyo osmoniga tushadigan fazilatli vaqtdir. Jobir roziyallohu anhu aytadilar: «Rasululloh sollallohu alayhi va sallamning shunday deganlarini eshitganman: «Kechada bir soat bor, musulmon kishi Allohga duo-iltijo qilib, dunyo va oxirat yaxshiligini soʻragan holda shu soatni topsa, albatta, Alloh uning soʻraganini beradi. Bu (soat) har kechadadir» (Muslim rivoyati (Navaviy, 6/35))."
+        },
+        {
+          "type": "p",
+          "text": "Agar musulmon kishi tahajjud namoziga beriladigan savoblarni bilganida edi, uni hech qachon tark qilmasdi."
+        },
+        {
+          "type": "p",
+          "text": "Abdulloh ibn Amr ibn Os roziyallohu anhumodan rivoyat qilinadi: «Nabiy sollallohu alayhi va sallam: «Jannatda tashqaridan ichkarisi, ichkaridan tashqarisi koʻrinib turadigan xonalar bor», dedilar. Shunda Abu Molik Ashʼariy roziyallohu anhu soʻradilar: «Ular kimlar uchun, ey Rasululloh?» Rasululloh sollallohu alayhi va sallam: «Soʻzini shirin qilgan, taom ulashgan va odamlar uxlayotgan paytda tunni tahajjud bilan oʻtkazgan kishilar uchun», deb javob berdilar» (Tabaroniy «Kabir»da hasan sanad bilan rivoyat qilgan)."
+        },
+        {
+          "type": "p",
+          "text": "Bilingki, tunda namoz oʻqish solihlar va ibodatgoʻylarning yoʻli boʻlib, gunohkorlarning gunohlariga kafforat, osiy va fojirlar uchun esa hidoyatdir."
+        },
+        {
+          "type": "p",
+          "text": "Abu Umoma Bohiliy roziyallohu anhudan rivoyat qilinadi: «Rasululloh sollallohu alayhi va sallam dedilar: «Tunda namoz oʻqishni lozim tutinglar. Chunki u sizlardan oldingi solih kishilarning odati, Robbingizga yaqin qiluvchi, yomonliklarga kafforat va gunohlardan qaytaruvchidir» (Tabaroniy «Kabir» va «Avsat»da rivoyat qilgan)."
+        },
+        {
+          "type": "p",
+          "text": "Musulmon kishining shon-sharafi tunda namoz oʻqishidadir. Sahl ibn Saʼd roziyallohu anhudan rivoyat qilib aytadilar: «Jabroil alayhissalom Rasululloh sollallohu alayhi va sallamning oldiga keldilar va shunday dedilar: «Ey Muhammad, xohlaganingizdek yashang, baribir vafot etasiz, xohlaganingizdek amal qiling, baribir u sababli jazo yoki mukofotlanasiz. Xohlaganingizni yaxshi koʻring, baribir undan ajralasiz. Bilingki, moʻmin kishining sharafi tahajjud namozini oʻqishidir, azizligi esa insonlardan behojat boʻlishidir» (Hasan hadis: Tabaroniy «Avsat»da rivoyat qilgan)."
+        },
+        {
+          "type": "p",
+          "text": "Tahajjud oʻqiydigan moʻmin banda Robbisi azza va jallaga yaqin boʻladi. Amr ibn Abasadan roziyallohu anhu Rasululloh sollallohu alayhi va sallamning shunday deyotganlarini eshitgan ekan: «Robb azza va jallaning bandaga eng yaqin boʻladigan payti zim-ziyo kechaning oxiridadir. Agar oʻsha paytda Allohni zikr qiluvchilardan boʻlishga qodir boʻlsang, shulardan biri boʻl» (Hasan hadis: Nasoiy (572), Ibn Moja (1251), Termiziy (3579) rivoyati)."
+        },
+        {
+          "type": "p",
+          "text": "Tahajjud oʻquvchilar qatorida boʻlsangiz Allohning sizni yaxshi koʻrishi, sizga kulishi va sizdan xursand boʻlishi siz uchun yetarlidir. Abu Dardo roziyallohu anhu rivoyat qilgan hadisda Rasululloh sollallohu alayhi va sallam dedilar: «Uch toifa kishini Alloh yaxshi koʻradi, ularga kulib boqadi va ulardan xursand boʻladi. Birinchisi Alloh yoʻlidagi jangda jamoasi yengilayotgan payt sobit turib, qatl etilgunicha yoki Alloh nusrat berib, dushmandan gʻolib boʻlgunicha Alloh uchun jang qilgan kishi. Alloh azza va jalla: «Jonini Men uchun bagʻishlagan bu bandamni koʻrib qoʻyinglar», deb aytadi. Ikkinchisi esa koʻrkam xotini va yumshoq toʻshagi boʻlsa-da, kechasi turib tahajjud namozini oʻqigan kishi. Alloh taolo: «Shahvatini chetga qoʻyib, Meni zikr qilyapti, xohlasa uxlar edi», deydi. Uchinchisi hamrohlari bilan safarga chiqqan, yura-yura charchab kechasi barcha hamrohlari uxlab qolganda turib namoz oʻqigan va kengligu tanglikda Parvardigoriga duo-iltijolar qilgan kishidir» (Hasan hadis: Munziriy «Targʻib»da (2/32) Tabaroniy «Kabir»da rivoyat qilgan, degan)."
+        },
+        {
+          "type": "p",
+          "text": "Alloh taoloning muhabbatiga erishish naqadar ulkan bashorat va yuksak darajadir! Shu sababli ham tahajjudni oʻzlariga lozim tutgan solihlar yoʻliga ergashishga va ularga oʻxshashga harakat qiling, taqvodorlar yoʻlida yuring, nafsingizni olamlar Robbisining yoʻlida zoʻr berib harakat qildiring. Shoyadki, muhsin — goʻzal amal qiluvchi zotlar martabasiga yetsangiz va oxiratda yutuqqa erishganlardan boʻlsangiz."
+        },
+        {
+          "type": "p",
+          "text": "Tahajjud oʻqish kabi solih amallarda boshqalarga havas qilish joiz boʻladi. Abdulloh ibn Amr roziyallohu anhumo aytadilar: «Nabiy sollallohu alayhi va sallam dedilar: «Ikki kishidan boshqaga hasad qilish yoʻq: Alloh Qurʼon bergan va uni kechalari ham, kunduzlari ham tilovat qiladigan kishi; Alloh mol-dunyo berib, uni kechalari ham, kunduzlari ham sadaqa qiladigan kishi» (Buxoriy rivoyati («Fathul Boriy», 9/73))."
+        },
+        {
+          "type": "p",
+          "text": "Yazid ibn Axnas roziyallohu anhu rivoyat qilgan hadisda Rasululloh sollallohu alayhi va sallam dedilar: «Ikki kishiga orzu-havas qilsa boʻladi. Biri Alloh taolo unga Qurʼonni taʼlim bergan va u kechayu kunduz uni oʻqib amal qilish bilan qoim boʻladi. Shu kishiga havas qilib: «Alloh falonchiga bergandek menga ham berganida, men ham u qilgan ishlarni bajarardim», deb orzu qilsa, ikkinchisi Alloh taolo mol-dunyo bergan kishi va u mol-dunyosidan infoq-ehson va sadaqalar qiladi. Ana shu kishiga ham yuqoridagi soʻzni aytsa boʻladi» (Sahih hadis: Munziriy «Targʻib»da (2/32) Tabaroniy «Kabir»da rivoyat qilgan, degan)."
+        },
+        {
+          "type": "p",
+          "text": "Hasan Basriy rohimahulloh dedi: «Kechasidagi tahajjud namozi va mol-dunyodan sadaqa qilishdan koʻra ogʻirroq amalni topmadik. Shunda: «Nima sabab tahajjud namozini oʻqiydigan kishilarning yuzlari juda nurli boʻladi?» deb soʻraldi. Hasan Basriy rohimahulloh: «Chunki ular Rabbilari bilan xoli qolib iltijolar qiladi, ajabmaski Parvardigorlari Oʻz nuridan ustlariga yogʻdirgan boʻlsa»."
+        },
+        {
+          "type": "p",
+          "text": "Fuzayl ibn Iyoz rohimahulloh dedi: «Kechasi tahajjudga tura olmayotgan, kunduzi esa roʻza tuta olmayotgan boʻlsang, bilginki, sen mahrum ekansan. Gunohlaring koʻpayib ketgan»."
+        },
+        {
+          "type": "p",
+          "text": "Tahajjud namozi ohu koʻzli hurlarning mahridir. Kim tahajjud oʻqishni koʻpaytirsa, unga ham koʻpaytirib beriladi. Alloh taolo buyuk zotdir."
+        },
+        {
+          "type": "p",
+          "text": "Molik ibn Dinor aytadi: «Bir kuni Qurʼon va tahajjuddagi kundalik vazifamni oʻqishdan chalgʻib uxlab qolibman. Shu kecha tush koʻrdim. Tushimda oʻta chiroyli bir joriya qoʻlida nimadir yozilgan qogʻoz ushlab turibdi. Menga: «Oʻqishni istaysanmi?» dedi. Men: «Ha, istayman», degandim, bitikni menga uzatdi. Oʻqisam quyidagilar yozilgan ekan:"
+        },
+        {
+          "type": "quote",
+          "text": "Dunyo lazzatlari, orzu chalgʻitdi\nJannatdagi oq tan hurlardan nahot?\n\nGoʻzallar-la oʻyin-kulgu qilarsan,\nJannatda oʻlim yoʻq, boqiydir hayot.\n\nUyqungdan uygʻongin, uyqudan koʻra\nQurʼon va tahajjud afzaldir albat»."
+        },
+        {
+          "type": "p",
+          "text": "Kechalari tahajjudda qoimligi bilan tanilgan Azhar ibn Mugʻisdan rivoyat qilinadi: «Tushimda dunyodagi ayollarga oʻxshamaydigan ayolni koʻrdim. Undan: «Sen kimsan?» deb soʻragan edim, «Hurlardanman», deb javob berdi. «Menga turmushga chiq», dedim. «Menga uylanmoqchi boʻlsang, Xojamga sovchi qoʻyib, mahrimni ber», dedi. «Mahring nima?» degan edim, «Tahajjud namozida uzoq turish», deb javob berdi»."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Shayton insonni tahajjud namozidan toʻsadi",
+      "summaryUz": "Shaytonning uchta tuguni va ularni yechadigan, uxlashdan oldin qilinadigan oʻnta amal",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Shayton yomonliklarni juda yaxshi biladi. Banda Robbisi bilan tun zulmatlarida yolgʻiz qolsa, Alloh taologa xokisorlik qilib, Unga yaqinlashsa, qadamlarini Allohning toatida saf torttirsa, U zotning ostonalarida sajdaga yiqilsa Alloh taolo uni eʼtiborsiz qoldirmasligini, aksincha uning amallarini qabul qilib, darajalarini koʻtarishini, iymonini yanada kuchaytirishini va haq yoʻl — «sirotul mustaqim»da sobit qilishini yaxshi biladi. Shuning uchun shayton insonni tahajjud oʻqishdan toʻsish uchun qattiq harakat qiladi. Inson uxlayotganida boshining orqasiga uchta tugun tugadi va har bir tugunga urib: «Hali oldingda uzun kecha bor, uxlayver», deydi."
+        },
+        {
+          "type": "p",
+          "text": "Abu Hurayra roziyallohu anhu rivoyat qilgan hadisda Rasululloh sollallohu alayhi va sallam dedilar: «Shayton sizlardan biringiz uxlagan paytida boshining orqasiga uchta tugun tugib qoʻyadi. Har bir tugunga: «Hali oldingda uzun kecha bor, uxlayver», deb urib qoʻyadi. Kishi uygʻonib Allohni zikr qilsa, bitta tugun yechiladi. Tahorat qilsa, yana bir tugun yechiladi. Namoz oʻqisa, barcha tugunlar yechiladi va tetik, qalbi toza holatda tong ottiradi. Yoʻqsa, lanj, tanbal va dili xira holatda tong ottiradi» (Muttafaqun alayh)."
+        },
+        {
+          "type": "p",
+          "text": "Imom Navaviy rohimahulloh aytadi: «Ulamolar bu tugunlar borasida ixtilof qilishgan. Baʼzilar uni insonga qilinadigan sehr kabi boʻlib, tahajjuddan toʻsish uchun tugadigan haqiqiy tugundir, dedilar. Alloh taolo aytadiki:"
+        },
+        {
+          "type": "arabic",
+          "text": "﴿وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ ٤﴾"
+        },
+        {
+          "type": "p",
+          "text": "«Tugunlarga dam solguvchi (sehrgar)larning yomonligidan (panoh soʻrayman)…» (Falaq, 4)"
+        },
+        {
+          "type": "p",
+          "text": "Shunga koʻra, bu tugunlar sehr koʻrsatadigan taʼsir kabi uyqudagi insonni uygʻonishdan toʻsib qolishga taʼsir qiladigan gaplardir, degan maʼno boʻladi."
+        },
+        {
+          "type": "p",
+          "text": "Baʼzi ulamolar esa bu narsa sehrgarlarning tugunlarga dam solishiga oʻxshash ishlar ekanini aytishgan. Boshqalar esa bu ish qalbni bogʻlashdan iborat boʻlib, goʻyoki qalb oʻz-oʻzini vasvasa qilib, «Hali oldingda uzun kecha bor, uxlayver», deb gapirayotganga oʻxshaydi, deganlar. Yana boshqa ulamolar esa u majoziy tugunlar boʻlib, shaytonning tahajjuddan toʻsib qolishidan kinoya qilingan, deyishgan» («Sahihi Muslim» sharhi (6/65))."
+        },
+        {
+          "type": "p",
+          "text": "Hofiz ibn Hajar «Fathul Boriy»da aytadi: «(Har bir tugunga) Urib qoʻyadi» degan gaplarining maʼnosi — tugunlarni mahkamlash uchun oʻsha gapini aytgan holda qoʻli bilan uradi» («Fathul Boriy» (3/25))."
+        },
+        {
+          "type": "p",
+          "text": "Bu uchta shapaloq faqatgina Allohni zikr qilmasdan va yotar chogʻida «Oyatul Kursiy»ni oʻqimagan gʻofil bandalargagina yetadi."
+        },
+        {
+          "type": "p",
+          "text": "Agar kimdir hadisning lafzi Allohni zikr qilmagan gʻofilga ham va zikr qilgan boshqa kishilarga ham umumiydir, desa, unga javobimiz shuki, bu hadisning umumiy lafzi Abu Hurayra roziyallohu anhuning hadisi bilan xoslanadi. Unga shayton aytgandiki: «Toʻshagingga yotganingda «Oyatul Kursiy»ni oʻqigin. U"
+        },
+        {
+          "type": "p",
+          "text": "Alloh tarafidan yoningda bir muhofazachi boʻlib turadi va tong otguncha shayton senga yaqin kela olmaydi», dedi. Rasululloh sollallohu alayhi va sallam esa: «Oʻzi yolgʻonchi boʻlsa ham, senga rost gapiribdi», deb iqror boʻldilar (Buxoriy muallaq tarzda rivoyat qilgan (4/487), (6/335), («Fathul Boriy», 9/55))."
+        },
+        {
+          "type": "p",
+          "text": "Hofiz Ibn Hajar «Fathul Boriy»da shu fikrga moyil boʻlib, shunday degan: «Buni faqatgina shaytonni quvish uchun «Oyatul Kursiy»ni oʻqimagan kishiga xos boʻladi, deyish mumkin» («Fathul Boriy» (3/27))."
+        },
+        {
+          "type": "p",
+          "text": "Imom Navaviy rohimahulloh aytadi: «Tetik, ruhi pok boʻladi» deganlarining maʼnosi — Alloh taolo unga ibodat qilishga yordam bergani va unga vaʼda qilgan savoblari sababidandir, shu bilan birga uning oʻziga, harakatlariga va barcha ishlariga baraka bergani, shaytonning ibodatdan toʻsib qolish uchun bogʻlagan tugunlarini yechganidan xursand boʻlgani uchundir» («Sahihi Muslim» sharhi (6/66))."
+        },
+        {
+          "type": "p",
+          "text": "Ibn Hajar rohimahulloh aytadi: «Zohir boʻlgan fikr shuki, tungi namozda inson nafsining poklanishiga taʼsir qiluvchi bir sir. Garchi inson bu narsani xayoliga keltirmasa ham uning nafsi poklanib boraveradi» («Fathul Boriy» (3/26))."
+        },
+        {
+          "type": "p",
+          "text": "Bu narsa haqdir. Buni tahajjud halovatini totgan va oʻsha lahzalarda Allohga yaqinlashganidan xursand boʻlgan insonlargina his qila oladi. Chunki u qalbga shunday bir halovat soladiki, agar bandaga oʻsha halovat va dunyo boyliklari orasida ixtiyor berilganda edi, albatta, tahajjuddan oladigan halovatni tanlagan boʻlardi."
+        },
+        {
+          "type": "p",
+          "text": "Imom Navaviy rohimahulloh aytadi: «Yoʻqsa, lanj, tanbal va dili xira holatda tong ottiradi» deganlarining maʼnosi — shayton unga bogʻlagan tugunlar taʼsirida uni tahajjud namozidan ushlab qolgani va oʻsha bandani butunlay egallab olgani sababidandir». Va yana aytadi: «Hadisning zohiridan kelib chiqadiki, uyqudan turgan kishi uchta ishni — zikr qilish, tahorat va namoz oʻqishni hammasini bajarmasa lanj, tanbal va dili xira holatda tong ottiruvchi insonlar jumlasidan boʻladi» («Sahihi Muslim» sharhi (6/67))."
+        },
+        {
+          "type": "p",
+          "text": "Bu ishlardan shaytonning koʻzlagan maqsadi bandani kun boʻyi oʻz izmiga solish uchun tahajjuddan toʻsib, unga dangasalik tashlashdir. Bu shaytonning insonga qoʻllaydigan jirkanch hiylalaridan hisoblanadi. Xoʻsh, biz bu hiylalarni qanday barbod qilamiz?"
+        },
+        {
+          "type": "p",
+          "text": "Shaytonning bu hiylalarni yengish banda bir necha ishlarni bajarishi bilan boʻladi:"
+        },
+        {
+          "type": "p",
+          "text": "1 — Uxlashdan oldin tahorat qiladi. Ikki «Sahih» kitobda rivoyat qilingan hadisda Rasululloh sollallohu alayhi va sallam Baro ibn Ozib roziyallohu anhuga dedilar: «Agar toʻshagingga yotmoqchi boʻlsang, namoz uchun qilgandek tahorat qil»."
+        },
+        {
+          "type": "p",
+          "text": "2 — Tunda uygʻonmaslikdan qoʻrqqan kishi uxlashdan oldin vitr namozini oʻqiydi. Lekin tunda qoyim boʻlishga odatlangan kishi oʻsha paytda oʻqigani afzalroq va goʻzalroqdir."
+        },
+        {
+          "type": "p",
+          "text": "Ibn Umar roziyallohu anhumo aytadilar: «Vitr namozini oʻqimasdan tong ottirgan kishi boshida yetmish ziroʼ miqdoricha yugan bilan yuganlangan holda tong ottiribdi». Goʻyoki shayton uni oʻz yuganlari bilan mahkam ushlab, oʻzi xohlagan tomonga burib yuribdi."
+        },
+        {
+          "type": "p",
+          "text": "3 — Uxlashdan oldin kaftlarni birlashtirib, ularning ichiga «Ixlos», «Falaq» va «Nas» suralarini oʻqiydi va boshdan boshlab, badandan qodir boʻlgan joyigacha surib chiqadi. Bu Imom Buxoriyning «Sahih»larida Oisha roziyallohu anho rivoyat qilgan hadisda sobit boʻlgan."
+        },
+        {
+          "type": "p",
+          "text": "4 — «Baqara» surasining oxirgi ikki oyatini oʻqiydi. Imom Buxoriy va Muslim rivoyat qilgan hadisda Abu Masʼud Ansoriy roziyallohu anhudan rivoyat qilinadi: «Rasululloh sollallohu alayhi va sallam dedilar: «Kim kechqurun «Baqara» surasining oxirgi ikki oyatini oʻqisa, bu unga kifoya qiladi»."
+        },
+        {
+          "type": "p",
+          "text": "Imom Navaviy aytadi: «Baʼzi ulamolar buni tahajjud namozi oʻqishdan kifoya qiladi, deyishgan. Boshqalar esa shaytondan kifoya qiladi, deb sharhlashgan. Boshqa ulamolar esa balo-ofatlardan kifoya qiladi, deb aytishgan. Bu fikrlarning hammasining ehtimoli bor» («Sahihi Muslim» sharhi (6/91))."
+        },
+        {
+          "type": "p",
+          "text": "Ibn Qoyyim rohimahulloh aytadi: «Insonga ozor beradigan narsalarning yomonligidan kifoya qiladi, deyish toʻgʻriroqdir» («Al-Vabil as-Soyyib» (91))."
+        },
+        {
+          "type": "p",
+          "text": "5 — Allohning kitobidan biror sura oʻqiydi. Imom Ahmad va Termiziy Shaddod ibn Avs roziyallohu anhudan rivoyat qilgan hadisda Rasululloh sollallohu alayhi va sallam shunday deganlar: «Qay bir musulmon kishi toʻshagiga yotganda Allohning kitobidan bir sura oʻqisa, Alloh taolo unga uygʻonguniga qadar barcha ozor beradigan narsalardan himoya qiluvchi farishtani yuboradi»."
+        },
+        {
+          "type": "p",
+          "text": "6 — «Oyatul Kursiy»ni tadabbur qilib va maʼnolarini tushunib oʻqiydi. Yuqorida zikr qilinganidek, u bandani tong otgunicha shaytondan himoya qiladi."
+        },
+        {
+          "type": "p",
+          "text": "7 — Uxlashdan oldin oʻttiz uch marta tasbih (subhanalloh), oʻttiz uch marta hamd (alhamdulillah) va oʻttiz toʻrt marta takbir (Allohu akbar) aytadi. Bu ham ikki «Sahih» kitobda Ali ibn Abu Tolib roziyallohu anhudan rivoyat qilingan hadisda sobit boʻlgan."
+        },
+        {
+          "type": "p",
+          "text": "8 — Oʻng yonga qarab yotib, oʻng qoʻlni oʻng yanoqqa qoʻyadi va ushbu duoni oʻqiydi:"
+        },
+        {
+          "type": "arabic",
+          "text": "بِاسْمِكَ رَبِّي وَضَعْتُ جَنْبِي، وَبِكَ أَرْفَعُهُ، فَإِنْ أَمْسَكْتَ نَفْسِي فَارْحَمْهَا، وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِينَ"
+        },
+        {
+          "type": "p",
+          "text": "Maʼnosi: «Parvardigorim, Sening isming bilan yonboshimni qoʻydim, Sening yordaming bilan uni koʻtaraman. Agar ruhimni tutib qolsang (yaʼni vafot ettirsang), menga rahm qil. Agar uni (tanamga) qaytarsang, (yaʼni tirik uygʻonishni nasib etsang), solih bandalaringni muhofaza qilganingdek, meni ham muhofaza qilgin» (Muttafaqun alayh)."
+        },
+        {
+          "type": "p",
+          "text": "9 — Keyin esa ushbu duoni aytadi:"
+        },
+        {
+          "type": "arabic",
+          "text": "بِسْمِ اللهِ وَضَعْتُ جَنْبِي، اللَّهُمَّ اغْفِرْ لِي ذَنْبِي، وَأَخْسِئْ شَيْطَانِي، وَفُكَّ رِهَانِي، وَاجْعَلْنِي فِي النَّدِيِّ الْأَعْلَى"
+        },
+        {
+          "type": "p",
+          "text": "Maʼnosi: «Allohning nomi bilan yonboshimni qoʻydim. Ey Alloh, gunohimni kechir, shaytonimni xor qil, nafsimni yomonlik changalidan xalos et va meni jannat ahlidan qil» (Abu Dovud rivoyati (5054))."
+        },
+        {
+          "type": "p",
+          "text": "10 — Soʻngra uxlagunicha Allohni zikr qilib yotadi. Jobir roziyallohu anhu aytadilar: «Rasululloh sollallohu alayhi va sallam dedilar: «Agar inson toʻshagiga yotsa, bir farishta va bir shayton shoshilib yetib kelishadi. Farishta: «Kuningni yaxshilik bilan tugat», deydi. Shayton esa: «Kuningni yomonlik bilan tugat», deydi. Agar u uxlagunicha Allohni zikr qilsa, farishta shaytonni quvadi va uni tonggacha qoʻriqlab chiqadi. Inson uyqusidan uygʻonsa, bir farishta va bir shayton shoshilib yetib kelishadi. Farishta: «Kuningni yaxshilik bilan boshla», deydi. Shayton esa: «Kuningni yomonlik bilan boshla», deydi. Agar banda: «Jonimni oʻlganidan soʻng tiriltirgan va uni uyqusida oʻldirmagan Zot — Allohga hamd boʻlsin. Oʻlimga hukm qilingan jonlarni ushlab qoladigan va qolganlarini maʼlum muddatgacha (ajallari kelgunicha) qoʻyib yuboradigan Zot — Allohga hamd boʻlsin. Osmonlar va yerni qulab tushishdan ushlab turadigan Zot — Allohga hamd boʻlsin. Agar ular qulaydigan boʻlsalar, U zotdan oʻzga hech kim ularni ushlab tura olmas. Osmonni Oʻzining iznisiz yerga qulab tushishidan ushlab turgan Zot — Allohga hamd boʻlsin», desa, farishta shaytonni quvib yuboradi va uni kun boʻyi qoʻriqlaydi» (Hokim rivoyat qilgan va «Sahih hadis», degan)."
+        },
+        {
+          "type": "p",
+          "text": "Duoning arabcha matni:"
+        },
+        {
+          "type": "arabic",
+          "text": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَا نَفْسِي بَعْدَ مَوْتِهَا وَلَمْ يُمِتْهَا فِي مَنَامِهَا، الْحَمْدُ لِلَّهِ الَّذِي يُمْسِكُ الَّتِي قَضَى عَلَيْهَا الْمَوْتَ وَيُرْسِلُ الْأُخْرَى إِلَى أَجَلٍ مُسَمًّى، الْحَمْدُ لِلَّهِ الَّذِي يُمْسِكُ السَّمَاوَاتِ وَالْأَرْضَ أَنْ تَزُولَا وَلَئِنْ زَالَتَا إِنْ أَمْسَكَهُمَا مِنْ أَحَدٍ مِنْ بَعْدِهِ، الْحَمْدُ لِلَّهِ الَّذِي يُمْسِكُ السَّمَاءَ أَنْ تَقَعَ عَلَى الْأَرْضِ إِلَّا بِإِذْنِهِ"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Shaytonning tahajjudga beparvo boʻlganlarni masxara qilishi",
+      "summaryUz": "Tong otguncha uxlagan kishining qulogʻiga shayton bavl qilishi haqidagi hadis va uning maʼnosi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Shayton bandani egallab olib, unga hukmron boʻlsa va natijada banda tong otguniga qadar uxlashda davom etaversa, shayton uning ustidan kulib masxara qiladi, tahqirlaydi hamda yaxshi gaplardan va mavʼizalardan taʼsirlanmaydigan qilish uchun ilm va hikmat kirib boradigan joyni toʻsish maqsadida uning quloqlariga bavl qiladi."
+        },
+        {
+          "type": "p",
+          "text": "Abdulloh ibn Masʼud roziyallohu anhu aytadilar: «Rasululloh sollallohu alayhi va sallamning huzurlarida kechasi bedor boʻlmay to tong otgunicha uxlaydigan kishi zikr qilingan edi: «U ikki qulogʻiga shayton bavl qilgan kishidir», yoki «bir qulogʻiga», dedilar Rasululloh sollallohu alayhi va sallam» (Muttafaqun alayh)."
+        },
+        {
+          "type": "p",
+          "text": "Hofiz ibn Hajar rohimahulloh aytadi: «Shaytonning bavl qilishi maʼnosi borasida ulamolarimiz ixtilof qilganlar. Baʼzilar haqiqiy maʼnoda bavl qiladi, deyishgan. Qurtubiy va boshqalar bu maʼnodan (yaʼni, haqiqiy bavl deyishdan) man qiladigan narsa yoʻq, chunki bu imkonsiz narsa emas. Shaytonning taomlanishi va turmush qurishi sobit boʻlgan. Shu sababli ham uning haqiqiy bavl qilishi haqidagi maʼnoni hech narsa man qilolmaydi, deyishgan. Baʼzilar esa shaytonning bavl qilishini namozga uxlab qolgan odamning qulogʻini zikrni eshitmasligi uchun toʻsishidan kinoya qilingan, deyishgan. Boshqalar esa shayton uni tahqirlashidan kinoya, deb hisoblashgan. Baʼzi ulamolar aytishganki, shayton insonni egallab olib, uni masxara qiladi, hatto bavl qilish uchun uni hojatxona qilib oladi. Chunki masxara qilayotgan narsasining ustiga bavl qilish masxara qiluvchilarning odatlaridandir» («Fathul Boriy» (3/28))."
+        },
+        {
+          "type": "p",
+          "text": "Imom Ahmad Hasan Basriyning (rohmatullohi alayhimo): «Allohga qasamki, shaytonning bavl qilishi ogʻir narsadir», deganlarini rivoyat qilgan."
+        },
+        {
+          "type": "p",
+          "text": "Ibn Masʼud roziyallohu anhu aytganlar: «Tong otguncha uxlab, shayton uning qulogʻiga bavl qilishligi kishining baxtsizligi va yomonligiga kifoya qiladi» (Ibn Hajar «Fathul Boriy» (3/29) da sanadi sahih, degan)."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Alloh taolo uchun tungi namozlarning eng sevimlisi",
+      "summaryUz": "Dovud alayhissalomning namozi: tunni taqsimlash usuli va uning foydalari",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Alloh azza va jalla solih amallarni yaxshi koʻradiki, bu yaxshi koʻrishlik Uning buyukligi va ulugʻligiga loyiq boʻlgan yaxshi koʻrishlikdir. Yana U Zot ibodatgoʻy bandani yaxshi koʻradi. Va yana tun ogʻushida tazarruʼ va xushuʼ qilgan holda Oʻzining huzurida qoyim boʻlgan bandani yaxshi koʻradi. Lekin Alloh subhanahu va taolo tahajjudning Rasululloh sollallohu alayhi va sallam bizlarga xabarini bergan muayyan bir koʻrinishini koʻproq yaxshi koʻradi."
+        },
+        {
+          "type": "p",
+          "text": "Abdulloh ibn Amr ibn Os roziyallohu anhumo rivoyat qiladilar: «Nabiy sollallohu alayhi va sallam shunday dedilar: «Alloh taolo uchun eng sevimli roʻza Dovudning roʻzasidir. Alloh uchun eng sevimli (tungi) namoz Dovudning namozidir. U bir kun roʻza tutar, bir kun ogʻzi ochiq boʻlardi. Va tunning yarmida uxlar, uchdan birida qoim boʻlar, oltidan birida uxlar edi» (Muttafaqun alayh)."
+        },
+        {
+          "type": "p",
+          "text": "Faraz qilaylik, agar xufton namozi kechgi soat sakkiz yarimda, bomdod namozi esa tonggi soat beshda oʻqiladigan boʻlsa, xuftondan soʻng, yaʼni soat toʻqqizga yaqin uxlaysiz. Soʻng soat birga yaqinlashganda uygʻonasiz va taxminan ikki yarim soat tahajjud oʻqiysiz. Soʻng soat uch yarimga yaqinlashganda uxlaysiz hamda bomdod namozini oʻtkazib yubormaslik uchun bomdoddan bir necha daqiqa oldin uygʻonasiz."
+        },
+        {
+          "type": "p",
+          "text": "Ushbu usulning foydalari:"
+        },
+        {
+          "type": "p",
+          "text": "1 — Inson bomdod namoziga uygʻonadi."
+        },
+        {
+          "type": "p",
+          "text": "2 — Bomdodgacha bedor boʻlish yuzda sariqlik paydo qiladi. Agar inson bomdoddan oldin ozroq uxlab olsa, sariqlik yoʻq boʻlib, inson oʻz jonini mashaqqatga ham qoʻymaydi."
+        },
+        {
+          "type": "p",
+          "text": "3 — Insonning tahajjuddan keyin uxlagan payti solih tush koʻrish uchun mos vaqt boʻladi. Solih tush esa moʻmin bandasiga Alloh tarafdan boʻlgan bashoratdir."
+        },
+        {
+          "type": "p",
+          "text": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi: «Rasululloh sollallohu alayhi va sallam aytdilar: «Solih tush Alloh tarafidan bashoratdir» (Muttafaqun alayh)."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Tahajjud namozining miqdori",
+      "summaryUz": "Tungi namozning eng oz miqdori va er-xotinning bir-birini namozga uygʻotishi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tungi namoz ikki rakat oʻqish bilan boʻlsa-da amalga oshadi. Ibn Abbos roziyallohu anhu Alloh taoloning: «Rahmonning bandalari tunlarni Robbilariga sajda qilib va (joynamoz ustida) tik turib — bedor oʻtkazadigan kishilardir» (Furqon, 64), oyatining tafsirida shunday deydilar: «Kim xuftondan keyin ikki rakat yoki undan koʻp namoz oʻqisa, Alloh uchun tunni sajda va qiyomda turgan holatda oʻtkazibdi» («Tafsiri Qurtubiy» (13/72))."
+        },
+        {
+          "type": "p",
+          "text": "Fazola ibn Ubayd va Tamim Doriy roziyallohu anhumodan rivoyat boʻlgan hadisda Rasululloh sollallohu alayhi va sallam dedilar: «Kim kechasida oʻn oyat oʻqisa, bir qintor miqdoricha savob yoziladi. Bir qintor esa dunyo va undagi narsalardan yaxshidir. Qiyomat kunida Parvardigoring azza va jalla aytadi: «Oʻqi va koʻtarilaver», har bir oyat uchun esa bir daraja boʻlib, to oʻzidagi oyatlarning oxirgisiga yetgunicha koʻtariladi. Alloh taolo bandaga: «Qoʻlingga ol», deydi. Banda qoʻli bilan ishora qilgan holda: «Ey Robbim, Oʻzing biluvchisan», deydi. Alloh azza va jalla: «Bu abadiylikni va bu rohatni ol», deydi» (Tabaroniy rivoyati)."
+        },
+        {
+          "type": "p",
+          "text": "Abu Said Xudriy roziyallohu anhu aytadilar: «Rasululloh sollallohu alayhi va sallam dedilar: «Kishi kechasi turib ayolini uygʻotsa va er-xotin jamoat boʻlib yoki alohida-alohida namoz oʻqishsa, Allohni koʻp zikr qiluvchi erkak va ayollar qatoriga yozib qoʻyiladi» (Abu Dovud sahih sanad bilan rivoyat qilgan)."
+        },
+        {
+          "type": "p",
+          "text": "Shuning uchun ham Rasululloh sollallohu alayhi va sallam erkak kishi ayolini va ayol kishi erini tungi namoz uchun uygʻotishiga undaganlar hamda oʻz juftini uygʻotgan kishiga rahmat soʻrab duo qilganlar. Abu Hurayra roziyallohu anhudan qilingan rivoyatga koʻra Rasululloh sollallohu alayhi va sallam bunday dedilar: «Kechasi turib namoz oʻqigan, ayolini ham namoz oʻqishga uygʻotgan, agar uyqu zoʻrlik qilib uygʻonmasa, yuziga suv sepgan kishiga Allohning rahmati boʻlsin. Kechasi turib namoz oʻqigan, erini ham namoz oʻqish uchun uygʻotgan, agar uyqu zoʻrlik qilib uygʻonmasa, yuziga suv sepgan ayolga ham Allohning rahmati boʻlsin» (Abu Dovud rivoyati)."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Salaf solihlarning tungi namozlaridan misollar",
+      "summaryUz": "Sahobalar, tobeinlar va olimlarning tungi ibodatidan oʻn besh misol",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "1 — Anas ibn Molik roziyallohu anhudan rivoyat qilinadi: «Rasululloh sollallohu alayhi va sallam Masjidga kirib, ikki ustun orasiga tortib qoʻyilgan arqonni koʻrdilar va: «Bu qandoq arqon?» dedilar. «Bu Zaynabning arqoni. Oʻzidan uyquni haydaydi (yaʼni, charchab qolganda unga osiladi)», deyishdi. Shunda Rasululloh sollallohu alayhi va sallam: «Uni yechib tashlanglar. Kishi tetik turganda namoz oʻqisin. Qachon charchasa, uxlasin», dedilar» (Muttafaqun alayh)."
+        },
+        {
+          "type": "p",
+          "text": "Ushbu hadisdan bizga salaf solihlarimizning ibodat qilishga bor kuchlarini sarflaganliklari ayon boʻladi. Moʻminlarning onasi Zaynab roziyallohu anho masjid ustunlari orasiga ip bogʻlab qoʻyib tahajjud oʻqirdilar. Agar koʻzlariga uyqu ogʻirlik qilsa, oʻzlaridan uyquni haydash uchun oʻsha ipga osilardilar."
+        },
+        {
+          "type": "p",
+          "text": "2 — Abdulloh ibn Abu Qays aytadi: «Moʻminlar onasi Oisha roziyallohu anhoning huzurlariga kirdim. Menga shunday dedilar: «Ey Abdulloh, tunda namoz oʻqishni tark qilmagin. Rasululloh sollallohu alayhi va sallam uni hargiz tark qilmasdilar. Agar kasal boʻlsalar yoki charchab qolsalar, oʻtirib oʻqirdilar» (Abu Dovud rivoyati, Alboniy sahih degan)."
+        },
+        {
+          "type": "p",
+          "text": "3 — Yana oʻsha kishi Oisha roziyallohu anhodan soʻradilar: «Nabiy sollallohu alayhi va sallam tungi namozlarida jahriy qiroat qilarmidilar yoki maxfiymi?» Oisha roziyallohu anho: «Uniyam, buniyam qilardilar», deb javob berdilar (Hokim «Mustadrok»da sahih sanad bilan rivoyat qilgan)."
+        },
+        {
+          "type": "p",
+          "text": "4 — Imom Hokim «Mustadrok»da sahih sanad bilan rivoyat qiladilar: «Nabiy sollallohu alayhi va sallam bir kuni kechasi Abu Bakr roziyallohu anhuning uylarining yonidan oʻtdilar. U kishi ovozlarini past qilib tahajjud oʻqiyotgan edilar. Soʻng Umar roziyallohu anhuning uylari yonidan oʻtdilar. U esa ovozlarini baland qilib namoz oʻqiyotgan edilar. Soʻng Rasululloh sollallohu alayhi va sallam Abu Bakrdan bu haqida soʻraganlarida, u kishi: «Ey Rasululloh, men oʻzim munojot qilgan Zotgagina eshittirdim», deb javob berdi. Umardan soʻragandilar, u kishi: «Shaytonni quvish va uyqudagilarni uygʻotish uchun shunday qildim», dedilar. Nabiy sollallohu alayhi va sallam Abu Bakrga: «Ovozingizni biroz baland qiling», Umarga esa: «Ovozingizni biroz pasaytiring», dedilar."
+        },
+        {
+          "type": "p",
+          "text": "5 — Imom Molik rohimahulloh «Muvatto»da rivoyat qilgan hadisda Abdulloh ibn Umar roziyallohu anhumo aytadilar: «Umar roziyallohu anhu tunda namoz oʻqirdilar. Kechaning oxiri boʻlganda oila aʼzolarini uygʻotib, «Ahlingizni namoz oʻqishga buyuring va oʻzingiz ham (namoz oʻqishda) chidamli boʻling! Biz sizdan rizq soʻramaymiz, (aksincha) Oʻzimiz sizga rizq berurmiz. Oqibat-jannat (ahli) taqvonikidir» (Toha, 132) oyatini oʻqirdilar»."
+        },
+        {
+          "type": "p",
+          "text": "6 — Imom Buxoriyning «Sahih»larida va Imom Ahmadning «Musnad»larida rivoyat qilingan hadisda Abu Usmon Nahdiy aytadilar: «Abu Hurayraning uyida yetti kun mehmon boʻldim. U, ayoli va xizmatkori tunni uch qismga taqsimlab olishgan edi: ayoli tunning uchdan birida, xizmatkori keyingi uchdan birida, Abu Hurayra esa oxirgi uchdan birida qoyim boʻlardi»."
+        },
+        {
+          "type": "p",
+          "text": "7 — Imom Zahabiy «Tazkiratul huffaz» kitobida zikr qilishicha, Sulaymon Taymiyning ikkita ayoli boʻlib, ular kechani uch qismga taqsimlashgan edi."
+        },
+        {
+          "type": "p",
+          "text": "8 — Imom Muslimning roviylaridan boʻlgan Hasan ibn Solih tunni akasi va onasi bilan uchga taqsimlashgan edi. Onasi vafot etgach akasi Aliy ikkalasi taqsimlashdi. Akasi ham vafot qilgach, tunda bir oʻzi qoyim boʻldi."
+        },
+        {
+          "type": "p",
+          "text": "9 — Hasan ibn Solihning bir choʻrisi boʻlgan ekan. U choʻrisini bir qavmga sotib yuboribdi. Zim-ziyo kecha boʻlganida choʻri xoʻjayinlarini uygʻotibdi. Ular boʻlsa: «Nima, tong otdimi? Bomdod vaqti boʻldimi?» debdilar. Shunda choʻri: «Tahajjud oʻqimaysizlarmi?» deb soʻrabdi. Ular: «Bomdod vaqti boʻlganda turamiz», deb javob berishibdi. Shundan soʻng choʻri Hasanning oldiga qaytib boribdi va: «Xojam, meni faqatgina farzlarni ado qiladigan qavmga sotibsiz. Meni qaytarib oling», debdi. Hasan uni qaytarib olibdi."
+        },
+        {
+          "type": "p",
+          "text": "10 — Muhammad ibn Vosiʼ tunda turib, tahajjud oʻqirdi. Ayoli: «Uning holati goʻyo dunyodagi barcha insonlarni oʻldirgan kishining holatiga oʻxshardi», deb aytardi."
+        },
+        {
+          "type": "p",
+          "text": "11 — Abu Sulaymon Doroniy aytadi: «Allohga qasamki, agar tahajjud namozi boʻlmaganida dunyoni yaxshi koʻrmasdim. Allohga qasamki, tahajjud oʻquvchi kishilar tunda namozda turgan paytlarida tunni koʻngilxushi va oʻyin-kulgi bilan oʻtkazadigan kimsalardan koʻra koʻproq lazzat oladilar. Oʻsha paytda uning qalbidan shunday onlar oʻtadiki, qalb Allohni zikri qilganidan xursand boʻlib raqsga tushay deydi. Agar jannat ahli jannatda men tahajjudda totayotganimdek neʼmatlarni totadigan boʻlishsa, ular aniq buyuk neʼmat ichida ekanlar»."
+        },
+        {
+          "type": "p",
+          "text": "12 — Buyuk tobeinlardan boʻlgan Riyoh ibn Amr Qaysiy Zuaba degan ayolga uylandi. Kunduz payti boʻlganda ayolini sinashni diliga tugib qoʻydi. Ayoli xamir qorayotganda, undan: «Senga xizmatkor olib beraymi?» deb soʻradi. Shunda ayoli: «Men Riyohga turmushga chiqqanman, (xotinining vazifalarini xizmatkorga olib beradigan) zolim va qaysar kishiga emas», deb javob berdi. Tun kirganda Riyoh oʻzini uxlaganga solib yotdi. Ayoli tunning birinchi toʻrtdan birida tahajjud oʻqidi va: «Ey Riyoh, turing», deb erini uygʻotdi. Riyoh: «Hozir turaman», deb yotaverdi. Ayol tunning ikkinchi toʻrtdan birida namoz oʻqidi va: «Ey Riyoh, turing», deb yana erini uygʻotdi. Riyoh esa: «Hozir turaman», deb yana yotaverdi. Tunning uchinchi toʻrtdan biri oʻtdi. Ayol yana erini uygʻotdi: «Ey Riyoh, turing». Riyoh yana: «Hozir turaman», deb yotaverdi. Tunning oxirgi toʻrtdan biri kirganda ayol dedi: «Ey Riyoh, Askarlar toʻplandi, yaxshilik qiluvchilar yutuqqa erishdi. Eh, meni siz borangizda kim aldaganini bilganimda edi…» Ayoli tun kirganda eng chiroyli holatda bezanardi, agar erining unda hojati boʻlsa, hojatini chiqarardi. Soʻng ikkalalari ham Allohning ibodatiga mashgʻul boʻlishardi."
+        },
+        {
+          "type": "p",
+          "text": "13 — Abu Isʼhoq Shiroziy tun kirganda namoz oʻqib, Robbisiga munojot qilib shunday derdi: «Umid libosini kiydib insonlar uxlayotgan paytda ichimdan oʻtayotgan narsalarimni Mavloyimga shikoyat qilish uchun turdim. Robbimga dedim: «Ey musibat yetganda yuzlanadigan, mendan balolarni aritadigan Zot! Senga suyanaman, musibatlarimni Oʻzingga shikoyat qilaman. Bu musibatlarga bardosh berishga sabr va kuchim yetmasligini bilasan. Senga qoʻllarimni xorlik bilan uzatdim, ularni noumid qaytarmagin. Aniqki, fazl-karaming dengiziga kelgan hech bir kishi qonmasdan qolmas». Shu gaplarni qaytara-qaytara yigʻlardi."
+        },
+        {
+          "type": "p",
+          "text": "14 — Rivoyat qilinadiki, Molik ibn Dinor «Nahotki gunoh qilgan kimsalar ularni iymon keltirib, solih amallar qilganlarga oʻxshash qilmogʻimizni gumon qilsalar…?!» (Josiya, 21) oyatini tong otguncha takrorlab chiqqan ekan."
+        },
+        {
+          "type": "p",
+          "text": "15 — Zoida aytadi: Abu Hanifa bilan bir masjidda xufton namozini birga oʻqidim. Namozdan soʻng odamlar ketishdi. Abu Hanifa esa meni masjidda ekanimni bilmasdi. Men hech kim koʻrmagan paytda undan bir masala haqida soʻramoqchi boʻldim. Abu Hanifa oʻrnilaridan turib, qiroat qilib namoz oʻqiy boshladilar, oʻqib-oʻqib ushbu oyatgacha yetdilar: «Alloh bizlarga marhamat qildi va bizlarni samumdan (yaʼni, badanlarni ilma-teshik qilib yuboradigan doʻzaxiy shamoldan) saqladi» (Tur, 27). Abu Hanifaning namoz oʻqib boʻlishlarini kutib masjidda turdim. U kishi esa muazzin bomdod namoziga azon aytgunicha boyagi oyatni takrorlayverdilar."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Tungi ibodatning kunduzgi ibodatdan afzalliklari",
+      "summaryUz": "Tunda qilingan ibodatning besh afzalligi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "1 — Koʻpincha tungi ibodat ixlos bilan boʻladi. Chunki banda tun zulmatlarida hech kim uni koʻrmayotgan holatda Robbisining huzurida qoyim boʻladi. Abdulloh ibn Masʼud roziyallohu anhudan rivoyat qilingan hadisda Rasululloh sollallohu alayhi va sallam aytganlar: «Tahajjud namozining kunduzidagi nafl namozdan afzalligi maxfiy qilingan sadaqaning oshkor qilingan sadaqadan afzalligi kabidir» (Tabaroniy rivoyati)."
+        },
+        {
+          "type": "p",
+          "text": "Abu Hurayra roziyallohu anhu aytadilar: «Rasululloh sollallohu alayhi va sallam dedilar: «Ramazon oyidan keyin roʻza tutish eng fazilatli boʻlgan oy Allohning muharram oyidir. Farz namozlardan keyin eng fazilatli namoz esa tahajjud namozidir» (Muslim rivoyati)."
+        },
+        {
+          "type": "p",
+          "text": "2 — Tunda ibodat qilish nafsga eng mashaqqatli ishlardan boʻlib, unda nafs koʻp qiynaladi. Shu sababdan undagi ajr ham koʻp boʻladi. Alloh taolo shunday deydi: «Albatta, kechaning vaqtlari ibodat koʻproq muvofiq keladigan va qiroati toʻgʻriroq boʻladigan vaqtdir» (Muzzammil, 6)."
+        },
+        {
+          "type": "p",
+          "text": "Inson oʻz nafsini Alloh yoʻlida qiynasa, Alloh uni toʻgʻri yoʻlga hidoyat qiladi, ehson darajasidagi bandalarning darajasiga koʻtaradi. Alloh taolo shunday deydi:"
+        },
+        {
+          "type": "arabic",
+          "text": "﴿وَٱلَّذِينَ جَـٰهَدُوا۟ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ ٦٩﴾"
+        },
+        {
+          "type": "p",
+          "text": "«Bizning (yoʻlimizda) jihod qilganlarni Oʻz yoʻllarimizga hidoyat eturmiz. Albatta, Alloh chiroyli amal qilguvchilar bilandir» (Ankabut, 69)."
+        },
+        {
+          "type": "p",
+          "text": "3 — Tungi ibodatda Qurʼonni koʻproq tadabbur qilish va uning maʼnolarini yaxshi anglash hosil boʻladi. Chunki tun xotirjamlik va tinch-osoyishtalik vaqtidir. Shu sababli ham bu paytda insonning qalbi va tili Qurʼonni tadabbur qilish va maʼnosini anglashda muvofiq boʻladi."
+        },
+        {
+          "type": "p",
+          "text": "4 — Tun rahmatlar yogʻiladigan hamda yer va osmonlar Robbisi dunyo osmoniga tushadigan fazilatli vaqtdir, shu sababdan tunda qilingan ibodat ulugʻ boʻladi. Albatta, fazilatli vaqtda qilingan ibodat ham boshqalaridan ajralib turadi."
+        },
+        {
+          "type": "p",
+          "text": "5 — Tungi ibodat insonning darajalarini koʻtaradi. Chunki tunda qilingan ibodat gunohlarning kechirishligi orqali qalbni yomonliklardan tozalashni hamda yaxshi amallar qilish orqali fazilatlar bilan bezashni jamlaydi."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Tungi namozning foydalari",
+      "summaryUz": "Tahajjud oʻquvchiga dunyo va oxiratda beriladigan besh foyda",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "1 — Tunda tahajjud oʻqigan, qadamlarini Robbisining huzurida ibodat va xushuʼ bilan saf torttirgan kishi uchun insonlar olamlar Robbisi huzurida tik turadigan kunda bu ish oson boʻladi. Dunyo hayotida dam olgan inson oxirat kunida charchaydi. Chunki mukofot va jazo amalning jinsidan boʻladi."
+        },
+        {
+          "type": "p",
+          "text": "2 — Tahajjudni koʻpaytirgan kishi Robbisiga ibodat qilish uchun yumshoq toʻshagi va goʻzal ayolini tark qilgani evaziga Alloh taolo uni ohu koʻzli hurlarga uylantiradi."
+        },
+        {
+          "type": "p",
+          "text": "3 — Tahajjud oʻquvchining tanasi sogʻlom, ruhi sof, yuzi goʻzal boʻladi. Hasan Basriy rohimahullohdan: «Nima sabab tahajjud namozini oʻqiydigan kishilarning yuzlari juda nurli boʻladi?» deb soʻrashdi. Shunda u kishi: «Chunki ular Rabbilari bilan xoli qolib iltijolar qiladilar, ajabmas Parvardigorlari Oʻz nuridan ustlariga yogʻdirgan boʻlsa!» deb javob qildi."
+        },
+        {
+          "type": "p",
+          "text": "4 — Tahajjudning fazilati bilan Alloh taolo tomonidan keladigan fathlar, ilohiy yordamlar tugal-toʻkis boʻladi. Alloh aytadi:"
+        },
+        {
+          "type": "arabic",
+          "text": "﴿وَٱلَّذِينَ جَـٰهَدُوا۟ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ ٦٩﴾"
+        },
+        {
+          "type": "p",
+          "text": "«Bizning (yoʻlimizda) jihod qilganlarni Oʻz yoʻllarimizga hidoyat eturmiz. Albatta, Alloh chiroyli amal qilguvchilar bilandir» (Ankabut, 69)."
+        },
+        {
+          "type": "p",
+          "text": "Sariy Saqtiy aytadilar: «Ilmdan hosil qilinadigan foydalar tun zulmatida keladi»."
+        },
+        {
+          "type": "p",
+          "text": "Qancha ulamolar borki, ularga bir masala tushunarsiz boʻlib qolsa, tahajjud oʻqib, tun ogʻushida Robbisiga munojot qilganda, Alloh ularning zehniga tushunmagan narsalarining fahmini oson qilib qoʻygan."
+        },
+        {
+          "type": "p",
+          "text": "5 — Tunda tahajjud oʻqigan kishilarni Alloh taolo qiyomat kunida Oʻzining karamli yuzini koʻrishlik bilan rohatlantiradi. Hasan Basriy rohimahulloh dedilar: «Agar farazan ibodat qiluvchilar Robblarini koʻrmasliklarini bilganlarida edi, (siqilganlaridan) erib ketgan boʻlardilar»."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Tahajjud namozining odoblari",
+      "summaryUz": "Uyqudan oldin va keyingi amallar, uygʻonish duolari va qiroat odobi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "1 — Uyqudan oldin tahorat olib, tahajjudga turishni niyat qilasiz. Sahobalardan biri shunday degan edilar: «Men tahajjuddan savob umid qilganim kabi uyqumdan ham savob umid qilaman»."
+        },
+        {
+          "type": "p",
+          "text": "2 — Tahajjud uchun kuch yigʻish va rohat olish maqsadida uxlashni niyat qilasiz. Shunda uyqungizga ham ajr olasiz."
+        },
+        {
+          "type": "p",
+          "text": "3 — Uyqudan turganda Allohni zikr qilasiz. Uboda ibn Somit roziyallohu anhudan rivoyat qilinadi: «Nabiy sollallohu alayhi va sallam: «Kim kechasi uygʻonib, «Yolgʻiz Allohdan boshqa iloh yoʻq, Uning sherigi yoʻq, mulk va hamd ham Uning uchundir va U har bir narsaga qodirdir. Hamd Alloh uchundir, Allohga tasbeh aytaman, Allohdan boshqa iloh yoʻq va Alloh ulugʻdir, kuch va quvvat ham faqat Allohdandir»(1), desa, soʻngra «Ey Alloh! Meni magʻfirat qilgin»(2), desa yoki duo qilsa, unga ijobat qilinadi. Agar tahorat qilsa va namoz oʻqisa, namozi qabul qilinadi», – dedilar» (Buxoriy rivoyati)."
+        },
+        {
+          "type": "p",
+          "text": "Duoning arabcha matni:"
+        },
+        {
+          "type": "arabic",
+          "text": "(١) لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، الْحَمْدُ لِلَّهِ، وَسُبْحَانَ اللَّهِ، وَلَا إِلَهَ إِلَّا اللَّهُ، وَاللَّهُ أَكْبَرُ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ"
+        },
+        {
+          "type": "arabic",
+          "text": "(٢) اللَّهُمَّ اغْفِرْ لِي"
+        },
+        {
+          "type": "p",
+          "text": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi: «Rasululloh sollallohu alayhi va sallam dedilar: «Agar birortangiz uyqudan uygʻonsa: «Ruhimni menga qaytargan, tanamni sogʻ-omon qilgan va Oʻzini zikr qilishga menga izn bergan Allohga hamd boʻlsin», desin» (Hokim rivoyat qilgan)."
+        },
+        {
+          "type": "p",
+          "text": "Duoning arabcha matni:"
+        },
+        {
+          "type": "arabic",
+          "text": "الْحَمْدُ لِلَّهِ الَّذِي عَافَانِي فِي جَسَدِي، وَرَدَّ عَلَيَّ رُوحِي، وَأَذِنَ لِي بِذِكْرِهِ"
+        },
+        {
+          "type": "p",
+          "text": "4 — Uyqudan turganda misvok ishlatasiz. Sahih hadisda rivoyat qilinishicha, Rasululloh sollallohu alayhi va sallam kechasi tursalar, tishlarini misvok bilan ishqalar edilar (Muttafaqun alayh)."
+        },
+        {
+          "type": "p",
+          "text": "5 — Qiroatingizni jahriy ham, maxfiy ham qilmasdin, ikkalasining orasida qilasiz. Yuqorida oʻtdiki, Rasululloh sollallohu alayhi va sallam Abu Bakr roziyallohu anhuning tahajjudni past ovozda oʻqiyotganlarini, soʻng Umar roziyallohu anhuning ovozlarini baland qilib namoz oʻqiyotganini eshitib, Abu Bakrga: «Ovozingizni biroz baland qiling», Umarga esa: «Ovozingizni biroz pasaytiring», dedilar."
+        },
+        {
+          "type": "p",
+          "text": "6 — Robb taoloning Oʻz buyukligiga loyiq tarzda dunyo osmoniga tushishini va «Istigʻfor aytuvchi bormi, uni magʻfirat qilaman. Tavba qiluvchi bormi, tavbasini qabul qilaman. Duo qiluvchi bormi, unga soʻragan narsasini beraman...» degan gaplarini yodingizda saqlaysiz. Ayniqsa, tunning oxirgi uchdan birida."
+        },
+        {
+          "type": "p",
+          "text": "7 — Barcha zikr va qiroatlaringizni tafakkur va tadabbur bilan qilasiz. Chunki kishi namozidan oʻzi tushungan miqdoricha ulush oladi."
+        },
+        {
+          "type": "p",
+          "text": "8 — Tahajjud namozini yengil ikki rakat namoz oʻqish bilan boshlaysiz. Nabiy sollallohu alayhi va sallam imom Muslim rivoyat qilgan hadisda: «Biringiz tunda qoim boʻlsa, namozini yengil ikki rakat oʻqish bilan boshlasin», deganlar. Bu shayton bogʻlagan tugunlarni yechish hamda banda qolgan namozlarga tetik va gʻayratli boʻlishi uchundir, ehtimol."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Tahajjud namozini yengillashtiruvchi ishlar",
+      "summaryUz": "Tahajjudga turishni osonlashtiradigan zohiriy va botiniy ishlar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bilingki, ey musulmon birodarim, tahajjud namozi nafslar uchun toatlarning eng mashaqqatlisi, qalblar uchun eng ogʻiri, badanlar uchun esa eng qiyinidir. Alloh muvaffaq qilgan kishilargina bundan mustasno. Shunday ishlar borki, agar banda ularni mahkam ushlab amal qilsa, Alloh bandasiga tahajjudni yengillashtirib beradi, inshaalloh."
+        },
+        {
+          "type": "p",
+          "text": "Bu ishlar ikkiga boʻlinadi: zohiriy va botiniy ishlar."
+        },
+        {
+          "type": "h",
+          "text": "Birinchidan, zohiriy ishlar"
+        },
+        {
+          "type": "p",
+          "text": "1 — Yeyish va ichishni koʻpaytirmaslik. Aks holda insonga uyqu ustun keladi va tahajjudga turish qiyinlashadi. Baʼzilar shunday deyishgan: «Koʻp yema, koʻp ichma, koʻp uxlama, boʻlmasa koʻp narsadan mahrum boʻlasan»."
+        },
+        {
+          "type": "p",
+          "text": "Abdulloh ibn Muhammad ibn Ubayd rohimahulloh Vahib ibn Varddan kelgan sanad bilan rivoyat qiladi: «Bizga yetib kelishicha, Iblis Yahyo ibn Zakariyo alayhimassalomning yoniga keldi va unga: «Senga nasihat qilmoqchiman», dedi. Yahyo alayhissalom dedilar: «Yolgʻon aytding. Sen nasihat qilmaysan. Undan koʻra menga Odam bolalari haqida xabar ber». Iblis dedi: «Ular mening nazdimda uch toifadirlar:"
+        },
+        {
+          "type": "p",
+          "text": "Birinchi toifa biz uchun eng ogʻir toifadir. Fitna va vasvasa qilish uchun unga yaqinlashsak, istigʻfor aytishga va tavba qilishga kirishadi hamda biz unga qilmoqchi boʻlgan hamma ishlarimizni barbod qilishadi. Soʻng yana uning yoniga qaytamiz, u ham qaytadan zikrlarini aytadi. Biz undan umidimizni uzmaymiz, lekin oʻzimiz istagan narsani ham topolmaymiz. Uni vasvasa qilaverib charchab ketganmiz."
+        },
+        {
+          "type": "p",
+          "text": "Ikkinchi toifa esa bizning qoʻllarimizda xuddi yosh bolalaringizning qoʻllaridagi koptok kabidir, uni qanday xohlasak, shunday oʻynaymiz. Biz ularni vasvasa qilishimizga ham hojat qoldirishmagan."
+        },
+        {
+          "type": "p",
+          "text": "Oxirgi toifaga kelsak, ular siz kabi Alloh gunohlardan saqlab qoʻygan kishilardir, biz ularni hech vasvasa qilolmaymiz»."
+        },
+        {
+          "type": "p",
+          "text": "Yahyo alayhissalom undan soʻradilar: «Sen menda biror narsa erishganmisan?»"
+        },
+        {
+          "type": "p",
+          "text": "Iblis: «Yoʻq, faqatgina bir marta. Siz yeyish uchun taom olib kelganingizda men uni sizga shirin koʻrsatishda davom etaverdim, hattoki undan xohlaganingizdan koʻra koʻproq yedingiz va oʻsha kecha tahajjuddan uxlab qoldingiz»."
+        },
+        {
+          "type": "p",
+          "text": "Yahyo alayhissalom unga dedilar: «Aniqki, bundan keyin hech qachon toʻyib ovqatlanmayman»."
+        },
+        {
+          "type": "p",
+          "text": "Iblis esa: «Aniqki, sizdan keyin odamzotga nasihat qilmayman», dedi» (Isroiliyotlardan)."
+        },
+        {
+          "type": "p",
+          "text": "Ibn Abbos roziyallohu anhudan rivoyat qilinadi: «Rasululloh sollallohu alayhi va sallam aytdilar: «Dunyoda toʻyib ovqatlangan kishilar ertaga — oxiratda och boʻladigan kishilardir» (Tabaroniy rivoyat qilgan)."
+        },
+        {
+          "type": "p",
+          "text": "Umar ibn Xattob roziyallohu anhu shunday deganlar: «Qorin qoʻyishdan saqlaninglar. Chunki u tiriklik chogʻida ogʻirlik, oʻlganda esa sassiqlikdir»."
+        },
+        {
+          "type": "p",
+          "text": "Luqmon oʻgʻliga dedi: «Ey oʻgʻlim. Agar qorin toʻysa, fikr uxlaydi va aʼzolar ibodat qilishdan toʻxtab qoladi»."
+        },
+        {
+          "type": "p",
+          "text": "Abu Sulaymon Doroniy dedi: «Kim toʻyib ovqatlansa, oltita baloga giriftor boʻladi:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Robbisiga munojot qilish halovati yoʻqoladi;",
+            "Hikmatni yodlab qolish imkonsiz boʻladi;",
+            "Xaloyiqqa rahm-shavqat qilishdan mahrum boʻladi, chunki oʻzi toʻyib ovqatlangan kishi boshqalarni ham toʻq deb oʻylaydi;",
+            "Ibodat qilish ogʻir boʻladi;",
+            "Shahvatlar koʻpayadi;",
+            "Boshqa musulmonlar masjid atrofida aylanishsa, u hojatxona atrofida aylanib yuradi»."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Muhammad ibn Vosiʼ aytadi: «Kam taom yegan kishi ilmni tushunadi va boshqalarga ham tushuntira oladi, tabiati sof va muloyim boʻladi. Koʻp taom oʻz egasiga koʻp narsalarni ogʻirlashtiradi»."
+        },
+        {
+          "type": "p",
+          "text": "Amr ibn Qays aytadi: «Toʻyib ovqatlanishdan saqlaninglar. Albatta, u qalbni qotiradi»."
+        },
+        {
+          "type": "p",
+          "text": "Hasan Basriy rohimahulloh dedi: «Otangiz Odam alayhissalomning balosi yeyish bilan boʻlgandi. Bu narsa qiyomatgacha sizlarning ham baloyingiz boʻlib qoladi»."
+        },
+        {
+          "type": "p",
+          "text": "Aytiladiki: «Jisming sogʻ, uyqing kam boʻlishini xohlasang ovqat yeyishni kamaytir»."
+        },
+        {
+          "type": "p",
+          "text": "Ibrohim ibn Adham dedi: «Kim qornini boshqara olsa, dinini boshqaribdi. Kim ochlikka egalik qila olsa, goʻzal axloqlarga egalik qilibdi. Albatta, Alloh taologa boʻlgan maʼsiyat qorni och kishidan uzoq, toʻq kishiga esa yaqindir. Toʻqlik qalbni oʻldiradi»."
+        },
+        {
+          "type": "p",
+          "text": "Imom Shofeʼiy aytadi: «Toʻqlik badanni ogʻir qiladi, zakovatni ketkazadi, uyquni chaqiradi va oʻz egasini ibodatga zaif qiladi»."
+        },
+        {
+          "type": "p",
+          "text": "Xulosa shuki, yeyishni kamaytirish va toʻyishdan oldin taomdan turib ketishingiz kerak. Bu esa ovqatga mushtoq boʻlib turgan paytingizda turib ketishingiz bilan boʻladi."
+        },
+        {
+          "type": "p",
+          "text": "2 — Kunduzi tinkani quritib, asabni buzadigan ishlar bilan oʻzini charchatmaslik, chunki bu ham uyquni keltiradi."
+        },
+        {
+          "type": "p",
+          "text": "3 — Kechasi turishga yordam boʻlsin uchun, kunduzi bir oz boʻlsa-da qaylula (kunduzgi bir oz uyqu) qilishni tark qilmaslik. Rasululloh sollallohu alayhi va sallam shunday deganlar: «Qaylula qilinglar, chunki shaytonlar qaylula qilmaydi» («Silsilatus sahiha» (1647))."
+        },
+        {
+          "type": "p",
+          "text": "Imom Ibn Moja rahmatullohi alayh «Sunan»larida zaif sanad bilan rivoyat qilgan hadisda Nabiy sollallohu alayhi va sallam aytganlar: «Sahar taomidan kunduzgi roʻzaga, qaylula uyqusidan tundagi qiyomga quvvat olinglar»."
+        },
+        {
+          "type": "p",
+          "text": "Hasan Basriy rahmatullohi alayh bozordagi kishilarning oldidan oʻtayotib shunday degan: «Manavi kishilarning tunlari yomon oʻtadi deb oʻylayman. Chunki ular qaylula qilmayaptilar»."
+        },
+        {
+          "type": "p",
+          "text": "4 — Gunohlardan tiyilish. Chunki gunohlar qalbni qotirib, qalb bilan rahmat sabablari orasini toʻsadi. Alloh taolo gunoh qiluvchi kishini tahajjud namoziga muvaffaq qilmaydi. Kishi kunduzi yaxshi amallar qilsa, tunda ham solih amallarga muvaffaq qilinadi."
+        },
+        {
+          "type": "p",
+          "text": "Bir kishi Hasan Basriyga: «Ey Abu Said, men kasalmasman, sogʻlomman, kechasi tahajjudga turishni xohlayman, shunga yarasha hozirligimni olib yotaman, lekin tura olmayman. Sababi nimada?» dedi. Hasan Basriy rohimahulloh: «Seni gunohlaring kishanlab qoʻyibdi», deb javob berdi."
+        },
+        {
+          "type": "p",
+          "text": "Abdulloh ibn Masʼud roziyallohu anhudan: «Biz nima sababdan tahajjud namoziga turishga qodir boʻlmayapmiz?» deb soʻrashdi. Shunda ibn Masʼud roziyallohu anhu: «Gunohlaringiz sizlarni tahajjud oʻqishdan uzoqlashtirib qoʻygan», deb javob berdilar."
+        },
+        {
+          "type": "p",
+          "text": "5 — Toʻshakda ortiqcha neʼmatlanishdan uzoq boʻlish. Chunki bu narsa insonni tahajjudga turishdan toʻsuvchi sabablardandir. Hafsa roziyallohu anhodan: «Uyingizda Rasululloh sollallohu alayhi va sallam toʻshaklari qanday edi?» deb soʻraldi. U: «Dagʻal matodan – jundan qilingan edi. Biz uni ikkiga buklab qoʻyardik. U zot oʻsha toʻshakda uxlardilar. Tunlarning birida men: «Agar uni toʻrtga buklasam, Rasululloh uchun yanada yumshoqroq boʻladi», dedim. Shunda haligi toʻshakni toʻrtga bukladik. Tong otganida Rasululloh: «Bu kecha menga qanday toʻshak soldinglar?» deb soʻradilar. Biz: «U oʻzingizning toʻshagingiz. Faqat uni toʻrtga buklab qoʻygandik. Sizga yumshoqroq boʻladi, deb oʻylagandik», deb aytdik. Shunda u zot: «Uni avvalgi holiga qaytaringlar. Chunki uning yumshoqligi meni tungi namozimdan toʻsdi», dedilar» (Termiziy «Shamoil»da rivoyat qilgan)."
+        },
+        {
+          "type": "p",
+          "text": "Oisha roziyallohu anhodan rivoyat qilinadi: «Haqiqatan, Rasululloh sollallohu alayhi va sallam yotadigan toʻshaklari teridan boʻlib, ichiga xurmo daraxti poʻstlogʻi tiqilgan edi» (Muslim rivoyati)."
+        },
+        {
+          "type": "p",
+          "text": "6 — Ortiqcha nazar va behuda gaplardan uzoq boʻlish. Chunki bular qalbni qattiq qilib, Robb taolodan uzoqlashtiradi."
+        },
+        {
+          "type": "p",
+          "text": "7 — Allohni zikr qilishni koʻpaytirish. Allohni eslash qalb uchun tiriklikdir. Tirik qalb egasi esa, Alloh xohlasa, tahajjud namoziga muvaffaq boʻladi. Nabiy sollallohu alayhi va sallam Robbisini zikr qilgan bandani tirikka, Allohning zikridan gʻofil boʻlgan bandani esa oʻlikka oʻxshatganlar. Abu Muso Ashʼariy roziyallohu anhudan rivoyat qilinadi: «Paygʻambar sollallohu alayhi vasallam shunday dedilar: «Robbisini zikr qiladigan kishi bilan zikr qilmaydigan kishining misoli, goʻyo tirik bilan oʻlikning misoli kabidir» (Buxoriy rivoyati)."
+        },
+        {
+          "type": "p",
+          "text": "8 — Haloldan yeyish va haromdan uzoq boʻlish. Banda halol rizq talabida boʻlarkan, Alloh taolo uni toatlarga yoʻllab qoʻyadi. Sahl ibn Abdulloh Tustariy rohimahulloh aytadilar: «Kim haloldan taomlanadigan boʻlsa, xohlasa ham, xohlamasa ham Allohga itoat qiladi»."
+        },
+        {
+          "type": "p",
+          "text": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi: «Rasululloh sollallohu alayhi va sallam aytadilar: «Alloh taolo pokdir, faqat pok narsalarni qabul qiladi. Darhaqiqat, Alloh paygʻambarlarga buyurgan ishni moʻminlarga ham buyurdi. Alloh taolo aytadi: «Ey paygʻambarlar, pok va halol narsalardan yenglar va solih amal qilinglar» (Moʻminun, 51). Yana aytadi: «Ey iymon keltirganlar, Biz sizlarga rizq qilib bergan narsalarning pok va halolidan yeb-ichingiz» (Baqara, 172)». Soʻng Rasululloh sollallohu alayhi va sallam bir kishini misol oʻlaroq zikr qildilar: «U soch-soqoli toʻzgʻigan va chang-toʻzonga botgan holida uzoq safar qiladi. Qoʻllarini samoga choʻzib: «Yo Rab, yo Rab!» deya duo qiladi. Holbuki, yeb-ichgani harom, kiygani harom, harom bilan oziqlangan boʻladi. Shunday ekan, qayoqdan duosi mustajob boʻlsin!» (Muslim rivoyati)."
+        },
+        {
+          "type": "p",
+          "text": "Abu Said Xudriy roziyallohu anhudan rivoyat qilinadi: «Rasululloh sollallohu alayhi va sallam aytadilar: «Kim pok narsalardan yesa, sunnatga muvofiq amal qilsa, odamlar uning yomonliklaridan omonda boʻlsa, jannatga kiradi» (Termiziy rivoyati (4/87))."
+        },
+        {
+          "type": "h",
+          "text": "Ikkinchidan, botiniy ishlar"
+        },
+        {
+          "type": "p",
+          "text": "1 — Qalbning musulmonlarga nisbatan nafratdan, bidʼatlardan, ortiqcha dunyo gʻamlaridan salomat boʻlishi. Shunda qalb Allohdan boshqasini kechib, faqat mavlosi boʻlgan Zotning ibodati bilan mashgʻul boʻladi."
+        },
+        {
+          "type": "p",
+          "text": "2 — Qalbda doimiy qoʻrquv boʻlishi. Banda oxirat kunining dahshatlarini va jahannam tubining darajalarini tafakkur qilsa, uyqusi oʻchadi, ehtiyotkorligi oshadi va qoʻrquvi kuchayadi."
+        },
+        {
+          "type": "p",
+          "text": "Bir shoir shunday degandi:"
+        },
+        {
+          "type": "quote",
+          "text": "Qurʼon vaʼda qilib neʼmat va azob\nKoʻzlarni tunlari ayladi bedor.\n\nUlugʻ Zot kalomin fahmga solib\nBoʻyinlar sajdaga tushdi xokisor."
+        },
+        {
+          "type": "p",
+          "text": "Yana aytiladi:"
+        },
+        {
+          "type": "quote",
+          "text": "Tun ichra moʻminlar mashaqqat chekib\nOttirdilar tongni tahajjud oʻqib.\n\nOmonlik ahli gʻaflatda uxlar payt\nUyqular oʻchdi oxiratdan qoʻrqib."
+        },
+        {
+          "type": "p",
+          "text": "3 — Tahajjud namozining fazilatini Qurʼon oyatlari, hadislar va shu haqda kelgan rivoyatlardan oʻqib oʻrganish. Chunki qiyomul laylning fazlini bilish kishini amalga undaydi hamda uning mashaqqatini ketkazadi. Chunki jannatga intilish insonni amal qilishga va bu amalda tirishib harakat qilishga undaydi."
+        },
+        {
+          "type": "p",
+          "text": "4 — Allohning huzurida turish va Unga iltijo qilish halovatini eslash. Chunki tahajjud namozida qalb lazzati, nafs halovati bordir. Bu halovat va lazzatni Alloh taoloni chin dildan yaxshi koʻrgan va Rasuliga chinakam ergashgan kishigina his qila oladi. Alloh taolo aytadi:"
+        },
+        {
+          "type": "arabic",
+          "text": "﴿قُلْ إِن كُنتُمْ تُحِبُّونَ ٱللَّهَ فَٱتَّبِعُونِى يُحْبِبْكُمُ ٱللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ …﴾"
+        },
+        {
+          "type": "p",
+          "text": "«Ayting (ey Muhammad): „Agar Allohni yaxshi koʻrsangiz, menga ergashinglar. Shunda Alloh sizlarni yaxshi koʻradi va gunohlaringizni magʻfirat qiladi...“» (Oli Imron, 31)"
+        },
+        {
+          "type": "p",
+          "text": "5 — Orzu-havaslarni kamaytirish. Bu narsa insonni amal qilishga undaydi. Orzu-havaslarni koʻpaytirishdan saqlaning, chunki u dangasalikka va malollanishga olib boradi va jannatda goʻzal liboslar kiyishdan va soyalarda oʻtirishdan mahrum qiladi. Ibn Umar roziyallohu anhudan rivoyat qilinadi: «Rasululloh sollallohu alayhi va sallam yelkamdan ushlab: «Dunyoda goʻyo gʻarib (begona) yoki yoʻlovchi kabi boʻl», dedilar». Ibn Umar roziyallohu anhu aytardilar: «Kun botsa, tongni kutma. Tong kirsa, kech boʻlishini kutma. Kasallikdan oldin sogʻligingni, oʻlimingdan oldin hayotingni gʻanimat bil» (Buxoriy rivoyati)."
+        },
+        {
+          "type": "p",
+          "text": "6 — Qabrda yolgʻiz yotishni va uning zulmatini eslash. Chunki bu narsa tun zulmatlarida tahajjud oʻqishni osonlashtiradi."
+        },
+        {
+          "type": "p",
+          "text": "Imom Buxoriy rohimahulloh aytadilar:"
+        },
+        {
+          "type": "quote",
+          "text": "Imkoning borida tahajjud fazlin\nGʻanimat bil, oʻlim kelar har mahal.\n\nQancha sogʻlom insonlarning toʻsatdan\nJonlari uzilmish boʻlmasdan kasal."
+        }
+      ]
+    }
+  ]
+}

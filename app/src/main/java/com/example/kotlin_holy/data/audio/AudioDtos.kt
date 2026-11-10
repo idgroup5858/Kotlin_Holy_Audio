@@ -2,6 +2,7 @@ package com.example.kotlin_holy.data.audio
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+import kotlin.math.roundToLong
 
 /*
  * Sura audiosi haqidagi javob tuzilishi.
@@ -9,6 +10,11 @@ import kotlinx.serialization.Serializable
  * segments — har biri [so'z_raqami, boshlanish_ms, tugash_ms] ko'rinishida.
  * Ammo ba'zi yozuvlarda tugash vaqti tushib qolgan va massiv ikki elementli
  * bo'ladi; bunda tugash vaqti keyingi so'zning boshlanishidan tiklanadi.
+ *
+ * MUHIM: vaqtlar ko'p qorilarda butun son emas, "2300.0" yoki
+ * "16219.999999999998" ko'rinishida keladi (Kahf, Baqara va boshqalar).
+ * Long sifatida o'qilsa JSON xatosi chiqib, sura umuman yuklanmay qolardi —
+ * shuning uchun barcha vaqtlar Double qabul qilinadi va keyin yaxlitlanadi.
  */
 
 @Serializable
@@ -19,7 +25,7 @@ data class ChapterAudioResponseDto(
 @Serializable
 data class ChapterAudioFileDto(
     @SerialName("chapter_id") val chapterId: Int = 0,
-    /* Ba'zi qorilarda 0 kelib qoladi — shuning uchun haqiqiy hajm
+    /* Ba'zi qorilarda 0 yoki null kelib qoladi — shuning uchun haqiqiy hajm
        yuklashdan oldin Content-Length sarlavhasidan olinadi */
     @SerialName("file_size") val fileSize: Double = 0.0,
     @SerialName("audio_url") val audioUrl: String = "",
@@ -29,10 +35,13 @@ data class ChapterAudioFileDto(
 @Serializable
 data class AyahTimestampDto(
     @SerialName("verse_key") val verseKey: String = "",
-    @SerialName("timestamp_from") val from: Long = 0,
-    @SerialName("timestamp_to") val to: Long = 0,
-    val segments: List<List<Long>> = emptyList(),
+    @SerialName("timestamp_from") val from: Double = 0.0,
+    @SerialName("timestamp_to") val to: Double = 0.0,
+    val segments: List<List<Double>> = emptyList(),
 )
+
+/** API vaqtini millisekundga: 16219.999999999998 → 16220 */
+internal fun Double.toMillis(): Long = roundToLong()
 
 /** Yuklab olingan jadval qurilmada shu ko'rinishda saqlanadi */
 @Serializable

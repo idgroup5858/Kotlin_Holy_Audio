@@ -95,7 +95,8 @@ class AudioRepositoryImpl @Inject constructor(
         store.audioFile(reciterId, surahNumber).takeIf { store.isReady(reciterId, surahNumber) }
 
     override suspend fun expectedSize(surahNumber: Int): Long? {
-        val info = remote.chapterAudio(reciterId, surahNumber) ?: return null
+        val info = runCatching { remote.chapterAudio(reciterId, surahNumber) }.getOrNull()
+            ?: return null
         return remote.sizeOf(info.audioUrl) ?: info.fileSize.toLong().takeIf { it > 0 }
     }
 
@@ -107,8 +108,8 @@ class AudioRepositoryImpl @Inject constructor(
             try {
                 setState(surahNumber, AudioDownload.InProgress(0, null))
 
+                /* Ikkala API manzili ham ishlamasa, sababi bilan xato chiqadi */
                 val info = remote.chapterAudio(id, surahNumber)
-                    ?: error("Qiroat ma'lumoti olinmadi")
 
                 /* Vaqt jadvalidagi so'zlar mushafdagi so'zlarga mos kelishini
                    shu yerda tekshiramiz — ijro paytida tekshirilmaydi */
@@ -209,24 +210,29 @@ class AudioRepositoryImpl @Inject constructor(
             val ayahNumber = stamp.verseKey.substringAfter(':').toIntOrNull()
                 ?: return@mapNotNull null
 
-            val valid = stamp.segments.filter { it.size >= 2 }
+            /* Vaqtlar API'da kasr son bo'lib kelishi mumkin — shu yerda butun ms ga o'tadi */
+            val valid = stamp.segments
+                .filter { it.size >= 2 }
+                .map { segment -> segment.map { it.toMillis() } }
+            val ayahEnd = stamp.to.toMillis()
             val words = ArrayList<Long>(valid.size * 3)
             valid.forEachIndexed { index, segment ->
                 val start = segment[1]
                 val end = segment.getOrNull(2)
                     ?: valid.getOrNull(index + 1)?.get(1)
-                    ?: stamp.to
+                    ?: ayahEnd
                 words += segment[0]
                 words += start
-                words += end
+                /* Ba'zi yozuvlarda tugash boshlanishdan oldin turadi — so'z yonmay qolmasin */
+                words += maxOf(end, start + 1)
             }
 
             val reliable = wordsMatchMushaf(valid.map { it[0] }, glyphCounts[ayahNumber])
 
             StoredAyahDto(
                 ayah = ayahNumber,
-                from = stamp.from,
-                to = stamp.to,
+                from = stamp.from.toMillis(),
+                to = ayahEnd,
                 reliable = reliable,
                 words = words,
             )

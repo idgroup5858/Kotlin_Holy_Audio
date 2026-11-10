@@ -103,10 +103,20 @@ fun MushafPageView(
     onPlayFrom: (surah: Int, ayah: Int) -> Unit = { _, _ -> },
     onPause: () -> Unit = {},
     onStop: () -> Unit = {},
+    /**
+     * Berilsa (["2:255"]), betdan faqat shu oyatlar turgan satrlar chiqadi: qo'shni oyat
+     * so'zlari yashiriladi, lekin joyi saqlanadi — oyat kitobdagi o'rnida turadi.
+     */
+    onlyVerses: Set<String>? = null,
 ) {
     val (family, typeface) = rememberMushafFont(page.pageNumber)
     val centered = page.pageNumber in CENTERED_PAGES
-    val rows = remember(page) { buildMushafRows(page, centered) }
+    val rows = remember(page, onlyVerses) {
+        val all = buildMushafRows(page, centered)
+        if (onlyVerses == null) all else all.filter { row ->
+            row is MushafRow.Line && row.line.words.any { it.verseKey in onlyVerses }
+        }
+    }
     val density = LocalDensity.current
 
     BoxWithConstraints(modifier.fillMaxWidth()) {
@@ -148,6 +158,7 @@ fun MushafPageView(
                             onPlayFrom = onPlayFrom,
                             onPause = onPause,
                             onStop = onStop,
+                            onlyVerses = onlyVerses,
                         )
                     }
                 }
@@ -193,6 +204,7 @@ private fun MushafTextLine(
     onPlayFrom: (surah: Int, ayah: Int) -> Unit,
     onPause: () -> Unit,
     onStop: () -> Unit,
+    onlyVerses: Set<String>?,
 ) {
     val colors = HolyTheme.colors
     val layout = remember(line) { mutableStateOf<TextLayoutResult?>(null) }
@@ -213,15 +225,17 @@ private fun MushafTextLine(
      * shu satrgina qayta chiziladi, butun bet emas — shuning uchun qiroat
      * davomida ham ilova silliq ishlaydi.
      */
-    val text: AnnotatedString = remember(line, highlightedVerse, playingVerse, playingWord, colors) {
+    val text: AnnotatedString = remember(line, highlightedVerse, playingVerse, playingWord, colors, onlyVerses) {
         buildAnnotatedString {
             line.words.forEach { word ->
+                val hidden = onlyVerses != null && word.verseKey !in onlyVerses
                 val onPlayingVerse = playingVerse != null && word.verseKey == playingVerse
                 val isPlayingWord = onPlayingVerse && !word.isEnd &&
                     playingWord != null && word.wordNumber == playingWord
                 val selected = highlightedVerse != null && word.verseKey == highlightedVerse
 
                 val background = when {
+                    hidden -> Color.Transparent
                     isPlayingWord -> colors.accent.copy(alpha = 0.30f)
                     onPlayingVerse -> colors.accent.copy(alpha = 0.10f)
                     selected -> colors.surface2
@@ -230,7 +244,11 @@ private fun MushafTextLine(
 
                 withStyle(
                     SpanStyle(
-                        color = if (word.isEnd) colors.accent else colors.ink,
+                        color = when {
+                            hidden -> Color.Transparent
+                            word.isEnd -> colors.accent
+                            else -> colors.ink
+                        },
                         background = background,
                     ),
                 ) {
@@ -264,6 +282,7 @@ private fun MushafTextLine(
                         val hit = spans.firstOrNull { offset in it.range }
                             ?: return@detectTapGestures
                         val word = hit.word
+                        if (onlyVerses != null && word.verseKey !in onlyVerses) return@detectTapGestures
 
                         onVerseClick(word.verseKey)
                         if (word.isEnd) {

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "hikam",
+    "nameUz": "Al-Hikam",
+    "nameArabic": "الحكم العطائية",
+    "subtitleUz": "Tasavvuf hikmatlari",
+    "authorUz": "Ibn Atoillah al-Iskandariy",
+    "descriptionUz": "Shoziliya tariqatining yirik namoyandasi Ibn Atoillah al-Iskandariy (vaf. 1309, Qohira) qalamiga mansub qisqa hikmatlar toʻplami. Islom olamida asrlar davomida oʻqilib, sharhlanib kelgan; oʻzbekcha tarjima qisqa sharhlar bilan.",
+    "noteUz": "Oʻzbekcha tarjima inglizcha tarjima asosida qilingan va arabcha asl matn bilan solishtirilmagan. Chuqur mavzularni malakali ustoz yordamida va klassik sharhlar bilan oʻqish tavsiya etiladi.",
+    "itemName": "hikmat",
+    "itemsTitleUz": "Hikmatlar",
+    "totalItems": 264
+  },
+  {
+    "id": "tanwir",
+    "nameUz": "At-Tanvir fi isqot at-tadbir",
+    "nameArabic": "التنوير في إسقاط التدبير",
+    "subtitleUz": "Oʻz reja va tadbiriga suyanishni tark etish haqida nurli hidoyat",
+    "authorUz": "Ibn Atoillah al-Iskandariy",
+    "descriptionUz": "Tadbirni — oʻz reja va boshqaruviga suyanishni — tark etib, Allohga taslim boʻlish, tavakkul, rizq va bandalik haqidagi tasavvufiy asar. Sabablarni tutib, natijani Allohga topshirishga chaqiradi. Muallif muqaddimasi, 21 bob va yakuniy duodan iborat toʻliq tarjima.",
+    "noteUz": "Oʻzbekcha matn Dr. Ibrahim Hakimning inglizcha tarjimasidan sunʼiy intellekt yordamida toʻliq tarjima qilingan; mutaxassis tahriridan oʻtmagan va arabcha asl matn bilan solishtirilmagan. Oyatlar ilovadagi oʻzbekcha maʼnolar tarjimasidan keltirilgan. Chuqur mavzularni malakali ustoz yordamida oʻqish tavsiya etiladi.",
+    "itemName": "bob",
+    "itemsTitleUz": "Boblar",
+    "totalItems": 21
+  },
+  {
+    "id": "tahajjud",
+    "nameUz": "Tahajjud va uni osonlashtiruvchi sabablar",
+    "nameArabic": "الأمور الميسرة لقيام الليل",
+    "subtitleUz": "Tungi namoz haqida risola",
+    "authorUz": "Vahid ibn Abdussalom Baliy",
+    "descriptionUz": "Shayx Vahid ibn Abdussalom Baliyning «Al-umurul muyassiro li-qiyamil-layl» risolasi. Tahajjudning fazilatlari, shaytonning undan toʻsish hiylalari va ularni yengish yoʻllari, salaf solihlarning tungi namozlaridan misollar, tahajjud odoblari hamda uni yengillashtiruvchi zohiriy va botiniy ishlar bayon qilingan.",
+    "noteUz": "Oʻzbekcha tarjima: Yahyo Abdulloh (2024). Matn kitobning kirill yozuvidagi nashridan lotin yozuviga oʻgirilgan. Oyatlarning arabcha matni ilovadagi Qurʼon matnidan olingan.",
+    "itemName": "bob",
+    "itemsTitleUz": "Boblar",
+    "totalItems": 10
+  }
+]

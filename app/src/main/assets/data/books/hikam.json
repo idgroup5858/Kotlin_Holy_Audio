@@ -1,0 +1,1431 @@
+{
+  "pages": [
+    {
+      "slug": "muqaddima",
+      "title": "Muqaddima",
+      "summaryUz": "Muallif va tarjima haqida",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Toj ad-Din Ahmad ibn Muhammad Ibn Atoillah al-Iskandariy (vaf. 709/1309 y., Qohira) — Shoziliya tariqatining yirik namoyandasi, Abul Abbos al-Mursiyning muridi. “al-Ḥikam al-ʻAṭoʻiyya” uning eng mashhur asari boʻlib, qisqa hikmatlar toʻplamidir. U Islom olamida asrlar davomida oʻqilgan va sharhlangan."
+        },
+        {
+          "type": "h",
+          "text": "Tarjima haqida izoh"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tarjima inglizcha matn asosida qilindi. Arabcha asl matn bilan solishtirib koʻrish tavsiya etiladi.",
+            "Qurʼon oyatlarining maʼnosi matndagi koʻrinishiga koʻra berilgan va sura-oyat raqami qavs ichida koʻrsatilgan. Ularni ishonchli oʻzbekcha Qurʼon tarjimasi bilan tekshirib oling.",
+            "Kichik shriftdagi sharhlar qisqa tushuntirishdir. Chuqur mavzular (ayniqsa 16, 139, 141, 167–168, 250-hikmatlar) uchun malakali ustoz yordamida hamda klassik sharhlar (Ibn Abbod ar-Rundiy, Ahmad Zarruq) bilan oʻqish yaxshiroq.",
+            "Manba PDF dagi baʼzi belgilar buzilgan joylarida matn maʼnosiga qarab tiklandi."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "atamalar",
+      "title": "Atamalar lugʻati",
+      "summaryUz": "Tasavvuf atamalari — 53 ta",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kitobda tasavvuf atamalari koʻp uchraydi. Quyida ular guruhlarga boʻlib tushuntirilgan. Hikmatlarni oʻqishdan oldin shu sahifani bir koʻrib chiqish tavsiya etiladi."
+        },
+        {
+          "type": "h",
+          "text": "Inson va uning yoʻldagi oʻrni"
+        },
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Murid",
+              "text": "Yoʻlni endi boshlagan shogird; Allohni istovchi. “Iroda” — istash soʻzidan."
+            },
+            {
+              "term": "Solik",
+              "text": "Yoʻlda yuruvchi. Riyozat va ibodat bilan bosqichma-bosqich yuqoriga koʻtariladi."
+            },
+            {
+              "term": "Vosil",
+              "text": "Yetgan kishi. Bu masofa bosib oʻtish emas — Allohning yaqinligini anglab yetish."
+            },
+            {
+              "term": "Orif",
+              "text": "Allohni maʼrifat, yaʼni qalb bilan bilish orqali tanigan kishi. Faqat kitobiy bilim emas, koʻngil bilan tanish."
+            },
+            {
+              "term": "Zohid / obid",
+              "text": "Dunyodan yuz oʻgirgan / koʻp ibodat qiluvchi kishi. Kitobda orifdan quyiroq daraja sifatida tilga olinadi."
+            },
+            {
+              "term": "Majzub",
+              "text": "Jazba bilan tortilgan kishi: Alloh uni mashaqqatsiz, toʻsatdan oʻziga tortadi (250-hikmatga qarang)."
+            },
+            {
+              "term": "Murshid",
+              "text": "Yoʻl koʻrsatuvchi ustoz."
+            }
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Ikki hayot tarzi: sabab va tajrid"
+        },
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Sabab",
+              "text": "Kasb-kor, savdo, dehqonchilik — rizqni halol sabablar bilan topish. Bu Islomda asosiy va maqtalgan yoʻl."
+            },
+            {
+              "term": "Tajrid",
+              "text": "“Ajratmoq, yalangʻochlamoq” demakdir. Bu yerda: kishining qalbi va turmushi sabablardan ajralib, butunlay ibodat va Allohga yuzlanishga bagʻishlanishi. Bunday holni banda oʻzi tanlamaydi — Alloh uni shu holga qoʻyadi. 2-hikmatning maʼnosi ana shu: sabab ahlining tajridni orzu qilishi ham, tajrid ahlining sababga qaytishni istashi ham nuqsondir. Muhimi — Alloh qoʻygan holda rozi va ixlosli turish."
+            },
+            {
+              "term": "Uzlat",
+              "text": "“Chetlanish”. Odamlardan va olomondan uzoqlashib, yolgʻiz qolish. Bu dunyodan butunlay qochish yoki oilani tashlash emas: koʻproq qalbni boʻshatish uchun vaqtni ajratish, boʻsh gap va keraksiz aralashuvni kamaytirishdir."
+            },
+            {
+              "term": "Xilvat",
+              "text": "Uzlatning amaliy koʻrinishi: muayyan muddat yolgʻiz joyda zikr va tafakkur bilan mashgʻul boʻlish (12-hikmat)."
+            },
+            {
+              "term": "Tavakkul",
+              "text": "Ishni bajarib, natijani Allohga topshirish. Sababni tark etish emas, sababga bogʻlanib qolmaslik."
+            }
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Qalb holatlari"
+        },
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Nafs",
+              "text": "Insondagi istaklar va manmanlik manbai. “Nafsi ammora” — yomonlikka buyuruvchi nafs."
+            },
+            {
+              "term": "Havo",
+              "text": "Havoyi nafs; asossiz istak va mayl."
+            },
+            {
+              "term": "Ubudiyat",
+              "text": "Bandalik: ojizlik, muhtojlik va Allohga toʻliq qaramlikni anglab yashash. Tasavvufning asosiy maqsadi shu."
+            },
+            {
+              "term": "Rububiyat",
+              "text": "Rabbilik: Allohning yaratish, tarbiya qilish va boshqarish sifatlari. Banda bu sifatlarga daʼvo qilmaydi."
+            },
+            {
+              "term": "Faqr",
+              "text": "Muhtojlik. Kambagʻallik emas, balki bandaning Allohga zotan muhtoj ekanini bilishi (99, 176–178-hikmatlar)."
+            },
+            {
+              "term": "Qabz va bast",
+              "text": "Qalbning siqilishi va kengayishi — ikki ruhiy holat. Ikkalasi ham Allohdan; ikkalasida ham odob saqlanadi (80–82-hikmatlar)."
+            },
+            {
+              "term": "Ujb",
+              "text": "Oʻz amalidan mamnun boʻlish, oʻzini ulugʻ sanash. Kibrning yashirin ildizi (96-hikmat)."
+            },
+            {
+              "term": "Riyo",
+              "text": "Odamlar koʻrsin deb amal qilish; ixlosning teskarisi."
+            },
+            {
+              "term": "Ixlos",
+              "text": "Amalni faqat Alloh uchun qilish. Amalga jon beruvchi ruh (10-hikmat)."
+            },
+            {
+              "term": "Istiqomat",
+              "text": "Toʻgʻri yoʻlda ogʻishmay, muntazam turish. Kitobda karomatdan ustun qoʻyiladi."
+            },
+            {
+              "term": "Taqvo",
+              "text": "Allohdan qoʻrqib, buyruqlarini bajarib, man qilganlaridan saqlanish."
+            },
+            {
+              "term": "Himmat",
+              "text": "Qalbning yuksak intilishi, oliy maqsadga azm qilishi."
+            },
+            {
+              "term": "Xizlon",
+              "text": "Allohning bandani oʻz holiga tashlab qoʻyishi — inoyatning teskarisi (261-hikmat)."
+            },
+            {
+              "term": "Istidroj",
+              "text": "Gunohda davom etgan bandaga neʼmat berilib, sezdirmay halokatga yaqinlashtirilishi (65-hikmat)."
+            }
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Bilish va koʻrish"
+        },
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Maʼrifat",
+              "text": "Allohni qalb bilan tanish. Ilmdan yuqori daraja: ilm bilish, maʼrifat esa his qilib bilish."
+            },
+            {
+              "term": "Basirat",
+              "text": "Ichki koʻz; nur bilan koʻruvchi qalb idroki (koʻz — basar, ichki koʻz — basirat)."
+            },
+            {
+              "term": "Mushohada",
+              "text": "Qalb koʻzi bilan Allohning borligʻini his etib turish."
+            },
+            {
+              "term": "Muroqaba",
+              "text": "Alloh meni koʻrib turibdi deb doimiy hushyorlikda boʻlish."
+            },
+            {
+              "term": "Kashf",
+              "text": "Qalbga gʻayb haqiqatlarining ochilishi. Maqsad emas, yoʻldagi hodisa."
+            },
+            {
+              "term": "Karomat",
+              "text": "Valiydan sodir boʻladigan gʻayritabiiy hodisa. Kitobda: karomat valiylik dalili emas, istiqomat asosdir (127, 179-hikmatlar)."
+            },
+            {
+              "term": "Vahm",
+              "text": "Asossiz xayol, gumon. Kishini eng koʻp adashtiradigan narsa (61, 137-hikmatlar)."
+            },
+            {
+              "term": "Fikr (tafakkur)",
+              "text": "Maxluqot ustida oʻylab, ular orqali Xoliqqa yoʻl topish (262–264-hikmatlar)."
+            },
+            {
+              "term": "Fano",
+              "text": "Oʻzlikning Alloh borligʻi oldida yoʻq boʻlib koʻrinishi. Bu insonning yoʻq boʻlishi emas — “men bor” daʼvosining soʻnishi."
+            },
+            {
+              "term": "Jazba",
+              "text": "Ilohiy tortilish: Allohning bandani mashaqqatsiz oʻziga tortishi."
+            }
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Ibodat va amal"
+        },
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Zikr",
+              "text": "Allohni tilda va qalbda eslash. Kitobda uning bir necha darajasi keltirilgan (47-hikmat)."
+            },
+            {
+              "term": "Vird",
+              "text": "Har kuni muntazam oʻqiladigan zikr, duo va ibodat tartibi."
+            },
+            {
+              "term": "Vorid",
+              "text": "Qalbga toʻsatdan tushadigan ilohiy ilhom, nur yoki ruhiy holat. Kitobda “ilhom” deb tarjima qilindi."
+            },
+            {
+              "term": "Munojot",
+              "text": "Alloh bilan maxfiy suhbat; namozning botiniy mohiyati (120-hikmat)."
+            },
+            {
+              "term": "Vojib (farz)",
+              "text": "Bajarilishi shart boʻlgan amal."
+            },
+            {
+              "term": "Mandub (nafl)",
+              "text": "Bajarilishi savobli, lekin shart boʻlmagan amal (193-hikmat)."
+            },
+            {
+              "term": "Riyozat",
+              "text": "Nafsni ibodat va tiyilish bilan tarbiyalash."
+            },
+            {
+              "term": "Sitr",
+              "text": "Allohning banda aybini yopishi (131, 133-hikmatlar)."
+            },
+            {
+              "term": "Hilm",
+              "text": "Allohning shoshilmasligi, kechirimliligi va bardoshi."
+            }
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Alloh va olam"
+        },
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Haq",
+              "text": "Alloh taoloning ismlaridan biri: haqiqiy Bor-u mavjud Zot."
+            },
+            {
+              "term": "Tajalli",
+              "text": "Allohning oʻz nuri, ismi yoki sifati bilan zohir boʻlishi, namoyon boʻlishi."
+            },
+            {
+              "term": "Zohir va Botin",
+              "text": "Allohning ikki ismi: hamma narsada namoyon boʻlgan va ayni paytda idrokdan yashirin (139-hikmat)."
+            },
+            {
+              "term": "Gʻayr (koʻplikda aghyor)",
+              "text": "Allohdan boshqa narsalar; bandaning diqqatini Undan chalgʻituvchi barcha ichki va tashqi hodisalar."
+            },
+            {
+              "term": "Qazo va qadar",
+              "text": "Allohning azaliy hukmi va belgilagan taqdiri."
+            },
+            {
+              "term": "Sirr",
+              "text": "Qalbning eng ichki nuqtasi; ilohiy nur joylashadigan botiniy markaz."
+            },
+            {
+              "term": "Maqom va hol",
+              "text": "Maqom — mehnat bilan qoʻlga kiritiladigan barqaror daraja; hol — Allohdan keladigan, kelib-ketadigan vaqtinchalik holat."
+            },
+            {
+              "term": "Shoziliya",
+              "text": "Abul Hasan ash-Shoziliy asos solgan tariqat. Ibn Atoillah uning uchinchi yirik shayxi. Bu yoʻlning oʻziga xosligi: dunyodan butunlay qochmay, oddiy hayot ichida shukr va rozilik bilan yashash."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "number": 1,
+      "text": "Amallarga suyanishning alomatlaridan biri — xato-kamchilik (gunoh) sodir boʻlganda umidning uzilishidir.",
+      "commentary": "Kitobning ilk hikmati butun asarning kalitidir: najot amalga emas, Allohning fazliga tayanadi. Amal qilish shart, ammo unga suyanish emas. Shuning uchun xato (gunoh) qilgan kishi ham umidsizlikka tushmaydi."
+    },
+    {
+      "number": 2,
+      "text": "Alloh seni dunyoda kasb-kor bilan mashgʻul qilib qoʻygan boʻlsa-yu, sening uzlat va tajridga (dunyodan chetlanishga) intilishing — nafsning yashirin shahvatidir. Alloh seni uzlatda tutib turgan boʻlsa-yu, sening kasb va sabablarga qaytishni istashing — oliy himmatdan tushib ketishdir.",
+      "commentary": "Bu yerda ikki hayot tarzi solishtirilmoqda. Sabab — halol kasb-kor bilan rizq topish; tajrid — qalb va turmushning sabablardan ajralib, butunlay ibodatga bagʻishlanishi. Uzlat esa odamlardan chetlanib, yolgʻizlikda Allohga yuzlanish. Ikkalasini ham banda oʻzi tanlamaydi, Alloh qoʻyadi. Shuning uchun kasb ahlining uzlatni orzu qilishi — yashirin nafs istagi; uzlat ahlining kasbga qaytishni istashi esa himmatdan tushishdir. Muhimi holning nomi emas, unda rozi va ixlosli turishdir."
+    },
+    {
+      "number": 3,
+      "text": "Oldindan qilingan niyat va azmlar (savobiq al-himam) qazo va qadar hukmlarining devorlarini teshib oʻta olmaydi."
+    },
+    {
+      "number": 4,
+      "text": "Oʻzing tadbir qilishdan (rejalashtirish tashvishidan) dam ol. Sening nomingdan Boshqasi qilib qoʻygan ishni sen oʻzing qilishga urinma.",
+      "commentary": "Buni “tadbirni tark etish” (isqot at-tadbir) deyiladi va Shoziliya yoʻlining asoslaridan biridir. Bu qoʻl qovushtirib oʻtirish emas: vazifangni ado et, natijani Allohga topshir."
+    },
+    {
+      "number": 5,
+      "text": "Senga kafolatlangan narsa (rizq) uchun jon kuydirishing va sendan talab qilingan narsa (ibodat)da sustkashlik qilishing — aqlingga parda tushganining alomatidir."
+    },
+    {
+      "number": 6,
+      "text": "Duoda qattiq iltijo qilsang-u, ato kechiksa, bu seni noumid qilmasin. Chunki U senga javobni Oʻzi sen uchun tanlagan narsada kafolatlagan, oʻzing tanlagan narsada emas; va U xohlagan vaqtda, sen xohlagan vaqtda emas.",
+      "commentary": "Ijobat bor, lekin uning shakli va vaqtini Alloh hikmat bilan belgilaydi. Kechikish koʻpincha rad emas, balki yaxshiroq narsa tayyorlanayotganining belgisidir."
+    },
+    {
+      "number": 7,
+      "text": "Vaʼda qilingan narsa, garchi uning vaqti belgilangan boʻlsa ham, sodir boʻlmasa, bu Uning vaʼdasiga shubha uygʻotmasin. Aks holda basirating (ichki koʻzing) xiralashadi va sirring nuri oʻchadi."
+    },
+    {
+      "number": 8,
+      "text": "Agar U senga eshik ochib, oʻzini tanitsa, amallaring bunga yetmayotganiga eʼtibor berma. Chunki U bu eshikni senga faqat oʻzini tanitish uchun ochgan. Bilmaysanmi, Unga oʻzini bilishni senga taqdim etgan Oʻzi, sen esa Unga amallarni taqdim etding? Uning senga keltirgani bilan sening Unga keltirganing orasida qanday farq bor!",
+      "commentary": "Maʼrifat eshigi banda amalining evaziga emas, Allohning fazlidan ochiladi. “Amalim yetmayapti” deb ochilgan eshikdan qochma: shukr qil va odobingni toʻgʻrila."
+    },
+    {
+      "number": 9,
+      "text": "Amallar turlicha boʻladi, chunki ahvollarga tushadigan ilhomlar turlichadir."
+    },
+    {
+      "number": 10,
+      "text": "Amallar — jonsiz shakllardir; ularga jon bagʻishlaydigan ruh esa ularning ichidagi ixlos sirining bor boʻlishidir."
+    },
+    {
+      "number": 11,
+      "text": "Vujudingni (oʻzlikni) maxfiylik tuprogʻiga koʻm. Koʻmilmasdan turib unib chiqqan narsa toʻliq meva bermaydi.",
+      "commentary": "Shuhrat va koʻrinish istagi ixlosni buzadi. Urugʻ yer ostida yashiringandagina toʻliq koʻkaradi."
+    },
+    {
+      "number": 12,
+      "text": "Qalb uchun tafakkur maydoniga kirib boradigan xilvatdan (uzlatdan) foydaliroq narsa yoʻq."
+    },
+    {
+      "number": 13,
+      "text": "Koʻzgusida maxluqotlarning suratlari aks etib turgan qalb qanday yorishadi? Nafs istaklari kishanida boʻlgan qalb Allohga qanday sayr qiladi? Gʻaflat dogʻidan hali poklanmagan qalb Alloh huzuriga kirishni qanday orzu qiladi? Gunohlaridan hali tavba qilmagan qalb nozik sirlarni qanday anglaydi?"
+    },
+    {
+      "number": 14,
+      "text": "Koinot butunlay zulmatdir. Uni faqat Allohning unda tajalli qilishi yoritadi. Koinotni koʻrib-u, Uni unda, u bilan, undan oldin yoki undan keyin mushohada qilmagan kishi nurga muhtoj va maʼrifat quyoshidan maxluqot bulutlari bilan toʻsilgandir.",
+      "commentary": "Koinotning oʻzida nur yoʻq; u Allohning zohir boʻlishi (tajalli) tufayli koʻrinadi. Maxluqotga qarab, Xoliqni koʻrmagan kishi maʼrifat quyoshini bulut ortida qoldirgan boʻladi."
+    },
+    {
+      "number": 15,
+      "text": "Sening Uning qudrati borligiga dalil — U seni Oʻzidan, Uning yonida hech qanday vujudi boʻlmagan narsa bilan toʻsib qoʻyganidir."
+    },
+    {
+      "number": 16,
+      "text": "Uni biror narsa toʻsishini qanday tasavvur qilish mumkin, axir hamma narsani zohir qilguvchi Oʻzi-ku? Uni biror narsa toʻsishini qanday tasavvur qilish mumkin, axir har bir narsa orqali zohir boʻlguvchi Oʻzi-ku? Uni biror narsa toʻsishini qanday tasavvur qilish mumkin, axir har bir narsada zohir boʻlguvchi Oʻzi-ku? Uni biror narsa toʻsishini qanday tasavvur qilish mumkin, axir har bir narsaga zohir boʻlguvchi Oʻzi-ku? Uni biror narsa toʻsishini qanday tasavvur qilish mumkin, axir har bir narsa vujudga kelishidan oldin zohir boʻlgan Oʻzi-ku? Uni biror narsa toʻsishini qanday tasavvur qilish mumkin, axir har bir narsadan koʻra zohirroq Oʻzi-ku? Uni biror narsa toʻsishini qanday tasavvur qilish mumkin, axir yonida hech narsa boʻlmagan Zot Oʻzi-ku? Uni biror narsa toʻsishini qanday tasavvur qilish mumkin, axir U senga har bir narsadan koʻra yaqinroq-ku? Uni biror narsa toʻsishini qanday tasavvur qilish mumkin, axir U boʻlmaganida hech bir narsaning vujudi zohir boʻlmagan boʻlardi-ku? Ajabo! Yoʻqlik ichida borliq qanday zohir boʻldi! Azaliylik sifati egasi boʻlgan Zotning yonida hodis (keyin paydo boʻlgan) narsa qanday qaror topdi!",
+      "commentary": "Hikmatning markaziy fikri: Haq taolo maxluqot ortida yashiringan emas; parda bizning koʻrishimiz va gʻaflatimizdadir. Bu “hamma narsa Alloh” degani emas, balki maxluqot Uning yonida mustaqil borliqqa ega emas, degani."
+    },
+    {
+      "number": 17,
+      "text": "Muayyan bir vaqtda Alloh zohir qilgan narsadan boshqa narsa zohir boʻlishini istagan kishi hali johillikni ortda qoldirmagan!"
+    },
+    {
+      "number": 18,
+      "text": "Amallarni boʻsh vaqtga qoldirishing nafsning bemaʼni oʻyinlaridandir."
+    },
+    {
+      "number": 19,
+      "text": "Alloh seni bir holdan chiqarib, boshqa holda ishlatishini soʻrama. Agar xohlasa, seni oʻsha holingdan chiqarmasdan ham ishlata oladi!"
+    },
+    {
+      "number": 20,
+      "text": "Murid niyati oʻziga kashf boʻlgan narsada toʻxtashni xohlashi bilan, Haqiqat nidolari unga: “Sen izlayotgan narsa hali oldingda” deb chaqiradi. Maxluqotlarning zohiri oʻz jilvasini koʻrsatishi bilan, ularning botinlari unga: “Biz faqat sinovmiz, kufr keltirma” deb nido qiladi.",
+      "commentary": "Yoʻlchi har bir bosqichda toʻxtab qolmasligi kerak: kashf va karomatlar ham manzil emas, sinovdir."
+    },
+    {
+      "number": 21,
+      "text": "Sening Undan (biror narsani) soʻrashing — Unga ittiham qilishdir. Uni izlashing — Undan gʻoyib boʻlganingdandir. Boshqani izlashing — Unga nisbatan hayosizligingdandir. Boshqadan soʻrashing — Undan uzoqligingdandir.",
+      "commentary": "Bu duoni man qilish emas. Maʼno shuki, orif Allohning ilmi va hikmatiga shunchalik ishonadiki, u uchun soʻrash bandalik izhoriga aylanadi. 166-hikmatga qarang."
+    },
+    {
+      "number": 22,
+      "text": "Sen chiqaradigan har bir nafasingni qazo va qadar hukmi chiqarib turadi."
+    },
+    {
+      "number": 23,
+      "text": "Gʻayrlar (aghyor)dan xoli boʻlishni intizor boʻlib kutma, chunki aynan shu intizor seni Alloh oʻsha holda senga bergan Unga hushyorlik bilan yuzlanishingdan uzadi.",
+      "commentary": "Gʻayrlar (aghyor) — Allohdan oʻzga barcha narsa va tashvishlar. “Bulardan xalos boʻlsam, keyin ibodat qilaman” deb kutish — oʻsha kutishning oʻzi hozirgi vazifangdan toʻsadi. Alloh seni qaysi holga qoʻygan boʻlsa, oʻshanda Unga yuzlan."
+    },
+    {
+      "number": 24,
+      "text": "Dunyoda ekansan, gʻam-tashvishlar mavjudligidan ajablanma. Chunki dunyo faqat oʻz tabiatiga va muqarrar xususiyatiga muvofiq narsalarni zohir qiladi."
+    },
+    {
+      "number": 25,
+      "text": "Rabbing yordami bilan qilingan izlanish toʻxtab qolmaydi; oʻzing bilan qilingan izlanish esa samara bermaydi."
+    },
+    {
+      "number": 26,
+      "text": "Oxiratdagi muvaffaqiyatning alomatlaridan biri — boshida Allohga yuzlanishdir."
+    },
+    {
+      "number": 27,
+      "text": "Boshida nurlangan kishi oxirida ham nurlangan boʻladi."
+    },
+    {
+      "number": 28,
+      "text": "Gʻayb olamida — ichki qalblar ichida — saqlangan har narsa zohir olamida, hodisalarda namoyon boʻladi."
+    },
+    {
+      "number": 29,
+      "text": "Allohdan turib dalil keltiruvchi bilan Unga dalil orqali (istidlol bilan) yetuvchi orasida qanday farq! Uni boshlanish nuqtasi qilgan kishi Haqni Uning oʻzidek biladi va har bir narsani asli borligʻiga ishora qilib isbotlaydi. Dalil orqali yetishga urinish esa Unga vasl boʻlmaganidan kelib chiqadi. Aks holda U qachon gʻoyib boʻldiki, Unga dalil orqali yetilsa? Yoki U qachon uzoq boʻldiki, maxluqotlarning oʻzi bizni Unga yetkazsa?",
+      "commentary": "Istidlol — maxluqotdan Allohga dalil keltirish. Ibn Atoillah esa Allohning Oʻzi orqali Allohni bilishning oliy martabasini eslatadi. Quyoshni koʻrish uchun sham kerakmi?"
+    },
+    {
+      "number": 30,
+      "text": "Unga vosil boʻlganlar (yetganlar) haqida: “Kenglik egasi oʻz kengligidan sarflasin”. Unga sayr qiluvchilar (yoʻlchilar) haqida: “Kimning rizqi tang qilingan boʻlsa (...)” (Talaq, 7)."
+    },
+    {
+      "number": 31,
+      "text": "Unga sayr qiluvchilarni yoʻnalish nurlari hidoyat qiladi, Unga vosil boʻlganlar esa yuzma-yuz turish nurlariga ega. Avvalgilar oʻz nurlariga tegishli, nurlar esa keyingilarga tegishli, chunki ular Allohga tegishli, Undan boshqasiga emas. “Ayt: Alloh! Keyin ularni oʻz boʻsh gaplari ichida oʻynab yurishga qoʻyib ber” (Anʼom, 91).",
+      "commentary": "30 va 31-hikmatlar solik (yoʻlchi) bilan vosil (yetgan) farqi haqida. Solik nur bilan yoʻlini topadi, vosil esa Nur Egasi oldida turadi."
+    },
+    {
+      "number": 32,
+      "text": "Oʻzingdagi yashirin illatlarni kuzatib turishing, senga pardalangan gʻayb haqiqatlarini kuzatishingdan yaxshiroqdir."
+    },
+    {
+      "number": 33,
+      "text": "Haq senga toʻsilmagan; balki sen Uni koʻrishdan toʻsilgansan. Zero, biror narsa Uni toʻsganda, oʻsha toʻsuvchi Uni qoplagan boʻlardi. Agar Unga qoplama boʻlganda, bu Uning borligʻiga cheklov boʻlardi; har bir narsani cheklagan narsa esa uning ustidan qudratga ega boʻladi. “U bandalari ustidan qudratlidir” (Anʼom, 18).",
+      "commentary": "Allohni hech narsa toʻsa olmaydi. “Parda” bizning oʻzimizda: nafs, gʻaflat va gunoh."
+    },
+    {
+      "number": 34,
+      "text": "Inson tabiatingning sifatlaridan bandalikka mos kelmaydigan har biridan uzoqlash, toki Allohning nidosiga javob beruvchi va Uning huzuriga yaqin boʻlasan."
+    },
+    {
+      "number": 35,
+      "text": "Har bir itoatsizlikning, beparvolikning va shahvatning asosi — nafsdan mamnunlik (oʻzidan rozi boʻlish). Har bir itoatning, hushyorlikning va fazilatning asosi — nafsdan norozilik. Oʻzidan norozi johil bilan hamsuhbat boʻlishing, oʻzidan mamnun olim bilan hamsuhbat boʻlishingdan yaxshiroqdir. Oʻzidan mamnun olimda qanday ilm bor? Oʻzidan norozi johilda qanday johillik bor?",
+      "commentary": "Tasavvufning asosiy tamoyili: nafsni oqlamaslik, oʻz aybini koʻrish. Bu oʻzini xor qilish emas, balki kibrdan saqlanish yoʻlidir."
+    },
+    {
+      "number": 36,
+      "text": "Aql (basirat) nurining shuʼlasi senga Uning senga yaqinligini mushohada ettiradi. Aql koʻzi senga yoʻqliging Uning borligʻi tufayli ekanini mushohada ettiradi. Aql haqiqati senga faqat Uning borligʻini mushohada ettiradi — sening yoʻqliging ham, borligʻing ham emas."
+    },
+    {
+      "number": 37,
+      "text": "“Alloh bor edi va Unga hech narsa hamroh emas edi; U hozir ham avvalgidek.” (hadis)"
+    },
+    {
+      "number": 38,
+      "text": "Himmatingning niyat qilgan maqsadi Undan boshqaga oʻtmasin, chunki umidlar Karimdan (Saxiy Zotdan) oʻzib keta olmaydi."
+    },
+    {
+      "number": 39,
+      "text": "Sen uchun Oʻzi keltirgan qattiq ehtiyojni bartaraf etish uchun Undan boshqaga murojaat qilma. Uning yuklaganini boshqa kim ketkaza oladi? Oʻzini ehtiyojdan xalos qila olmaydigan kishi boshqasini qanday xalos qiladi?"
+    },
+    {
+      "number": 40,
+      "text": "Agar Uning zoti taʼrifga sigʻmasligi tufayli Unga husni zan qilmagan boʻlsang, Uning sen bilan muomalasi tufayli husni zan qil. U seni yaxshilikdan boshqaga oʻrgatganmi? Sen uchun Oʻzining neʼmatlaridan boshqasini ato etganmi?"
+    },
+    {
+      "number": 41,
+      "text": "Qutulib boʻlmaydigan narsadan qochib, oʻtkinchi narsani izlaydigan kishiga ajablanaman! “Chunki koʻzlar koʻr boʻlmaydi, balki koʻkraklardagi qalblar koʻr boʻladi” (Haj, 46)."
+    },
+    {
+      "number": 42,
+      "text": "Maxluqdan maxluqqa safar qilma, aks holda tegirmondagi eshakka oʻxshab qolasan: aylanib-aylanib yana boshlagan joyiga qaytadi. Aksincha, maxluqlardan Xoliqqa bor: “Va oxirgi qaytish Rabbingga” (Najm, 42). Rasululloh (sollallohu alayhi va sallam)ning soʻzlariga boq: “Kimning hijrati Alloh va Uning Rasuliga boʻlsa, uning hijrati Alloh va Uning Rasuliga boʻladi; kimning hijrati dunyoviy manfaat yoki biror ayolga uylanish uchun boʻlsa, uning hijrati oʻsha hijrat qilgan narsasigadir.” Uning (alayhissalom) soʻzini anglab yet va bu masalada oʻyla, agar qodir boʻlsang. Va senga salom boʻlsin!",
+      "commentary": "Maxluqdan maxluqqa yugurib (odamdan odamga, dunyodan dunyoga) hech qayerga yetib boʻlmaydi. Hijrat hadisi niyat haqida: yoʻlning maqsadi Alloh boʻlsin."
+    },
+    {
+      "number": 43,
+      "text": "Holi seni ilhomlantirmaydigan va soʻzi seni Allohga yoʻllamaydigan kishi bilan hamsuhbat boʻlma."
+    },
+    {
+      "number": 44,
+      "text": "Ehtimol, sen yomon holdasan-u, undan ham yomon holdagi kishi bilan suhbatlashib, oʻzingda fazilat koʻrasan."
+    },
+    {
+      "number": 45,
+      "text": "Zohid qalbdan chiqqan hech bir amal oz emas; tamaʼgir qalbdan chiqqan hech bir amal samarali emas."
+    },
+    {
+      "number": 46,
+      "text": "Yaxshi amallar — yaxshi ahvolning natijasi. Yaxshi ahvol — haqiqatga erishganlar (muhaqqiqlar) turadigan maqomlardan kelib chiqadi."
+    },
+    {
+      "number": 47,
+      "text": "Zikrda Alloh huzurini his qilmayotganing uchun zikrni tark etma. Chunki sening zikrdan gʻofil boʻlishing, zikrda gʻofil boʻlishingdan ham yomonroqdir. Ehtimol U seni gʻaflat bilan qilingan zikrdan hushyorlik bilan qilingan zikrga, hushyorlikdan huzur bilan qilingan zikrga, huzurdan esa Zikr qilinuvchidan (Allohdan) boshqa hamma narsa gʻoyib boʻladigan zikrga olib chiqar. “Va bu Alloh uchun qiyin emas” (Ibrohim, 20).",
+      "commentary": "Zikr martabalari: gʻaflat bilan, hushyorlik bilan, huzur bilan va butunlay choʻmish (istigʻroq). Har bir bosqichga zikrni davom ettirish bilan yetiladi, tark etish bilan emas."
+    },
+    {
+      "number": 48,
+      "text": "Qalbning oʻlganiga alomat — qoldirgan itoatlaring uchun gʻamning yoʻqligi va qilgan xatolaring (gunohlaring) uchun pushaymonlikning tark etilishidir."
+    },
+    {
+      "number": 49,
+      "text": "Hech qanday gunoh koʻzingda shunchalik kattalashmasinki, u seni Allohga husni zan qilishdan uzsin. Zero, Rabbini bilgan kishi gunohini Uning karami oldida arzimas deb biladi."
+    },
+    {
+      "number": 50,
+      "text": "Uning adolati sening oldingda turganda kichik gunoh yoʻq; Uning fazli sening oldingda turganda katta gunoh yoʻq."
+    },
+    {
+      "number": 51,
+      "text": "Qalb uchun sen bilmagan va oʻzing arzimas deb hisoblagan amaldan koʻra foydaliroq amal yoʻq."
+    },
+    {
+      "number": 52,
+      "text": "U ilohiy ilhomni (vorid) senga faqat Unga borishing uchun yubordi.",
+      "commentary": "Ilhom maqsad emas, Allohga chorlovchi vositadir."
+    },
+    {
+      "number": 53,
+      "text": "Ilhomni senga gʻayrlar changalidan chiqarish va seni maxluqotlarga qullikdan ozod qilish uchun yubordi."
+    },
+    {
+      "number": 54,
+      "text": "Ilhomni senga vujudingning zindonidan mushohadangning cheksiz kengligiga chiqarish uchun yubordi."
+    },
+    {
+      "number": 55,
+      "text": "Nurlar — qalblarning va ularning ichki markazlari (sirlarning) minadigan ulovlaridir."
+    },
+    {
+      "number": 56,
+      "text": "Nur — qalbning lashkari, zulmat esa nafsning lashkaridir. Alloh bandasiga yordam bermoqchi boʻlsa, unga nur lashkarlarini ato etadi va undan zulmat hamda gʻayrlar madadini uzib qoʻyadi."
+    },
+    {
+      "number": 57,
+      "text": "Kashf (ichki ochilish) nurga, hukm basiratga, iqbol (olgʻa yurish) va idbor (orqaga yurish) esa qalbga tegishlidir."
+    },
+    {
+      "number": 58,
+      "text": "Itoat sendan chiqqani uchun xursand boʻlma; balki u senga Allohdan kelgani uchun xursand boʻl. “Ayt: Allohning fazli va rahmati bilan — shunga xursand boʻlsinlar. Bu ular toʻplaydigan narsadan yaxshiroqdir” (Yunus, 58).",
+      "commentary": "Itoatga muvaffaq boʻlish Allohning ehsonidir. Shuning uchun undan gʻururlanma, shukr bilan xursand boʻl."
+    },
+    {
+      "number": 59,
+      "text": "U Unga sayr qiluvchilarni amallarini mushohada qilishdan, Unga vosil boʻlganlarni esa ahvollarini mushohada qilishdan man qiladi. Yoʻlchilarni shu sababli man qiladiki, ular bu amallarda hali Allohga ixlosni qaror toptirmagan; vosillarni esa shu sababli man qiladiki, U ularni Uni mushohada qilishlari bilan oʻsha ahvollarni mushohadadan gʻoyib qiladi.",
+      "commentary": "Yoʻlchi amal koʻrinishiga, vosil esa ahvol koʻrinishiga bogʻlanib qolmasligi uchun. Ikkalasining nigohi Allohga qaratiladi."
+    },
+    {
+      "number": 60,
+      "text": "Hirs-tamaning urugʻlari boʻlmasa, xorlik novdalari baland boʻlmasdi."
+    },
+    {
+      "number": 61,
+      "text": "Vahm (xayol-gumon)dek seni adashtiradigan narsa yoʻq."
+    },
+    {
+      "number": 62,
+      "text": "Umidsizlikda (odamlardan umid uzganingda) sen ozodsan; tamaʼda esa qulsan.",
+      "commentary": "Odamlardan tamani uzgan ozod, tama qilgan — qul. Haqiqiy hurlik faqat Allohga qullikdan keladi."
+    },
+    {
+      "number": 63,
+      "text": "Kim mehr-muhabbat siypalashlari bilan Allohga yaqinlashmasa, balo-musibat zanjirlari bilan Unga bogʻlanadi."
+    },
+    {
+      "number": 64,
+      "text": "Kim neʼmatlarga shukr qilmasa, ularni yoʻqotish xavfiga duchor boʻladi; kim shukr qilsa, ularni oʻz arqonlari bilan bogʻlab qoʻyadi.",
+      "commentary": "Shukr neʼmatni saqlaydigan va koʻpaytiradigan “arqon”dir. “Agar shukr qilsangiz, albatta ziyoda qilaman” (Ibrohim, 7)."
+    },
+    {
+      "number": 65,
+      "text": "Uning senga karami mavjudligidan va sening Unga nisbatan yomon xulqing davom etishidan qoʻrq, bu seni bosqichma-bosqich halokatga yetaklab qoʻymasin. “Biz ularni bilmagan tomonlaridan bosqichma-bosqich halokatga yaqinlashtiramiz” (Aʼrof, 182).",
+      "commentary": "Bu istidroj: gunoh qilib turgan bandaga neʼmatlar yogʻilib turishi uning maqbulligi emas, balki sinov va muhlat boʻlishi mumkin."
+    },
+    {
+      "number": 66,
+      "text": "Murid notoʻgʻri ish qilib, keyin jazosi kechikkanda: “Agar bu yomon ish boʻlganida, U madadni uzib, badargʻa qilgan boʻlardi”, deyishi — johillikdir. Unga madad uzilishi mumkin va u buni sezmaydi — hech boʻlmaganda madadning ziyodasini toʻsish bilan. Sen bilmagan holda uzoqda turishing mumkin — hech boʻlmaganda Uning seni oʻz holingga qoʻyishi bilan.",
+      "commentary": "Jazoning kechikishi maqbullik alomati emas. Madad kamayishi baʼzan sezilmaydi: ibodatdan lazzat va nur ketadi-yu, banda buni anglamaydi."
+    },
+    {
+      "number": 67,
+      "text": "Alloh virdlarga (kunlik zikr va ibodatlarga) doimiy qilib qoʻygan va unda madadini uzaytirgan bandani koʻrsang, Rabbi unga bergan narsani kichraytirma, unda orifilar alomatini yoki Alloh doʻstlarining shukuhini koʻrmayotganing uchun. Zero, ilhom boʻlmaganida vird ham boʻlmasdi.",
+      "commentary": "Virdga doimiylik — Alloh inʼomi. Boshqa birovning zohiriy koʻrinishiga qarab hukm chiqarma."
+    },
+    {
+      "number": 68,
+      "text": "Alloh baʼzi kishilarni Oʻz xizmatida qoldiradi, boshqalarni Oʻzini sevishga ajratib oladi. “Barchasiga — bularga ham, anavilarga ham — Rabbingning atoʻsidan madad beramiz; Rabbingning atoʻsi man qilinmagandir” (Isro, 20)."
+    },
+    {
+      "number": 69,
+      "text": "Ilohiy ilhomlar koʻpincha toʻsatdan keladi. Bu — bandalar oʻzlarining qabul qilishga tayyorligini daʼvo qilib qoʻymasliklari uchun himoyadir."
+    },
+    {
+      "number": 70,
+      "text": "Har bir soʻralgan narsaga javob beradigan, koʻrgan hamma narsasini ifoda qiladigan yoki bilgan hamma narsasini aytadigan kishida johillik borligini anglab ol."
+    },
+    {
+      "number": 71,
+      "text": "U oxiratni moʻmin bandalariga mukofot beradigan maskan qildi, chunki bu dunyo Uning ularga bermoqchi boʻlgan narsasini sigʻdira olmaydi va U ularning qadrini bardoshsiz (foniy) dunyoda mukofotlash uchun juda baland deb bildi."
+    },
+    {
+      "number": 72,
+      "text": "Amalining samarasini tez topgan kishida uning qabul qilinganiga dalil bor."
+    },
+    {
+      "number": 73,
+      "text": "Uning huzuridagi oʻrningni bilmoqchi boʻlsang, hozir U seni qaysi holga qoʻyganiga boq."
+    },
+    {
+      "number": 74,
+      "text": "U senga itoatni ato etib, uni Uning tufayli sezmaydigan qilib qoʻysa, bilki U senga zohiran ham, botinan ham neʼmatlarini moʻl-koʻl yogʻdirgan."
+    },
+    {
+      "number": 75,
+      "text": "Undan soʻrashing mumkin boʻlgan eng yaxshi narsa — U sendan soʻraydigan narsadir."
+    },
+    {
+      "number": 76,
+      "text": "Aldanishning alomatlaridan biri — itoatni yoʻqotganga gʻamgin boʻlish-u, uni qayta tiriltirishga azm qilmaslikdir."
+    },
+    {
+      "number": 77,
+      "text": "Orif — ishora qilganda Allohni oʻz ishorasidan koʻra oʻziga yaqinroq topadigan kishi emas. Aksincha, orif — Uning borligʻida fano boʻlib, Uni mushohada qilishga choʻmgani tufayli ishorasi boʻlmagan kishidir."
+    },
+    {
+      "number": 78,
+      "text": "Umid amal bilan birga yuradi; aks holda u shunchaki orzu-havasdir."
+    },
+    {
+      "number": 79,
+      "text": "Orifilar Allohdan talab qiladigan narsa — ubudiyatda (bandalikda) ixlos va rububiyat (Rabbilik) haqlarini ado etishdir."
+    },
+    {
+      "number": 80,
+      "text": "U seni siqilishda (qabz) qoldirmaslik uchun kengaytirdi (bast); kengayishda qoldirmaslik uchun siqdi; ikkovidan ham chiqardi, toki Undan boshqa hech narsaga tegishli boʻlmasang.",
+      "commentary": "Qabz (siqilish) va bast (kengayish) — yoʻlchining ikki ruhiy holati. Maqsad ikkalasidan yuqorida turib, faqat Allohga tegishli boʻlishdir."
+    },
+    {
+      "number": 81,
+      "text": "Orifilar uchun kengayish siqilishdan koʻra qoʻrqinchliroqdir, chunki kengayishda odob chegarasida turib qoladiganlar juda oz.",
+      "commentary": "Kengayishda nafs oʻz nasibasini topib, odobni unutishi mumkin; siqilishda esa banda oʻzi kamtar boʻlib qoladi."
+    },
+    {
+      "number": 82,
+      "text": "Shodlik borligi tufayli nafs kengayishda oʻz nasibasini oladi; siqilishda esa nafsning nasibasi yoʻq."
+    },
+    {
+      "number": 83,
+      "text": "Baʼzan U berib turib mahrum qiladi, baʼzan mahrum qilib turib beradi.",
+      "commentary": "Allohning “bermasligi” ham ehsondir: ehtiyoj bandani Unga yaqinlashtiradi (94-hikmatga qarang)."
+    },
+    {
+      "number": 84,
+      "text": "U mahrumlikni anglashingni ochsa, mahrumlik ato bilan bir xil boʻlib qoladi."
+    },
+    {
+      "number": 85,
+      "text": "Maxluqotlar zohiran — vahm (aldamchi koʻrinish); botinan esa ibratdir. Shuning uchun nafs zohiriy koʻrinishga, qalb esa botiniy ibratga qaraydi."
+    },
+    {
+      "number": 86,
+      "text": "Zavol topmaydigan izzatni istasang, zavol topadigan izzat bilan iftixor qilma."
+    },
+    {
+      "number": 87,
+      "text": "Haqiqiy safar — dunyoning oʻlchamlari sendan oʻralib, oxiratni oʻzingdan ham yaqin koʻrishingdir."
+    },
+    {
+      "number": 88,
+      "text": "Odamdan kelgan sovgʻa — mahrumlik; Allohdan kelgan mahrumlik — ehsondir.",
+      "commentary": "Odamlardan kelgan ato koʻpincha minnat va tobelik keltiradi. Allohning “bermasligi” esa bandani Unga qaytaradi."
+    },
+    {
+      "number": 89,
+      "text": "Rabbimiz bandaning Unga naqd muomala qilishidan-u, Uning bandaga nasiya bilan haq toʻlashidan yuqoridir.",
+      "commentary": "Alloh ibodat qiluvchi bandaga hozirning oʻzidayoq maʼnaviy mukofot (ilohiy unsiyat, qalb huzuri) beradi. Keyingi hikmatlarga qarang."
+    },
+    {
+      "number": 90,
+      "text": "Ibodat mukofoti uchun shu yetarliki, U seni unga loyiq deb qabul qildi."
+    },
+    {
+      "number": 91,
+      "text": "Amal qiluvchilarga mukofot uchun shu yetarliki, U ularning qalblariga Oʻz ibodatida kashf etgan narsa va ularga koʻrsatgan lutfidir."
+    },
+    {
+      "number": 92,
+      "text": "Umid qilgan biror narsa uchun Unga ibodat qilgan yoki oʻziga azob kelmasligi uchun Unga itoat qilgan kishi Uning sifatlariga haqqini toʻliq bermagan boʻladi."
+    },
+    {
+      "number": 93,
+      "text": "U senga bersa, senga lutfini koʻrsatadi; senga bermasa, senga qahr-qudratini koʻrsatadi. Ikkalasida ham U senga Oʻzini namoyon qilmoqda va mehribonligi bilan senga yaqinlashmoqda."
+    },
+    {
+      "number": 94,
+      "text": "Mahrumlik senga faqat undagi Allohni anglamaganing uchungina alam beradi."
+    },
+    {
+      "number": 95,
+      "text": "Baʼzan U senga itoat eshigini ochadi, lekin qabul eshigini ochmaydi; yoki baʼzan gunohga tushirib qoʻyadi-yu, u Allohga vosil boʻlishga sabab boʻlib chiqadi."
+    },
+    {
+      "number": 96,
+      "text": "Xorlik va qattiq ehtiyoj qoldiradigan itoatsizlik, oʻzidan magʻrurlik va kibr qoldiradigan itoatdan yaxshiroqdir.",
+      "commentary": "Bu gunohga daʼvat emas. Maʼno shuki, gunohdan keyingi pushaymonlik va kamtarlik, ibodatdan keyingi ujb (oʻzini ulugʻ sanash) va kibrdan yaxshiroqdir."
+    },
+    {
+      "number": 97,
+      "text": "Hech bir mavjudot ularsiz tura olmaydigan va har bir maxluq uchun zarur boʻlgan ikki neʼmat bor: vujud neʼmati va madad (rizq) neʼmati."
+    },
+    {
+      "number": 98,
+      "text": "U senga avval vujud berish bilan, keyin uzluksiz madad bilan inoyat qildi."
+    },
+    {
+      "number": 99,
+      "text": "Sening faqirliging (ehtiyojing) sening zotingga xosdir, chunki tasodifiy hodisalar zotiy faqirlikni yoʻqotmaydi. Bu dunyodagi sinovlar sening bilmay yurgan faqirliging haqida senga eslatmalardir.",
+      "commentary": "Faqirlik — bandalikning haqiqati. Moʻminning boyligi Allohga muhtojligini bilishidadir."
+    },
+    {
+      "number": 100,
+      "text": "Sening eng yaxshi lahzang — haqiqiy ehtiyojingni mushohada qilib, u orqali kamtarlik haqiqatiga erishgan paytingdir."
+    },
+    {
+      "number": 101,
+      "text": "U seni maxluqlardan begonalashtirgan har safar, bilki U senga Oʻzi bilan unsiyat eshigini ochmoqchi."
+    },
+    {
+      "number": 102,
+      "text": "U tilingni soʻrash uchun ochgan har safar, bilki U senga bermoqchi."
+    },
+    {
+      "number": 103,
+      "text": "Orifning iztirobi hech tugamaydi va u Allohdan boshqa hech narsada orom topmaydi."
+    },
+    {
+      "number": 104,
+      "text": "U zohiriy koʻrinishlarni Oʻzi yaratgan asarlar nurlari bilan yoritdi; ichki qalblarni esa Oʻz sifatlari nurlari bilan yoritdi. Shuning uchun asar nurlari kechasi botadi, qalblar va sirlar nurlari esa hech botmaydi. Shuning uchun aytilgan: “Kunduzgi quyosh kechasi botadi, orif qalblarning quyoshi esa hech botmaydi.”"
+    },
+    {
+      "number": 105,
+      "text": "Balo ogʻriqlari senga yengil boʻlsin — bilsang, seni sinayotgan Oʻsha Ulugʻ Zotdir. Qazo zarbalarini senga roʻbaroʻ qilgan Zot seni Oʻzining yaxshi tanlashiga oʻrgatgan Zotdir.",
+      "commentary": "Balo sinov ekanini va sinovchi Mehribon ekanini bilish alamni yengillashtiradi."
+    },
+    {
+      "number": 106,
+      "text": "Kim Uning mehribonligi Uning qazosidan ajralib qolgan deb oʻylasa, bu uning yaqindan (qisqa) koʻrishidandir."
+    },
+    {
+      "number": 107,
+      "text": "Yoʻllar seni adashtirib qoʻyishidan qoʻrqmaslik kerak; faqat havoyi nafslar seni yenggan boʻlishidan qoʻrqish kerak."
+    },
+    {
+      "number": 108,
+      "text": "Pok va ulugʻ U Zotki, tanlanganlik sirini insoniylik koʻrinishida yashirgan va bandalik zohir boʻlishining oʻzida Rububiyat buyukligi bilan zohir boʻlgan.",
+      "commentary": "Paygʻambarlar va valiylar zohirda oddiy odamdek koʻrinadi; ularning xosligi yashirindir."
+    },
+    {
+      "number": 109,
+      "text": "Izlaganing kechikkani uchun Rabbingni ayblama; balki odobing kechikkani uchun oʻzingni ayb qil."
+    },
+    {
+      "number": 110,
+      "text": "U seni zohiran Uning amriga itoatkor qilib, botinan Uning qahr-qudratiga taslim qilib qoʻysa, senga shukrdan ham yuqori saxovat koʻrsatibdi."
+    },
+    {
+      "number": 111,
+      "text": "Xoslikka (tanlanganlikka) sazovor boʻlgan har bir kishi ham hali nuqsonlardan toʻliq poklanib boʻlmagan.",
+      "commentary": "Karomat va xoslik komillik alomati emas; nafs bilan kurash tugamagan boʻlishi mumkin. Shuning uchun har doim kamtarlik zarur."
+    },
+    {
+      "number": 112,
+      "text": "Virdni past sanaydigan faqat johildir. Ilhom oxiratda topiladi, vird esa dunyoning tugashi bilan tugaydi; ammo oʻrniga oʻrin bosuvchi boʻlmagan narsa bilan mashgʻul boʻlish koʻproq loyiqdir. Vird — U sendan talab qilgan narsa; ilhom — sen Undan talab qilgan narsa. U sendan talab qilgan narsa bilan sen Undan talab qilgan narsa orasida qanday solishtirish bor?",
+      "commentary": "Muhim tuzatish: ilhom va ruhiy holatlarni izlab, vird va ibodatni past sanama. Ibodat — Alloh sendan talab qilgan narsa; ilhom esa sening oʻz nasibang."
+    },
+    {
+      "number": 113,
+      "text": "Rizqning yetib kelishi qabul qilishga tayyorlikka muvofiq boʻladi; nurlarning taralishi esa sirning (ichki botinning) poklik darajasiga muvofiq boʻladi."
+    },
+    {
+      "number": 114,
+      "text": "Gʻofil kishi ertalab turganida nima qilishini oʻylaydi; aqlli kishi esa Alloh u bilan nima qilayotganiga qaraydi.",
+      "commentary": "Tavakkul odobi: kuningni faqat oʻz rejang bilan emas, Allohning irodasini kuzatish bilan boshla."
+    },
+    {
+      "number": 115,
+      "text": "Obidlar va zohidlar hamma narsadan begonalashadi, buning sababi ularning hamma narsada Allohdan gʻoyib ekanligidir. Agar ular hamma narsada Uni mushohada qilganida, hech narsadan begonalashmagan boʻlardi.",
+      "commentary": "Haqiqiy zohidlik dunyoni koʻrmaslik emas, dunyoda Allohni koʻrishdir."
+    },
+    {
+      "number": 116,
+      "text": "U bu dunyoda seni Uning maxluqotlari haqida tafakkur qilishga buyurdi; oxiratda esa Zotining komilligini senga ochib beradi."
+    },
+    {
+      "number": 117,
+      "text": "Sening Undan sabr qila olmasligingni bilgach, senga Undan sodir boʻlayotgan narsalarni mushohada qildirdi."
+    },
+    {
+      "number": 118,
+      "text": "Alloh sendan zerikish sodir boʻlishini bilgani uchun, itoatlarni senga xilma-xil qildi; shoshqaloqlik sodir boʻlishini bilgani uchun, ularni muayyan vaqtlarga chegaralab qoʻydi, toki sening qaygʻung namozni “ado etish”ga boʻlsin, namozning shunchaki “mavjudligiga” emas. Har bir namoz oʻqiydigan kishi ham yaxshi ado etavermaydi."
+    },
+    {
+      "number": 119,
+      "text": "Namoz qalblar uchun poklanish va gʻayb olamlari eshigining ochilishidir."
+    },
+    {
+      "number": 120,
+      "text": "Namoz — munojot (maxfiy suhbat) oʻrni va oʻzaro poklik amallari koni boʻlib, unda sirlar sohalari kengayadi va nur yogʻdulari porlab chiqadi. U sening zaifligingni bilgani uchun namozlarning sonini kam qildi; fazliga muhtojligingni bilgani uchun ularning foydali samaralarini koʻpaytirdi."
+    },
+    {
+      "number": 121,
+      "text": "Amalga mukofot talab qilsang, unda ixlos haqiqati evaziga sendan talab qilinadi. Ixlossizga esa azobdan omonlik hissi yetarli.",
+      "commentary": "Ixlosli amalga ajr umid qilinadi; ixlossiz amaldan koʻp narsa kutish nooʻrindir."
+    },
+    {
+      "number": 122,
+      "text": "Amalni qiluvchi sen boʻlmagan amal uchun mukofot talab qilma. Uning qabul qilishi sen uchun amalning mukofoti sifatida yetarlidir.",
+      "commentary": "Amalga ham Alloh muvaffaq qilgan; shuning uchun mukofot ham Uning fazlidir."
+    },
+    {
+      "number": 123,
+      "text": "U senga fazlini koʻrsatmoqchi boʻlsa, senda ahvollarni yaratadi va ularni senga nisbat beradi."
+    },
+    {
+      "number": 124,
+      "text": "Agar U seni oʻzingga qaytarganida, seni ayblash sabablari tugamas edi; agar senga Oʻz ehsonini zohir qilsa, seni maqtash sabablari tugamas edi."
+    },
+    {
+      "number": 125,
+      "text": "Rububiyat sifatlariga mahkam yopish (ular bilan Unga tayan) va ubudiyat sifatlaringni oʻzingda haqiqatga aylantir!"
+    },
+    {
+      "number": 126,
+      "text": "U seni maxluqotlarning sifatlaridan senga tegishli boʻlmaganini oʻzingga daʼvo qilishdan man qilgan boʻlsa, Olamlar Rabbisining sifatiga daʼvo qilishingga ruxsat beradimi?"
+    },
+    {
+      "number": 127,
+      "text": "Sen hali oʻzingning yomon odatlaringni buzmagan boʻlsang, senga moʻjizalar (karomat) boʻlsin deb tabiat qonunlari qanday buzilsin?",
+      "commentary": "Karomat izlashdan oldin nafsni va yomon odatlarni tuzat. Haqiqiy karomat — istiqomat (toʻgʻri yoʻlda mustahkamlik)."
+    },
+    {
+      "number": 128,
+      "text": "Masala izlash (talab) faktida emas; balki sening goʻzal odob-axloq bilan taʼminlanganingdadir."
+    },
+    {
+      "number": 129,
+      "text": "Sen uchun qattiq ehtiyojdek shafoat qiluvchi narsa yoʻq, va ato-lutflarni senga zillat va muhtojlikdan tezroq yetkazadigan narsa yoʻq."
+    },
+    {
+      "number": 130,
+      "text": "Agar sen Unga faqat illatlaring yoʻq boʻlgach va daʼvolaring oʻchgach vosil boʻlsang, hech qachon vosil boʻlmas eding! Aksincha, U seni Oʻziga vosil qilmoqchi boʻlsa, sening sifatingni Uning sifati bilan yopadi, sening vasfingni Uning vasfi bilan yashiradi. Shunday qilib, sendan Unga boradigan narsa bilan emas, Undan senga keladigan narsa bilan seni Oʻziga vosil qiladi.",
+      "commentary": "Allohga yetish sening amalingning natijasi emas, Uning jazbasi va fazlining natijasidir."
+    },
+    {
+      "number": 131,
+      "text": "Uning yopishining (sitr) lutfi boʻlmaganida, hech bir amal qabulga loyiq boʻlmasdi.",
+      "commentary": "Alloh yopmasa, har bir amalda riyo, ayb va nuqson koʻrinardi. Sitr — Uning “Sattor” sifatidandir."
+    },
+    {
+      "number": 132,
+      "text": "Sen Unga itoat qilayotganingda Uning hilmiga (kechirimliligiga), Unga osiy boʻlayotgan paytingdagidan koʻra koʻproq muhtojsan."
+    },
+    {
+      "number": 133,
+      "text": "Sitr (yopish) ikki xil: gunohdan (uni sodir etishdan) asrovchi sitr va gunoh ichida (uni odamlardan) yopuvchi sitr. Avom Allohdan gunoh ichida odamlar oldida martabasi tushib ketishidan qoʻrqib sitr soʻraydi; xoslar esa haqiqiy Podshoh nazaridan tushib qolishdan qoʻrqib, gunohning oʻzidan asrashni soʻraydi."
+    },
+    {
+      "number": 134,
+      "text": "Seni hurmat qilgan kishi faqat Uning senga tortgan pardasining goʻzalligini hurmat qilgan boʻladi. Shuning uchun hamd seni yopgan Zotga boʻlsin, seni hurmat qilib, minnatdorchilik bildirgan kishiga emas."
+    },
+    {
+      "number": 135,
+      "text": "Sening doʻsting faqat kamchiliklaringni bila turib hamroh boʻladigan kishidir; u esa faqat Karim Xoʻjayiningdir. Doʻstlikka eng yaxshisi — sendan Unga biror narsa kelishi uchun seni izlamaydigan Zotdir."
+    },
+    {
+      "number": 136,
+      "text": "Yaqin nuri porlasa, oxiratni shunchalik yaqin koʻrarding-ki, unga qarab yura olmasding, va dunyo goʻzalliklariga fano tutilishi (quyosh tutilishidek) kelganini koʻrarding."
+    },
+    {
+      "number": 137,
+      "text": "Seni Allohdan toʻsadigan narsa Uning yonida biror mavjudotning borligi emas, chunki Uning yonida hech narsa yoʻq. Balki seni Undan toʻsadigan narsa — Uning yonida biror mavjudot bor degan vahmdir.",
+      "commentary": "Parda — “Allohdan oʻzga narsa bor” degan xayolda. Haqiqatda Uning yonida mustaqil borliq yoʻq."
+    },
+    {
+      "number": 138,
+      "text": "Uning maxluqotlarda tajallisi boʻlmaganida, koʻzlar ularni idrok qilmagan boʻlardi. Uning sifatlari zohir boʻlsa edi, maxluqotlar yoʻq boʻlib ketardi."
+    },
+    {
+      "number": 139,
+      "text": "U hamma narsani zohir qiladi, chunki U Botindir; va hamma narsaning vujudini yashiradi, chunki U Zohirdir.",
+      "commentary": "Bu ikki ism (az-Zohir va al-Botin) haqidagi chuqur ibora. Uni Ibn Abbod, Zarruq kabi ulamolarning sharhlari bilan oʻqish tavsiya etiladi."
+    },
+    {
+      "number": 140,
+      "text": "U senga maxluqotlardagi narsa haqida tafakkur qilishga ruxsat berdi, lekin maxluqotlarning oʻzida toʻxtashga ruxsat bermadi. “Ayt: Osmonlar va yerdagi narsalarga boqing” (Yunus, 101). Uning “osmonlardagi narsaga boqing” soʻzi bilan senga ibrat eshigini ochdi; “osmonlarga boqing” demadi, seni shunchaki jismlar vujudiga yetaklamaslik uchun."
+    },
+    {
+      "number": 141,
+      "text": "Olam Uning boqiy qilgani bilan boqiydir, va Zotining birligi bilan yoʻq boʻladi (fano).",
+      "commentary": "Olamning borligʻi oʻz-oʻzidan emas, Allohning qayyumligi bilandir; Uning Zoti oldida u “yoʻq” hukmidadir."
+    },
+    {
+      "number": 142,
+      "text": "Odamlar senda bor deb oʻylagan narsa uchun seni maqtaydi; sen esa oʻzingda bor deb bilgan narsa uchun nafsingni ayblashing kerak."
+    },
+    {
+      "number": 143,
+      "text": "Moʻmin maqtalganda, oʻzida koʻrmagan sifat uchun maqtalayotgani sababli Alloh oldida uyaladi."
+    },
+    {
+      "number": 144,
+      "text": "Odamlarning fikri uchun oʻzidagi yaqinni (ishonchni) tark etgan kishi — barcha odamlardan johilroqdir."
+    },
+    {
+      "number": 145,
+      "text": "U senga maqtovni yogʻdirsa-yu, sen unga loyiq boʻlmasang, Uni Oʻziga loyiq narsa bilan maqta."
+    },
+    {
+      "number": 146,
+      "text": "Zohidlar maqtalganda siqiladi, chunki ular maqtovni odamlardan deb koʻradi; orifilar maqtalganda kengayadi, chunki ular maqtovni haqiqiy Podshohdan deb koʻradi."
+    },
+    {
+      "number": 147,
+      "text": "Sen biror narsa berilganda kengayib, mahrum qilinganda siqilib qolsang, bu sening yetuk emasligingga va ubudiyatingning ixlosizligiga dalil deb bil."
+    },
+    {
+      "number": 148,
+      "text": "Sendan gunoh sodir boʻlganda, u seni Rabbing huzurida istiqomatga erishishdan noumid qilmasin, chunki bu senga qadar qilingan oxirgi gunoh boʻlishi mumkin.",
+      "commentary": "Gunohdan keyingi umidsizlik — shayton hiylasi. Tavba eshigi doim ochiq."
+    },
+    {
+      "number": 149,
+      "text": "U senga umid eshigini ochishini istasang, Undan senga kelgan narsaga boq. Agar u senga xavf eshigini ochishini istasang, sendan Unga borgan narsaga boq."
+    },
+    {
+      "number": 150,
+      "text": "Koʻpincha U senga tashvish kechasida, shodlik kunduzining tongida senga foyda bermagan narsani foyda qiladi: sen ikkalasidan qaysi biri senga foydada yaqinroq ekanini bilmaysan."
+    },
+    {
+      "number": 151,
+      "text": "Yoritmalar koʻtariladigan ufqlar — qalblar va sirlardir."
+    },
+    {
+      "number": 152,
+      "text": "Qalblarda bir nur omonat qoʻyilgan, uni gʻayb xazinalaridan kelayotgan nur qoʻllab-quvvatlab turadi."
+    },
+    {
+      "number": 153,
+      "text": "Shunday nur borki, u bilan U senga Uning asarlarini koʻrsatadi; va shunday nur borki, u bilan senga Uning sifatlarini koʻrsatadi."
+    },
+    {
+      "number": 154,
+      "text": "Qalblar baʼzan nurlar bilan toʻxtab qoladi, xuddi nafslar Undan oʻzga narsalarning quyuqligi bilan toʻsilgani kabi.",
+      "commentary": "Nurga (kashf, ruhiy holatga) bogʻlanib qolish — Nur Egasidan toʻsadi."
+    },
+    {
+      "number": 155,
+      "text": "U ichki qalblarning nurlarini zohiriy koʻrinishlarning dagʻalligi bilan, ularga hurmatdan yashirdi: ular oshkor qilinib past va oddiy boʻlib qolmasligi yoki shuhrat tili bilan baland chaqirilmasligi uchun."
+    },
+    {
+      "number": 156,
+      "text": "Pok Zotki, Oʻz doʻstlariga faqat Oʻzi xohlagan kishinigina yoʻl koʻrsatadi va Oʻz doʻstlariga faqat Oʻziga yetkazishni xohlagan kishinigina yetkazadi."
+    },
+    {
+      "number": 157,
+      "text": "Ehtimol, U senga gʻayb olamini koʻrsatgan-u, bandalarning sirlarini koʻrishdan pardalagandir."
+    },
+    {
+      "number": 158,
+      "text": "Bandalarning sirlarini koʻrib, ilohiy rahmatga taqlid qilmagan kishi uchun bu koʻrish sinov va boshiga musibat kelishiga sabab boʻladi.",
+      "commentary": "Birovning aybini koʻrgan kishi uni pardalasin, achinsin va duo qilsin. Ayblab yursa, oʻzi sinovga duchor boʻladi."
+    },
+    {
+      "number": 159,
+      "text": "Nafsning gunohlardagi nasibasi ochiq va maʼlum, ibodatlardagi nasibasi esa yashirin va maxfiydir. Yashirin (dard)ni davolash esa qiyin."
+    },
+    {
+      "number": 160,
+      "text": "Ehtimol, yaxshi amallarda riyo senga odamlar seni koʻrmaydigan tomondan kirib kelgandir."
+    },
+    {
+      "number": 161,
+      "text": "Odamlar sening xosligingni bilishlarini istashing — ubudiyatingda sidqing yoʻqligiga dalildir."
+    },
+    {
+      "number": 162,
+      "text": "Odamlar koʻzining senga tikilishini Allohning senga qarab turgan koʻzi bilan yoʻqot. Ularning senga yuzlanishidan Allohning senga yaqinlashayotganini koʻrish bilan gʻoyib boʻl."
+    },
+    {
+      "number": 163,
+      "text": "Haqni bilgan kishi Uni hamma narsada mushohada qiladi. Unda fano boʻlgan kishi hamma narsadan gʻoyibdir. Uni sevgan kishi hech narsani Undan afzal koʻrmaydi."
+    },
+    {
+      "number": 164,
+      "text": "Haq faqat Uning nihoyatda yaqinligi tufayli sendan pardalangan."
+    },
+    {
+      "number": 165,
+      "text": "U faqat Uning nihoyatda oshkoraligi tufayli pardalangan, va Zoti nurining buyukligi tufayli koʻzlardan yashirin."
+    },
+    {
+      "number": 166,
+      "text": "Duoyingiz Uni berishga majbur qiladi deb oʻylama, aks holda tushunching zarar koʻradi. Balki Unga duo qil, bandaligingni koʻrsatish va Uning Rububiyati haqlarini ado etish uchun.",
+      "commentary": "Duoning haqiqiy maʼnosi — bandalik, yaʼni Allohga muhtojlik izhoridir. Alloh bergan narsa bizning duoyimiz “sababi” boʻlgani uchun emas, Uning fazlidan."
+    },
+    {
+      "number": 167,
+      "text": "Sening keyingi duoing Uning azaliy taqdir qilingan atoʻsiga qanday sabab boʻlishi mumkin?"
+    },
+    {
+      "number": 168,
+      "text": "Azaliy amr tashqi sababga muhtoj boʻlishdan yuqoridir.",
+      "commentary": "167–168-hikmatlar qazo va duo haqidagi chuqur mavzuga tegadi. Ulamolar: duo — oʻzi ibodat va bandalikdir; ijobat esa Allohning fazlidan."
+    },
+    {
+      "number": 169,
+      "text": "Uning senga alohida eʼtibori sen qilgan biror ishdan emas. Uning alohida eʼtibori va parvarishi seni qamrab olganda sen qayerda eding? Uning azaliyatida amallarda ixlos ham, ruhiy ahvollar ham yoʻq edi. Oʻsha paytda faqat sof ehson va buyuk atoʻlar bor edi."
+    },
+    {
+      "number": 170,
+      "text": "U bandalari Uning alohida eʼtibori kimga ekanini bilishni xohlashini bildi. Shuning uchun dedi: “U Oʻz rahmati bilan kimni xohlasa, xoslaydi” (Baqara, 105). Lekin agar ularni shunda qoldirsa, ular faqat azaliy amrga suyanib amalni tark etishini bildi. Shuning uchun dedi: “Albatta, Allohning rahmati yaxshi amal qiluvchilarga yaqindir” (Aʼrof, 56)."
+    },
+    {
+      "number": 171,
+      "text": "Hamma narsa Uning irodasiga bogʻliq, Uning irodasi esa hech narsaga bogʻliq emas."
+    },
+    {
+      "number": 172,
+      "text": "Baʼzan odob ularni Uning oldindan belgilagan taqsimotiga suyanib, Uning zikri bilan mashgʻul boʻlgani tufayli duoni tark etishga buyuradi.",
+      "commentary": "Zikr bilan mashgʻul boʻlish, Alloh nima bersa shunga rozi boʻlish duodan ham oliy holat boʻlishi mumkin."
+    },
+    {
+      "number": 173,
+      "text": "Faqat unutishi mumkin boʻlgan kishiga eslatma beriladi; faqat gʻofil boʻlishi mumkin boʻlgan kishiga hushyor boʻlish buyuriladi."
+    },
+    {
+      "number": 174,
+      "text": "Ehtiyoj vaqtlari — murid uchun bayram kunlaridir."
+    },
+    {
+      "number": 175,
+      "text": "Ehtimol, ehtiyoj vaqtlarida roʻza va namozda topa olmagan foydalarni topasan."
+    },
+    {
+      "number": 176,
+      "text": "Qattiq ehtiyojlarga ega boʻlish — ilohiy inʼomlar tushadigan maydondir.",
+      "commentary": "Faqirlik — inʼom eshigidir."
+    },
+    {
+      "number": 177,
+      "text": "Ilohiy inʼomlarni istasang, ehtiyoj-faqr hissingni toʻgʻrila. “Sadaqalar faqat faqirlar uchundir” (Tavba, 60)."
+    },
+    {
+      "number": 178,
+      "text": "Sifatlaringda haqiqatga yet, U seni Uning sifatlari bilan quvvatlaydi: kamtarligingni haqiqiy qil, U seni Oʻzining ulugʻligi bilan quvvatlaydi. Ojizliging haqiqatga aylansa, U seni Oʻz qudrati bilan quvvatlaydi. Zaifliging haqiqatga aylansa, U seni Oʻz kuchi bilan quvvatlaydi.",
+      "commentary": "Yoʻlning muhim qoidasi: bandalik sifatlarini (faqirlik, ojizlik, zaiflik) chin dildan tan olsang, Alloh Uning sifatlari bilan quvvat beradi."
+    },
+    {
+      "number": 179,
+      "text": "Ehtimol, (eʼtiqod, amal va ahvollarda) doimiy istiqomatga erishmagan kishiga karomatlar beriladi.",
+      "commentary": "Karomat valiylikning dalili emas; eng katta karomat — istiqomatdir."
+    },
+    {
+      "number": 180,
+      "text": "Haq seni bir holda qaror toptirganining alomati — u doimiy hozir boʻlishi va sen uning mevalarini terib olishga qodir boʻlishingdir."
+    },
+    {
+      "number": 181,
+      "text": "Yaxshi amallariga tayanib koʻrsatma beradigan kishi yomon amallar bilan sukutga tortiladi; Allohning yaxshiligiga tayanib koʻrsatma beradigan kishi qusurlar bilan jim boʻlmaydi."
+    },
+    {
+      "number": 182,
+      "text": "Donolarning ruhiy nurlari soʻzlaridan tezroq yuradi. Nur qayerga tushsa, oʻsha yerda anglash yuz beradi."
+    },
+    {
+      "number": 183,
+      "text": "Aytilgan har bir soʻzga uni aytayotgan kishining qalbini tasvirlaydigan bir gʻilof bor."
+    },
+    {
+      "number": 184,
+      "text": "Kimga taʼlim berishga ruxsat berilgan boʻlsa, uning bayonlari odamlarning quloqlarida tushuniladi va ishoralari ularga baland koʻrinadi."
+    },
+    {
+      "number": 185,
+      "text": "Ehtimol, yuksak haqiqatlarni ifodalashga ruxsating boʻlmasa, aytilgan haqiqatlar nurdan mahrum boʻlib koʻrinadi."
+    },
+    {
+      "number": 186,
+      "text": "Ularning bayonlari yo toʻsatdan toshib kelgan ahvollardan, yo muridni yoʻnaltirish uchundir. Birinchisi boshlovchilarda, keyingisi esa mustahkamlanib haqiqatga yetgan kishilarda boʻladi."
+    },
+    {
+      "number": 187,
+      "text": "Ruhiy taʼlim — tinglovchilar uchun ozuqadir. Sen faqat oʻzing (tayyor boʻlgan) narsani ichib olasan."
+    },
+    {
+      "number": 188,
+      "text": "Baʼzan boshlovchi bir maqomni, uning faqat kichik taʼmini totgan holda tasvirlaydi, baʼzan ilgʻor uni unda haqiqatga yetgach tasvirlaydi. Buni faqat basirat egasi ajrata oladi."
+    },
+    {
+      "number": 189,
+      "text": "Solik oʻzining ruhiy tajribalari haqida gapirmasligi kerak, chunki bu ularning qalbdagi taʼsirini kamaytiradi va Rabbi bilan ulardagi sidqidan ayirib qoʻyadi."
+    },
+    {
+      "number": 190,
+      "text": "Odamlardan biror narsa olish uchun qoʻlingni choʻzma, faqat ular orqali Beruvchi Xoʻjayining ekanini koʻrsang. Va shunday holda ham zohiriy ilmga muvofiq boʻlganini ol."
+    },
+    {
+      "number": 191,
+      "text": "Allohni bilgan kishi koʻpincha Xoʻjayiniga ehtiyojini bartaraf etishni soʻrashdan, Uning irodasi bilan kifoyalanib, uyaladi. Unda nima uchun ehtiyojlarini maxluqotlardan soʻrashdan uyalmasin?"
+    },
+    {
+      "number": 192,
+      "text": "Ikki ish orasida ikkilansang, nafsga ogʻirrogʻiga ergash. Chunki unga faqat haq vazifa ogʻir tuyuladi."
+    },
+    {
+      "number": 193,
+      "text": "Havoga ergashishning alomatlaridan biri — mandub ibodatlarga shoshilib, vojib ibodatlarda dangasalik qilishdir."
+    },
+    {
+      "number": 194,
+      "text": "U vojib amallarni muayyan vaqtlarga bogʻladi, toki sen kechiktirish tufayli ularning savobidan mahrum boʻlmasin. Va boʻsh vaqtingni keng qildi, toki senga (amallarni ado etishda) maʼlum ixtiyor qolsin."
+    },
+    {
+      "number": 195,
+      "text": "U Oʻz bandalarining koʻpchiligi Uni izlashda oʻz-oʻzidan harakatlanmasligini bildi; shuning uchun ularga Unga itoatni farz qildi. Ularni farzlik zanjirlari bilan Oʻziga qarab itardi. Rabbing zanjirlar bilan jannatga haydalayotgan qavmga ajablanadi (hadisga ishora).",
+      "commentary": "Farz zanjirlari ham Allohning rahmatidan: erkin qoldirilsa, koʻpchilik Undan uzoqlashardi."
+    },
+    {
+      "number": 196,
+      "text": "U seni Oʻziga xizmat qilishga majbur qilar ekan, aslida seni faqat Jannatiga kirishga majbur qilgan."
+    },
+    {
+      "number": 197,
+      "text": "Alloh uni shahvatlaridan qutqarishi va gʻaflatidan chiqarishini imkonsiz deb bilgan kishi ilohiy qudratni ojiz deb eʼlon qilgan boʻladi. “Va Alloh har narsaga qodirdir” (Kahf, 45)."
+    },
+    {
+      "number": 198,
+      "text": "Ehtimol, U seni (nurdan keyin) zulmatga gʻarq qilgandir, toki senga bergan buyuk neʼmatning qadriga yetasan."
+    },
+    {
+      "number": 199,
+      "text": "Kim neʼmatlarni ular borligida bilmasa, ular yoʻqligida unga eslatiladi."
+    },
+    {
+      "number": 200,
+      "text": "Neʼmat yomgʻirlari seni ularga shukr qilishdan hayratga solib qoʻymasin, aks holda martabang pasayadi."
+    },
+    {
+      "number": 201,
+      "text": "Qalbga singib ketgan shahvat — davolash qiyin boʻlgan dardir."
+    },
+    {
+      "number": 202,
+      "text": "Shahvatlar qalbdan faqat dahshatli qoʻrquv yoki bezovta qiluvchi ishtiyoq bilan haydaladi."
+    },
+    {
+      "number": 203,
+      "text": "U yonida boshqalar uchun qilingan amalni yoqtirmagani kabi, Uning yonida boshqalar boʻlgan qalbni ham yoqtirmaydi. Ixlossiz amalni qabul qilmaydi; ixlossiz qalbga yaqinlashmaydi."
+    },
+    {
+      "number": 204,
+      "text": "Baʼzi nurga yetib borishga ruxsat beriladi, baʼzi nurga kirishga ruxsat beriladi."
+    },
+    {
+      "number": 205,
+      "text": "Baʼzan ruhiy nur tushadi-yu, qalbni jismoniy narsalar suratlari bilan toʻlgan holda topadi va kelgan joyiga qaytib ketadi."
+    },
+    {
+      "number": 206,
+      "text": "Qalbingni gʻayrlardan boʻshat, U uni ilohiy ilmlar va sirlar bilan toʻldiradi."
+    },
+    {
+      "number": 207,
+      "text": "Uning berishi sekin deb oʻylama; balki sening (Unga) yaqinlashishing sekinligini oʻyla."
+    },
+    {
+      "number": 208,
+      "text": "Muayyan vaqtlarga tayinlangan vazifalar oʻtkazib yuborilsa, qazosini oʻqish mumkin; lekin lahzalarning haqlari oʻtkazib yuborilsa, qazosi yoʻq. Har lahzada Allohning senda yangi haqqi va muhim ishi bor. Hozirgi Alloh haqqini ado etish bilan band boʻlgan holda oldingi haqni qanday ado qilasan?",
+      "commentary": "Har lahzada yangi vazifa bor: vaqt qaytmaydi. Sufiylar aytganidek, “sufiy — vaqt oʻgʻli”."
+    },
+    {
+      "number": 209,
+      "text": "Umringdan oʻtib ketgani oʻrniga qoʻyilmaydi, va yaxshi ishlatganingga narx yoʻq."
+    },
+    {
+      "number": 210,
+      "text": "Biror narsani sevsang, uning quliga aylanasan; U esa sen Undan oʻzgaga qul boʻlishingni yoqtirmaydi."
+    },
+    {
+      "number": 211,
+      "text": "Sening itoating Unga foyda bermaydi, isyoning Unga zarar yetkazmaydi. U seni buni qil, unisidan tiyil deb faqat oʻz manfaating uchun buyurgan."
+    },
+    {
+      "number": 212,
+      "text": "Uning izzati Unga yaqinlashgan kishi bilan ortmaydi va Undan yuz oʻgirgan kishi bilan kamaymaydi."
+    },
+    {
+      "number": 213,
+      "text": "Allohga Uni bilish orqali yetasan; aks holda Rabbimiz biror narsa Unga bogʻlanishidan yoki U biror narsaga bogʻlanishidan yuqoridir.",
+      "commentary": "Allohga yetish — maʼrifat orqali, makon va masofa bilan emas."
+    },
+    {
+      "number": 214,
+      "text": "Sening Unga yaqinligingning maʼnosi — Uning senga yaqinligini koʻrishingdir. Aks holda sen qayerdasan-ki, Unga yaqin boʻlsang?",
+      "commentary": "Alloh bandaga doim yaqin; banda esa gʻaflatda. Yaqinlik — oʻsha yaqinlikni anglashdir."
+    },
+    {
+      "number": 215,
+      "text": "Yuksak haqiqatlar senga birdaniga tong otadi, ularni qabul qilganingdan keyin ular sharhlanadi: “Biz uni oʻqiganimizda, sen oʻqilishiga ergash. Keyin uni bayon qilish Bizning zimmamizda” (Qiyomat, 18–19)."
+    },
+    {
+      "number": 216,
+      "text": "Ilohiy ruhiy tajribalar senga kelganda, odatlaringni buzadi: “Albatta, podshohlar biror shaharga kirsa, uni vayron qiladi” (Naml, 34)."
+    },
+    {
+      "number": 217,
+      "text": "Ruhiy tajribalar Qahhor huzuridan keladi. Shu sababli ular biror narsaga urilsa, uni bartaraf etmay qolmaydi: “Balki Biz haqni botilga otamiz, u uni parcha-parcha qiladi va botil yoʻq boʻlib ketadi” (Anbiyo, 18)."
+    },
+    {
+      "number": 218,
+      "text": "Haq Oʻzini biror narsa bilan qanday toʻsadi, holbuki U oʻsha narsada zohir va (mustaqil ravishda) hozir va mavjuddir?"
+    },
+    {
+      "number": 219,
+      "text": "Sen Uning huzurini his qilmasdan bajargan amalning qabul qilinishidan noumid boʻlma. Koʻp marta U hozir mevasini totmaydigan amalni qabul qiladi."
+    },
+    {
+      "number": 220,
+      "text": "Mevasini hali bilmagan ruhiy tajribaga poklik qadrini berma. Yomgʻir bulutlaridan foyda yomgʻirning oʻzi emas, balki (keyin oʻsib chiqadigan) mevalardir."
+    },
+    {
+      "number": 221,
+      "text": "Nurlarini yoyib, sirlarini joylashtirgan ruhiy tajriba sendan ketib qolgach, u qolganida edi deb orzu qilma. Allohda sen hamma narsadan mustaqilsan, lekin hech narsa seni Undan behojat qila olmaydi.",
+      "commentary": "Holatlar keladi va ketadi. Holatga emas, Holat Egasiga bogʻlan."
+    },
+    {
+      "number": 222,
+      "text": "Sening biror narsa (Undan boshqa) ketayotganda qolishini xohlashing — Uning huzurida hozir emasligingga dalildir. Undan boshqasini yoʻqotganingdan gʻamgin boʻlishing — Unga yetmaganingga dalildir."
+    },
+    {
+      "number": 223,
+      "text": "Lazzat, garchi koʻp shaklda zohir boʻlsa ham, faqat Uning yaqinligini koʻrish orqali boʻladi. Alam, garchi koʻp shaklda zohir boʻlsa ham, faqat Undan pardalanish orqali boʻladi. Alamning sababi — parda borligidir. Lazzatning kamolga yetishi — Uning muhtasham Jamolini koʻrishdadir.",
+      "commentary": "Haqiqiy lazzat — Allohni bilish va Unga yaqinlik; haqiqiy alam — Undan uzoqlik va pardalanish."
+    },
+    {
+      "number": 224,
+      "text": "Qalblar topadigan gʻam va tushkunlik ular (Uni) koʻrishdan mahrum qilinganidandir."
+    },
+    {
+      "number": 225,
+      "text": "Neʼmatining senga kamolga yetishidan biri — senga yetarli boʻlganini berishi va seni haddan oshirib yuboradigan narsadan man qilishidir."
+    },
+    {
+      "number": 226,
+      "text": "Seni xursand qiladigan narsalar oz boʻlsin, seni gʻamgin qiladigan narsalar ham oz boʻladi."
+    },
+    {
+      "number": 227,
+      "text": "Tashlab ketilmaslikni istasang, mangu emas narsalardan himoya izlama."
+    },
+    {
+      "number": 228,
+      "text": "Boshlanish seni chorlasa, tugash seni jirkantiradi; zohir seni daʼvat qilsa, botin seni toʻsadi."
+    },
+    {
+      "number": 229,
+      "text": "U dunyoni faqat begonalar joyi va tashvishlar koni qildi, toki uni sevmasin."
+    },
+    {
+      "number": 230,
+      "text": "U sen shunchaki nasihatni qabul qilmasligingni bildi; shuning uchun senga uning achchiq taʼmini totdirdi, undan ajralishni yengillashtirish uchun."
+    },
+    {
+      "number": 231,
+      "text": "Foydali ilm — nur shuʼlalari koʻkrakda yoyilib, qalbdan pardani yirtib tashlaydigan ilmdir."
+    },
+    {
+      "number": 232,
+      "text": "Eng yaxshi ilm — taqvo bilan birga boʻlgan ilmdir."
+    },
+    {
+      "number": 233,
+      "text": "Ilm taqvo bilan birga boʻlsa, u sening foydangga; aks holda zararingga."
+    },
+    {
+      "number": 234,
+      "text": "Odamlarning sendan yuz oʻgirishidan yoki seni ayblashidan alam chekkaningda, Allohning seni bilishi bilan kifoyalan. Agar Uning seni bilishi bilan qanoatlanmasang, Uning bilishi bilan qanoatlanmasliging odamlarning senga ozor berishidan koʻra kattaroq musibatdir."
+    },
+    {
+      "number": 235,
+      "text": "U jarohatni odamlarning qoʻllaridan senga oqizdi, toki ularda orom topmaysan. U seni har narsadan uzoqlashtirmoqchi, toki hech narsa seni Undan mashgʻul qilmasin."
+    },
+    {
+      "number": 236,
+      "text": "Shayton seni unutmasligini bilsang, peshonang Uning qoʻlida boʻlgan Zotni unutma."
+    },
+    {
+      "number": 237,
+      "text": "U shaytonni faqat seni Unga haydashi uchun dushman qildi. Nafsingni (yomonlikka) undovchi qildi, toki Unga yaqinlashishing va tavba qilishing hech toʻxtamasin."
+    },
+    {
+      "number": 238,
+      "text": "Kamtarman deb daʼvo qilgan kishi aslida mutakabbirdir — chunki kamtarlik yuksak maqomdir. Va oʻzingga yuksak maqomni daʼvo qilsang, mutakabbirsan.",
+      "commentary": "Kamtarlikni “daʼvo” qilib boʻlmaydi: u soʻz emas, holdir."
+    },
+    {
+      "number": 239,
+      "text": "Kamtar kishi oʻzini qilgan ishidan yuqori koʻrmaydi, balki oʻzini qilgan ishidan past koʻradi."
+    },
+    {
+      "number": 240,
+      "text": "Haqiqiy kamtarlik Uning Buyukligini va yuksak sifatlarini mushohada qilishdan kelib chiqadi."
+    },
+    {
+      "number": 241,
+      "text": "(Oʻzingning) sifatlaringni (Uning) sifatlarini koʻrmasdan tark eta olmaysan."
+    },
+    {
+      "number": 242,
+      "text": "Moʻmin Allohning hamdi bilan mashgʻul boʻlib, oʻziga eʼtibor berishdan chalgʻiydi, Allohning haqlari bilan mashgʻul boʻlib, nafsiy nasibalarini eslashdan chalgʻiydi."
+    },
+    {
+      "number": 243,
+      "text": "Haqiqiy oshiq — sevgilisidan evaz umid qiladigan yoki oʻz maqsadini izlaydigan emas. Balki oshiq oʻzini sevgilisi yoʻlida sarflaydi. Sevgilisi unga sarflashini kutadigan kishi oshiq emas."
+    },
+    {
+      "number": 244,
+      "text": "Nafslar jang maydonlari boʻlmaganida, yoʻlchilar uchun safar boʻlmasdi, chunki sen bilan Uning orangda sening safaring qisqartiradigan masofa yoʻq va sen bilan Uning orangda sening Unga yetishing yoʻqotadigan ajralish yoʻq.",
+      "commentary": "Yoʻlchining haqiqiy kurashi masofa bilan emas, nafs bilandir; Alloh bandaga doim yaqin."
+    },
+    {
+      "number": 245,
+      "text": "U seni Oʻzining zohiriy dunyosi va gʻayb dunyosi orasidagi oʻrta olamga joylashtirdi, seni maxluqotlar orasida martabangning yuksakligidan xabardor qilish uchun. Sen maxluq shakllar chigʻanoqlari ichiga oʻralgan gavharsan.",
+      "commentary": "Insonning qadri: u ikki olam oraligʻida turadi. Lekin “chigʻanoq” (jism va nafs) tufayli gavhar koʻrinmaydi."
+    },
+    {
+      "number": 246,
+      "text": "Koinot sening jisminga nisbatan katta, lekin sening ruhingga nisbatan katta emas."
+    },
+    {
+      "number": 247,
+      "text": "Gʻayb olamidan qulflangan holda zohir olamda yashagan kishi oʻz atrofi zindoniga tushgan va jismining doirasi bilan oʻralgan."
+    },
+    {
+      "number": 248,
+      "text": "Sen Xoliqni mushohada qilmaguningcha maxluqotlar bilansan. Uni mushohada qilganingda, maxluqotlar sen bilan boʻladi."
+    },
+    {
+      "number": 249,
+      "text": "Xoslik insonning dagʻal xususiyatlari yoʻqligini talab qilmaydi. Xoslik quyosh nuri ufqni toʻldirgani kabidir, ufqning oʻzida esa nur yoʻq. Baʼzan U xoslik xislatini sendan olib, seni dagʻal insoniy chegaralaringga qaytaradi. Shunday qilib, kunduz nuri sendan emas va senga tegishli emas; u shunchaki senga yopilgan.",
+      "commentary": "Valiylik xislati insonning oʻzidan emas. Alloh baʼzan xoslikni olib, bandani bandalik chegarasiga qaytaradi, kibrdan saqlash uchun."
+    },
+    {
+      "number": 250,
+      "text": "Uning feʼllari ismlarini koʻrsatadi. Ismlari sifatlariga ishora qiladi. Sifatlari Zotiga ishora qiladi, chunki sifatning oʻz-oʻzidan mavjud boʻlishi mumkin emas. Jazba (ilohiy tortilish) egalariga Uning Zoti kashf boʻladi. Keyin ularga Uning sifatlarini koʻrsatadi. Keyin ularni ismlarning chuqur tushunchasiga qaytaradi. Keyin ularga feʼllarini koʻrsatadi. Murshid qoʻl ostida yoʻl yuruvchilar bularni teskari tartibda boshdan kechiradi. Ikkinchi guruh yetib boradigan joy — birinchi guruh boshlagan joydir. Ikkinchi guruh boshlaydigan joy — birinchi guruh tugatadigan joydir. Lekin har biri bosqichlarni biroz boshqacha his qiladi. Shuning uchun ikki guruh yoʻlda uchrashib qolishi mumkin: bular yuqoriga, anavilar pastga.",
+      "commentary": "Majzub (jazba bilan tortilgan) va solik (mashaqqat bilan yoʻl yuruvchi) yoʻllari: birinchisi Zotdan boshlab ismlarga tushadi, ikkinchisi feʼllardan Zotga koʻtariladi."
+    },
+    {
+      "number": 251,
+      "text": "Qalb va sirlarning nurlari faqat gʻayb olamida toʻliq idrok qilinadi, xuddi osmon nuri faqat zohir olamida koʻrilgani kabi."
+    },
+    {
+      "number": 252,
+      "text": "Bu dunyoda ibodatining mevasini topish — narigi dunyodagi mukofotning xushxabaridir."
+    },
+    {
+      "number": 253,
+      "text": "U senga ato etgan amal uchun mukofotni qanday soʻraysan? U senga bergan sidq uchun mukofotni qanday talab qilasan?"
+    },
+    {
+      "number": 254,
+      "text": "Baʼzilarda ruhiy nurlari zikrlaridan oldin keladi. Boshqalarda zikrlari nurlaridan oldin. Boshqalarda zikrlari va nurlari birga sodir boʻladi. Yana boshqalarda na nur bor, na zikr — va biz bundan Allohdan panoh soʻraymiz."
+    },
+    {
+      "number": 255,
+      "text": "Baʼzi odamlar qalbi nurlansin deb zikr qiladi. Boshqalarning qalbi nurlanadi va natijada zikr qiladi. Yana boshqalarda zikr va nurlanish bir vaqtda boʻladi; bu oxirgi guruhda zikr yoʻl koʻrsatadi, nurlar esa ergashiladi."
+    },
+    {
+      "number": 256,
+      "text": "Zohirdagi haqiqiy zikr faqat Alloh Zotini koʻrish (mushohada) va botindagi tafakkurdan (muroqabadan) boʻladi."
+    },
+    {
+      "number": 257,
+      "text": "U seni guvohlik berishingni soʻramasdan oldin mushohada qildirdi. Shuning uchun zohiran Uning ilohiyligi haqida gapiriladi, qalb va sirda esa Uning hammasini qamrab olgan birligi (vahdat) anglanadi.",
+      "commentary": "Bu “Alast” (Aʼrof, 172) ahdiga ishoradir: Alloh avval koʻrsatdi, soʻng guvohlik soʻradi."
+    },
+    {
+      "number": 258,
+      "text": "U senga uch inʼom berdi: (1) Seni Oʻzini zikr qilishga muvaffaq qildi; Uning fazli boʻlmaganida, Uning zikri bilan shugʻullanishga loyiq boʻlmasding; (2) Seni Uning bilan birga eslatdi, chunki sening Unga nisbatingni tasdiqladi; (3) Seni Oʻzi zikr qilgan qildi va shunday qilib senga neʼmatini komil qildi."
+    },
+    {
+      "number": 259,
+      "text": "Baʼzan uzoq umr samarasiz. Baʼzan qisqa umr nihoyatda samarali."
+    },
+    {
+      "number": 260,
+      "text": "Umri barakali boʻlgan kishi juda qisqa vaqtda Alloh barakasidan koʻp narsa oladi. Shunchalik-ki, buni (ulugʻligini) taʼriflab boʻlmaydi, hatto ishora ham qila olmaydi."
+    },
+    {
+      "number": 261,
+      "text": "Xorlikka tashlab qoʻyilishning (xizlon) alomati — seni band qilgan narsalardan xoli boʻlasan-u, Unga yuzlanmaysan; toʻsiqlaring kamayadi-yu, Unga safar qilmaysan."
+    },
+    {
+      "number": 262,
+      "text": "Fikr (tafakkur) — qalbning gʻayrlar (maxluqot) maydonida sayr qilishidir.",
+      "commentary": "Tafakkur maxluqotga qarab, ular orqali Allohga yetishning yoʻlidir; maqsad oʻsha yerda toʻxtash emas (140-hikmatga qarang)."
+    },
+    {
+      "number": 263,
+      "text": "Fikr — qalbning chirogʻidir. U ketsa, qalbda nur boʻlmaydi."
+    },
+    {
+      "number": 264,
+      "text": "Fikr ikki xil: (1) eʼtiqod va iymon fikri; (2) mushohada va koʻrish fikri. Birinchisi ibrat oladiganlar uchun, ikkinchisi (Alloh) didorini boshdan kechiradigan va basirat egalari uchun."
+    }
+  ]
+}

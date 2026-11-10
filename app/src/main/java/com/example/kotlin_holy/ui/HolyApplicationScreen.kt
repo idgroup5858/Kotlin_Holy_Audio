@@ -1,167 +1,224 @@
 package com.example.kotlin_holy.ui
 
+import android.app.Activity
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.AutoStories
-import androidx.compose.material.icons.filled.Bookmark
-import androidx.compose.material.icons.filled.ChevronRight
-import androidx.compose.material.icons.filled.MenuBook
-import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material.icons.filled.Translate
-import androidx.compose.material.icons.outlined.Article
-import androidx.compose.material3.Icon
-import androidx.compose.material3.NavigationBar
-import androidx.compose.material3.NavigationBarItem
-import androidx.compose.material3.NavigationBarItemDefaults
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
+import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.layout.width
+import androidx.compose.material3.DrawerValue
+import androidx.compose.material3.ModalDrawerSheet
+import androidx.compose.material3.ModalNavigationDrawer
+import androidx.compose.material3.rememberDrawerState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.SideEffect
+import androidx.compose.ui.platform.LocalView
+import androidx.core.view.WindowCompat
 import androidx.compose.runtime.getValue
-import androidx.compose.ui.Alignment
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.RectangleShape
+import androidx.compose.ui.input.pointer.PointerEventPass
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import androidx.navigation.NavDestination.Companion.hierarchy
-import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.example.kotlin_holy.ui.components.HolyCard
+import com.example.kotlin_holy.ui.components.Divider
+import com.example.kotlin_holy.ui.navigation.BackLinkState
 import com.example.kotlin_holy.ui.navigation.HolyNavHost
+import com.example.kotlin_holy.ui.navigation.LocalBackLink
+import com.example.kotlin_holy.ui.navigation.LocalNav
+import com.example.kotlin_holy.ui.navigation.NavActions
 import com.example.kotlin_holy.ui.navigation.Routes
+import com.example.kotlin_holy.ui.shell.AppHeader
+import com.example.kotlin_holy.ui.shell.LocalShell
+import com.example.kotlin_holy.ui.shell.QuranNav
+import com.example.kotlin_holy.ui.shell.RouteInfo
+import com.example.kotlin_holy.ui.shell.ShellInfo
+import com.example.kotlin_holy.ui.shell.Sidebar
+import com.example.kotlin_holy.ui.theme.AppearanceBackdrop
 import com.example.kotlin_holy.ui.theme.HolyTheme
-import com.example.kotlin_holy.ui.theme.LocalHolyColors
+import com.example.kotlin_holy.ui.theme.LocalTextScales
+import com.example.kotlin_holy.ui.theme.TextScales
+import kotlinx.coroutines.launch
 
-private data class Tab(val route: String, val label: String, val icon: ImageVector)
-
-private val tabs = listOf(
-    Tab(Routes.SURAHS, "Suralar", Icons.Filled.MenuBook),
-    Tab(Routes.PAGES, "Sahifalar", Icons.Outlined.Article),
-    Tab(Routes.JUZ_LIST, "Juzlar", Icons.Filled.AutoStories),
-    Tab(Routes.WORDS, "Soʻzlar", Icons.Filled.Translate),
-    Tab(Routes.SETTINGS, "Sozlama", Icons.Filled.Settings),
-)
-
-/** Ilovaning ildizi: mavzu, pastki menyu va navigatsiya shu yerda */
+/**
+ * Ilovaning ildizi — veb nusxadagi Layout: tepada navbar, chapda yon panel (tor ekranda
+ * menyu tugmasi bilan ochiladigan), orqada mavzu naqshi, o'rtada sahifalar.
+ */
 @Composable
 fun HolyApplicationScreen(viewModel: RootViewModel = hiltViewModel()) {
     val settings by viewModel.settings.collectAsStateWithLifecycle()
+    val surahs by viewModel.surahs.collectAsStateWithLifecycle()
+    val xatm by viewModel.xatm.collectAsStateWithLifecycle()
+    val todayReading by viewModel.todayReading.collectAsStateWithLifecycle()
 
-    HolyTheme(themeMode = settings.themeMode) {
-        val colors = LocalHolyColors.current
+    /* Sozlamalar o'qilguncha hech narsa chizilmaydi — mavzu bir lahza almashib ko'rinmasin */
+    val current = settings ?: run {
+        Box(Modifier.fillMaxSize().background(Color(0xFF0F1012)))
+        return
+    }
+
+    HolyTheme(themeMode = current.themeMode, appearance = current.appearance) {
+        val colors = HolyTheme.colors
+
+        /* Tizim panellaridagi belgilar ilova mavzusiga mos: qorong'i fonda — oq */
+        val view = LocalView.current
+        SideEffect {
+            val window = (view.context as? Activity)?.window ?: return@SideEffect
+            WindowCompat.getInsetsController(window, view).apply {
+                isAppearanceLightStatusBars = !colors.isDark
+                isAppearanceLightNavigationBars = !colors.isDark
+            }
+        }
+
         val navController = rememberNavController()
-        val backStack by navController.currentBackStackEntryAsState()
-        val destination = backStack?.destination
+        val nav = remember(navController) { NavActions(navController) }
+        val backLink = remember { BackLinkState() }
+        val entry by navController.currentBackStackEntryAsState()
+        val route = remember(entry) {
+            val destination = entry?.destination
+            RouteInfo(
+                pattern = destination?.route,
+                args = destination?.arguments?.keys?.mapNotNull { key ->
+                    entry?.arguments?.getString(key)?.let { key to it }
+                }?.toMap().orEmpty(),
+            )
+        }
 
-        Scaffold(
-            containerColor = colors.bg,
-            bottomBar = {
-                NavigationBar(containerColor = colors.surface, tonalElevation = 0.dp) {
-                    tabs.forEach { tab ->
-                        val selected = destination?.hierarchy?.any { it.route == tab.route } == true
-                        NavigationBarItem(
-                            selected = selected,
-                            onClick = {
-                                navController.navigate(tab.route) {
-                                    popUpTo(navController.graph.findStartDestination().id) {
-                                        saveState = true
-                                    }
-                                    launchSingleTop = true
-                                    restoreState = true
-                                }
-                            },
-                            icon = { Icon(tab.icon, contentDescription = tab.label) },
-                            label = {
-                                Text(tab.label, fontSize = 11.sp, fontWeight = FontWeight.SemiBold)
-                            },
-                            colors = NavigationBarItemDefaults.colors(
-                                selectedIconColor = colors.accent,
-                                selectedTextColor = colors.accent,
-                                unselectedIconColor = colors.inkFaint,
-                                unselectedTextColor = colors.inkFaint,
-                                indicatorColor = colors.accentSoft,
-                            ),
+        ReadingTimeEffect(viewModel, route.pattern in Routes.readingRoutes)
+
+        BoxWithConstraints(
+            Modifier
+                .fillMaxSize()
+                .background(colors.bg)
+                .pointerInput(Unit) {
+                    /* O'qish vaqti: bosish va varaqlash — harakat (hodisalar iste'mol qilinmaydi) */
+                    awaitPointerEventScope {
+                        while (true) {
+                            awaitPointerEvent(PointerEventPass.Initial)
+                            viewModel.readingTracker.activity()
+                        }
+                    }
+                },
+        ) {
+            val wide = maxWidth >= 1024.dp
+            val shell = ShellInfo(surahs = surahs, route = route, wide = maxWidth >= 640.dp)
+            val drawerState = rememberDrawerState(DrawerValue.Closed)
+            val scope = rememberCoroutineScope()
+
+            LaunchedEffect(route.filled) { if (drawerState.isOpen) drawerState.close() }
+
+            AppearanceBackdrop(current.appearance, colors, Modifier.fillMaxSize())
+
+            CompositionLocalProvider(
+                LocalNav provides nav,
+                LocalBackLink provides backLink,
+                LocalShell provides shell,
+                LocalTextScales provides TextScales(current.arabicScale, current.translationScale),
+            ) {
+                val body: @Composable () -> Unit = {
+                    Column(Modifier.fillMaxSize()) {
+                        AppHeader(
+                            showMenu = !wide,
+                            onMenu = { scope.launch { drawerState.open() } },
+                            onLogo = { nav.section(Routes.HOME) },
+                            back = backLink.current,
+                            onBack = nav::back,
+                            lastReadLabel = current.lastReadLabel,
+                            showContinue = current.lastReadRoute != null && current.lastReadRoute != route.filled,
+                            onContinue = { current.lastReadRoute?.let(nav::open) },
+                            themeMode = current.themeMode,
+                            onThemeMode = viewModel::setThemeMode,
+                            settingsActive = route.pattern == Routes.SETTINGS,
+                            onSettings = { nav.open(Routes.settings()) },
+                            xatm = xatm,
+                            todayReading = todayReading,
+                            onXatm = { nav.open(Routes.settings("xatm")) },
+                            onReading = { nav.open(Routes.settings("reading")) },
+                            quranNav = { QuranNav() },
                         )
+                        Row(Modifier.fillMaxSize()) {
+                            if (wide) {
+                                Sidebar(
+                                    currentRoute = route.pattern,
+                                    onNavigate = nav::section,
+                                    modifier = Modifier.width(240.dp),
+                                )
+                                Box(Modifier.width(1.dp).fillMaxHeight().background(colors.line))
+                            }
+                            HolyNavHost(navController, Modifier.fillMaxSize())
+                        }
                     }
                 }
-            },
-        ) { padding ->
-            Column(
-                Modifier
-                    .fillMaxSize()
-                    .background(colors.bg)
-                    .padding(padding),
-            ) {
-                val lastReadRoute = settings.lastReadRoute
-                val lastReadLabel = settings.lastReadLabel
-                if (lastReadRoute != null && lastReadLabel != null) {
-                    ContinueReadingBar(
-                        label = lastReadLabel,
-                        onClick = {
-                            navController.navigate(lastReadRoute) { launchSingleTop = true }
+
+                if (wide) {
+                    body()
+                } else {
+                    ModalNavigationDrawer(
+                        drawerState = drawerState,
+                        scrimColor = Color.Black.copy(alpha = 0.5f),
+                        drawerContent = {
+                            ModalDrawerSheet(
+                                modifier = Modifier.width(256.dp),
+                                drawerShape = RectangleShape,
+                                drawerContainerColor = colors.surface,
+                                drawerTonalElevation = 0.dp,
+                            ) {
+                                Row(Modifier.fillMaxSize()) {
+                                    Sidebar(
+                                        currentRoute = route.pattern,
+                                        onNavigate = { target ->
+                                            scope.launch { drawerState.close() }
+                                            nav.section(target)
+                                        },
+                                        modifier = Modifier.weight(1f).statusBarsPadding(),
+                                    )
+                                    Box(Modifier.width(1.dp).fillMaxHeight().background(colors.line))
+                                }
+                            }
                         },
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = 12.dp, vertical = 8.dp),
+                        content = body,
                     )
-                }
-                Box(Modifier.weight(1f)) {
-                    HolyNavHost(navController = navController, settings = settings)
                 }
             }
         }
     }
 }
 
-/** Foydalanuvchi oxirgi oʻqigan joyiga bir bosishda qaytadigan panel */
+/** O'qish sahifasida va ilova ko'rinib turganda o'qish vaqti hisoblanadi */
 @Composable
-private fun ContinueReadingBar(
-    label: String,
-    onClick: () -> Unit,
-    modifier: Modifier = Modifier,
-) {
-    val colors = HolyTheme.colors
-    HolyCard(modifier = modifier, onClick = onClick) {
-        Row(
-            modifier = Modifier.fillMaxWidth().padding(horizontal = 14.dp, vertical = 10.dp),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            Icon(
-                imageVector = Icons.Filled.Bookmark,
-                contentDescription = null,
-                tint = colors.accent,
-                modifier = Modifier.padding(end = 8.dp),
-            )
-            Text(
-                text = "Davom etish:",
-                color = colors.inkFaint,
-                fontSize = 13.sp,
-                fontWeight = FontWeight.SemiBold,
-            )
-            Text(
-                text = label,
-                color = colors.ink,
-                fontSize = 13.sp,
-                fontWeight = FontWeight.Bold,
-                maxLines = 1,
-                overflow = TextOverflow.Ellipsis,
-                modifier = Modifier.padding(start = 6.dp).weight(1f),
-            )
-            Icon(
-                imageVector = Icons.Filled.ChevronRight,
-                contentDescription = null,
-                tint = colors.inkFaint,
-            )
+private fun ReadingTimeEffect(viewModel: RootViewModel, reading: Boolean) {
+    val lifecycle = LocalLifecycleOwner.current.lifecycle
+    DisposableEffect(reading, lifecycle) {
+        val tracker = viewModel.readingTracker
+        if (!reading) return@DisposableEffect onDispose { }
+        val observer = LifecycleEventObserver { _, event ->
+            when (event) {
+                Lifecycle.Event.ON_START -> tracker.start()
+                Lifecycle.Event.ON_STOP -> tracker.stop()
+                else -> Unit
+            }
+        }
+        if (lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) tracker.start()
+        lifecycle.addObserver(observer)
+        onDispose {
+            lifecycle.removeObserver(observer)
+            tracker.stop()
         }
     }
 }

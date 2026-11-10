@@ -104,6 +104,12 @@ class QuranPlayer @Inject constructor(
                 _state.value = _state.value.copy(isPlaying = false, word = null)
             }
         }
+
+        /* Fayl ochilmasa yoki buzilgan bo'lsa tugma "ijro etilmoqda" holatida qotib qolmasin */
+        override fun onPlayerError(error: androidx.media3.common.PlaybackException) {
+            stopTicking()
+            _state.value = _state.value.copy(isPlaying = false, word = null)
+        }
     }
 
     /* ---------- ijro ---------- */
@@ -171,9 +177,12 @@ class QuranPlayer @Inject constructor(
         audio = surahAudio
         clipStartMs = fromMs
 
+        /* Tugash boshlanishdan oldin bo'lsa ExoPlayer kesmani ocha olmaydi
+           (IllegalClippingException) — bunday yozuvda kamida bir lahza o'qiladi */
+        val clipEnd = toMs?.coerceAtLeast(fromMs + MIN_CLIP_MS)
         val clipping = MediaItem.ClippingConfiguration.Builder()
             .setStartPositionMs(fromMs)
-            .apply { if (toMs != null) setEndPositionMs(toMs) }
+            .apply { if (clipEnd != null) setEndPositionMs(clipEnd) }
             .build()
 
         val item = MediaItem.Builder()
@@ -250,6 +259,9 @@ class QuranPlayer @Inject constructor(
     private companion object {
         /** So'z chegarasini sezilarli kechikishsiz ilg'aydigan eng katta oraliq */
         const val TICK_MS = 60L
+
+        /** Bitta so'z yoki oyat kesmasining eng qisqa uzunligi */
+        const val MIN_CLIP_MS = 250L
     }
 }
 

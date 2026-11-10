@@ -35,4 +35,9 @@ class QuranRepositoryImpl @Inject constructor(
     override suspend fun words(): List<DifficultWord> = source.words().items.map { it.toDomain() }
 
     override suspend fun meta(): DataMeta? = runCatching { source.meta().toDomain() }.getOrNull()
+
+    override suspend fun tafsir(surahNumber: Int): Map<Int, String> =
+        source.tafsir(surahNumber).mapNotNull { (key, value) ->
+            key.toIntOrNull()?.let { it to value }
+        }.toMap()
 }

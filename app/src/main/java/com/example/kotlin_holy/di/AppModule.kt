@@ -2,13 +2,19 @@ package com.example.kotlin_holy.di
 
 import android.content.Context
 import com.example.kotlin_holy.data.audio.AudioRepositoryImpl
-import com.example.kotlin_holy.data.prefs.MemorizationRepositoryImpl
+import com.example.kotlin_holy.data.prefs.MarksRepositoryImpl
+import com.example.kotlin_holy.data.prefs.ReadingTimeRepositoryImpl
+import com.example.kotlin_holy.data.prefs.RemindersRepositoryImpl
 import com.example.kotlin_holy.data.prefs.SettingsRepositoryImpl
 import com.example.kotlin_holy.data.prefs.XatmRepositoryImpl
+import com.example.kotlin_holy.data.repository.LibraryRepositoryImpl
 import com.example.kotlin_holy.data.repository.QuranRepositoryImpl
 import com.example.kotlin_holy.domain.repository.AudioRepository
-import com.example.kotlin_holy.domain.repository.MemorizationRepository
+import com.example.kotlin_holy.domain.repository.LibraryRepository
+import com.example.kotlin_holy.domain.repository.MarksRepository
 import com.example.kotlin_holy.domain.repository.QuranRepository
+import com.example.kotlin_holy.domain.repository.ReadingTimeRepository
+import com.example.kotlin_holy.domain.repository.RemindersRepository
 import com.example.kotlin_holy.domain.repository.SettingsRepository
 import com.example.kotlin_holy.domain.repository.XatmRepository
 import dagger.Binds
@@ -30,7 +36,23 @@ abstract class RepositoryModule {
 
     @Binds
     @Singleton
+    abstract fun bindLibraryRepository(impl: LibraryRepositoryImpl): LibraryRepository
+
+    @Binds
+    @Singleton
     abstract fun bindXatmRepository(impl: XatmRepositoryImpl): XatmRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindMarksRepository(impl: MarksRepositoryImpl): MarksRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindRemindersRepository(impl: RemindersRepositoryImpl): RemindersRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindReadingTimeRepository(impl: ReadingTimeRepositoryImpl): ReadingTimeRepository
 
     @Binds
     @Singleton
@@ -39,10 +61,6 @@ abstract class RepositoryModule {
     @Binds
     @Singleton
     abstract fun bindAudioRepository(impl: AudioRepositoryImpl): AudioRepository
-
-    @Binds
-    @Singleton
-    abstract fun bindMemorizationRepository(impl: MemorizationRepositoryImpl): MemorizationRepository
 }
 
 @Module

@@ -42,6 +42,16 @@ object JuzCatalog {
 
     fun byNumber(number: Int): JuzInfo? = all.getOrNull(number - 1)
 
+    /** Juz egallagan betlar, topilmasa null */
+    fun juzPageRange(number: Int): IntRange? = byNumber(number)?.let { it.fromPage..it.toPage }
+
+    /** Oyat qaysi juzda: (sura, oyat) → juz raqami, topilmasa null */
+    fun juzOfAyah(surahNumber: Int, ayahNumber: Int): Int? = all.firstOrNull { juz ->
+        val afterStart = surahNumber > juz.fromSurah || (surahNumber == juz.fromSurah && ayahNumber >= juz.fromAyah)
+        val beforeEnd = surahNumber < juz.toSurah || (surahNumber == juz.toSurah && ayahNumber <= juz.toAyah)
+        afterStart && beforeEnd
+    }?.number
+
     /** Har bir sura egallagan betlar: [birinchi, oxirgi], 1-sura 0-indeksda */
     private val surahPages: Array<IntArray> = arrayOf(
         intArrayOf(1, 1), intArrayOf(2, 49), intArrayOf(50, 76), intArrayOf(77, 106),
