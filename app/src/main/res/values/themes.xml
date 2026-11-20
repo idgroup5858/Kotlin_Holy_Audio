@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Kotlin_Holy" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Ilova ochilayotganda oq ekran chaqnab ketmasin — decoy foniga mos qorong'i rang -->
+    <style name="Theme.Kotlin_Holy" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/decoy_window_bg</item>
+    </style>
 </resources>
